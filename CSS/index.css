@@ -1,0 +1,104 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #00a2ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 1.2;
+}
+
+.container {
+    padding: 16px;
+}
+
+.log-page {
+    display: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ffffff;
+    padding-top: 50px;
+    position: fixed;
+}
+
+.register-page {
+    display: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ffffff;
+    padding-top: 50px;
+    position: fixed;
+}
+
+.logon-content{
+    width: 75%;
+    border: 2px solid rgb(15, 2, 61);
+    margin: 10% auto 15% auto;
+}
+.log-content {
+    width: 75%;
+    border: 2px solid rgb(15, 2, 61);
+    margin: 10% auto 15% auto;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    font-size: 50px;
+    color: balck;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    cursor: pointer;
+}
+
+.psw {
+    float: right;
+}
+
+.register {
+    width: auto;
+    padding: 10px, 20px;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
