@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Main page</title>
+    </head> 
+
+    <body onload="windowonload()">
+        <button onclick="OpenLog()" style="width:auto;">Login/Logon</button>
+
+        <div id="log-page" class="log-page">
+            <span onclick="closelog()" class="close" title="Close-page">&times;</span>
+            <form class="log-content animate" action="/action_page.php" method="post">
+
+                <div class="container">
+                   
+                    <lable for="username"><b>Username</b></lable>
+                    <input type="text" placeholder="Enter username" name="username" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter password" name="psw" required>
+
+                    <button type="submit">Login</button>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <br>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                    <button type="button" class="register" onclick="OpenRigister()">Create new account</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="register-page" class="register-page">
+            <span onclick="closeRegister()" class="close" title="Close-page">&times;</span>
+            <form class="logon-content animate" action="/action_page.php" method="post">
+
+                <div class="container">
+                   
+                    <lable for="username"><b>Username</b></lable>
+                    <input type="text" placeholder="Enter username" oninvalid="InvalidName(this);" oninput="InvalidName(this);" id="username" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter password Minimum eight characters, at least one letter and one number" oninvalid="InvalidPwd(this);" oninput="InvalidPwd(this);" id="psw" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter email" oninvalid="InvalidEmail(this);" oninput="InvalidEmail(this);" id="email" required>
+
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="tel" placeholder="Enter Australia phone number" oninvalid="InvalidPhone(this);" oninput="InvalidPhone(this);" id="phone" required>
+                    
+                    <label for="birthday"><b>Date of Birth</b></label><br/>
+                    <input type="date" placeholder="Select birthday" oninvalid="InvalidBirth(this);" oninput="InvalidBirth(this);" id="birthday" required></input>
+
+                    <button type="submit" onclick="SucRegister()">Submit</button>
+
+                </div>
+            </form>
+        </div>
+
+        <script src="../static/Index.js"></script>
+    </body>
+
+    
+
+</html>
