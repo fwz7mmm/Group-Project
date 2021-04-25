@@ -1,24 +1,8 @@
-from flask import Flask, render_template
+import sys
 
-app = Flask(__name__,)
+from web  import create_app
 
-@app.route("/")
-def main():
-    return render_template("index.html")
-
-@app.route("/home")
-def home():
-    return render_template("home.html")
-
-@app.route('/login')
-def login():
-    return render_template('/login.html')
-
-
-@app.route('/register')
-def register():
-    return render_template('/register.html')
-
+app = create_app()
 
 if __name__ == "__main__":
     app.run(debug=True)

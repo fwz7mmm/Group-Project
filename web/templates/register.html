@@ -1,5 +1,3 @@
-{% extends "home.html" %}
-
 {% block content %}
 <div id="register-page" class="register-page">
     <span onclick="closeRegister()" class="close" title="Close-page">&times;</span>
@@ -22,7 +20,7 @@
             <label for="birthday"><b>Date of Birth</b></label><br/>
             <input type="date" placeholder="Select birthday" oninvalid="InvalidBirth(this);" oninput="InvalidBirth(this);" id="birthday" required></input>
 
-            <a href="{{url_for('login')}}"> <button type="submit" onclick="SucRegister()">Submit</button> </a>
+            <a href="{{url_for('auth.login')}}"> <button type="submit" onclick="SucRegister()">Submit</button> </a>
 
         </div>
     </form>

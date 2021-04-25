@@ -1,6 +1,8 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 import sqlite3
+SQLALCHEMY_DATABASE_URI = 'sqlite:///../app.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 class Config(object):
 
