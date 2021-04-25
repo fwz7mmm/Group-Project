@@ -1,0 +1,26 @@
+{% extends "home.html" %}
+
+{% block content %}
+<div id="log-page" class="log-page">
+    <span onclick="closelog()" class="close" title="Close-page">&times;</span>
+    <form name="login-form" class="log-content animate" action="/signin" method="POST">
+
+        <div class="container">
+           
+            <lable for="username"><b>Username</b></lable>
+            <input type="text" placeholder="Enter username" name="username" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter password" name="psw" required>
+
+            <a href="{{url_for('home')}}"><button type="submit">Login</button></a>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <br>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+</div>
+{% endblock %}

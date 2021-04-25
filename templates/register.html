@@ -1,0 +1,30 @@
+{% extends "home.html" %}
+
+{% block content %}
+<div id="register-page" class="register-page">
+    <span onclick="closeRegister()" class="close" title="Close-page">&times;</span>
+    <form name="register-form" class="logon-content animate" action="/signup" method="POST">
+
+        <div class="container">
+           
+            <lable for="username"><b>Username</b></lable>
+            <input type="text" placeholder="Enter username" oninvalid="InvalidName(this);" oninput="InvalidName(this);" id="username" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter password Minimum eight characters, at least one letter and one number" oninvalid="InvalidPwd(this);" oninput="InvalidPwd(this);" id="psw" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter email" oninvalid="InvalidEmail(this);" oninput="InvalidEmail(this);" id="email" required>
+
+            <label for="phone"><b>Phone</b></label>
+            <input type="tel" placeholder="Enter Australia phone number" oninvalid="InvalidPhone(this);" oninput="InvalidPhone(this);" id="phone" required>
+            
+            <label for="birthday"><b>Date of Birth</b></label><br/>
+            <input type="date" placeholder="Select birthday" oninvalid="InvalidBirth(this);" oninput="InvalidBirth(this);" id="birthday" required></input>
+
+            <a href="{{url_for('login')}}"> <button type="submit" onclick="SucRegister()">Submit</button> </a>
+
+        </div>
+    </form>
+</div>
+{% endblock %}

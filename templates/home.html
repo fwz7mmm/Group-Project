@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Log page</title>
+    </head> 
+
+    <body onload="windowonload()">
+        <div class="topnav">
+            <a href="{{url_for('home')}}"><button class="navbut">Home</button></a>
+            <a href="{{url_for('home')}}"><button class="navbut">Test</button></a>
+            <a href="{{url_for('home')}}"><button class="navbut">Statistic</button></a>
+            <a href="{{url_for('login')}}"><button class="navbut">Log in</button></a>
+            <a href="{{url_for('register')}}"><button class="navbut">Sign up</button></a>
+        </div>
+
+        <div>
+            {% block content %}
+
+               {% endblock %}
+        </div>
+
+        <script src="../static/login.js"></script>
+    </body>
+
+    
+
+</html>
