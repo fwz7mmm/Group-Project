@@ -1,17 +1,22 @@
-from web import db
+from web import db ,login_manager
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
+from flask_login import UserMixin
 
 
-class User(db.Model):
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
+
+class User(db.Model,UserMixin):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(128))
-    email = db.Column(db.String(128))
-    password_hash = db.Column(db.String(128))
+    username = db.Column(db.String(128), unique=True,nullable=False)
+    email = db.Column(db.String(128), unique=True,nullable=False)
+    password = db.Column(db.String(128), nullable=False)
     phone = db.Column(db.Integer)
-    birth = db.Column(db.String(50))
+    birth = db.Column(db.DATE)
     status = db.Column(db.Boolean)
-    last_login = db.Column(db.DATE, nullable=False, default=datetime.now)
+    last_login = db.Column(db.DATE, default=datetime.now)
 
 # Printing out which user is current
     def __repr__(self):
