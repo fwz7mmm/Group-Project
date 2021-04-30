@@ -4,7 +4,14 @@
 {% block content %}
 <div id="log-page" class="log-page">
     <span onclick="closelog()" class="close" title="Close-page">&times;</span>
-    <form name="login-form" class="log-content animate" action="/signin" method="POST">
+    <form name="login-form" class="log-content animate" action="/login" method="POST">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="notification is-danger">
+           {{ messages[0] }}. Go to <a href="{{ url_for('auth.login') }}">login page</a>.
+         </div>
+        {% endif %}
+        {% endwith %}
 
         <div class="container">
            
@@ -12,7 +19,7 @@
             <input type="text" placeholder="Enter username" name="username" required>
 
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter password" name="psw" required>
+            <input type="password" placeholder="Enter password" name="password" required>
 
             <a href="{{url_for('main.home')}}"><button type="submit">Login</button></a>
 

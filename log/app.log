@@ -1,0 +1,669 @@
+2021-04-30 22:13:40,093 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:13:42,506 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:13:42] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:13:45,299 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:13:45] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:13:46,811 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:13:46] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:14:12,977 web.auth.routes DEBUG    ImmutableMultiDict([])
+2021-04-30 22:14:12,977 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 21, in register
+    hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'password'
+2021-04-30 22:14:12,981 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:14:12] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:14:53,441 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:14:55,343 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:14:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:14:58,361 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:14:58] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:14:59,697 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:14:59] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:15:29,987 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 20, in register
+    hashed_password = bcrypt.generate_password_hash(form.pwd.data).decode('utf-8')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'pwd'
+2021-04-30 22:15:29,992 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:15:29] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:16:27,305 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:16:29,996 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:16:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:16:38,411 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:16:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:16:39,978 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:16:39] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:17:04,983 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 20, in register
+    hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'password'
+2021-04-30 22:17:05,022 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:17:05] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:17:43,934 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:17:45,874 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:17:45] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:17:48,840 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:17:48] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:17:50,503 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:17:50] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:18:11,701 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 20, in register
+    hashed_password = bcrypt.generate_password_hash(form.psw.data).decode('utf-8')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'psw'
+2021-04-30 22:18:11,705 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:18:11] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:19:17,774 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:19:19,812 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:19:19] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:19:22,279 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:19:22] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:19:23,616 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:19:23] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:19:56,662 web.auth.routes DEBUG    ImmutableMultiDict([])
+2021-04-30 22:19:56,663 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 21, in register
+    hashed_password = bcrypt.generate_password_hash(form.psw.data).decode('utf-8')
+AttributeError: 'ImmutableMultiDict' object has no attribute 'psw'
+2021-04-30 22:19:56,664 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:19:56] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:23:20,736 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:23:22,492 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:23:22] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:23:24,758 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:23:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:23:26,220 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:23:26] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:23:51,839 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 26, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:23:51,847 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:23:51] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:25:32,041 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:25:34,023 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:25:34] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:25:36,510 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:25:36] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:25:37,693 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:25:37] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:26:01,761 web.auth.routes DEBUG    None
+2021-04-30 22:26:01,763 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 27, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:26:01,769 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:26:01] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:27:34,391 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:27:39,003 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:27:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:27:41,400 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:27:41] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:27:43,008 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:27:43] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:28:08,735 web.auth.routes DEBUG    None
+2021-04-30 22:28:08,735 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 27, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:28:08,740 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:28:08] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:29:04,720 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:29:05,565 web.auth.routes DEBUG    None
+2021-04-30 22:29:05,569 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 27, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:29:05,604 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:29:05] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:29:16,033 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:29:18,064 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:29:18] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:29:20,596 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:29:20] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:29:21,617 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:29:21] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:29:41,981 web.auth.routes DEBUG    None
+2021-04-30 22:29:41,981 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 27, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:29:41,986 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:29:41] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:30:58,270 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:31:00,770 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:31:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:31:03,376 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:31:03] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:31:04,877 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:31:04] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:31:27,008 web.auth.routes DEBUG    None
+2021-04-30 22:31:27,008 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 27, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:31:27,014 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:31:27] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:32:17,802 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:32:50,587 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:32:52,029 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:32:52] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:32:53,608 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:32:53] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:32:54,689 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:32:54] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:33:07,949 web.auth.routes DEBUG    None
+2021-04-30 22:33:07,949 web.auth.routes DEBUG    None
+2021-04-30 22:33:07,950 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 28, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:33:07,951 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:33:07] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:35:51,317 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:35:52,813 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:35:52] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:35:54,182 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:35:54] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:35:55,395 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:35:55] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:36:14,912 web.auth.routes DEBUG    ImmutableMultiDict([])
+2021-04-30 22:36:14,913 web.auth.routes DEBUG    None
+2021-04-30 22:36:14,913 web.auth.routes DEBUG    None
+2021-04-30 22:36:14,913 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 28, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:36:14,915 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:36:14] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:36:37,861 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:36:39,678 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:36:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:36:41,607 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:36:41] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:36:42,696 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:36:42] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:36:57,141 web.auth.routes DEBUG    <Request 'http://127.0.0.1:5000/register' [POST]>
+2021-04-30 22:36:57,142 web.auth.routes DEBUG    None
+2021-04-30 22:36:57,142 web.auth.routes DEBUG    None
+2021-04-30 22:36:57,142 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 28, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:36:57,144 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:36:57] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:40:55,795 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:40:57,367 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:40:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:40:58,850 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:40:58] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:41:00,749 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:41:00] "[32mGET /register HTTP/1.1[0m" 302 -
+2021-04-30 22:41:00,752 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:41:00] "[33mGET /register.html HTTP/1.1[0m" 404 -
+2021-04-30 22:41:22,862 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:41:26,342 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:41:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:41:27,742 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:41:27] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:41:28,942 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:41:28] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:41:47,901 web.auth.routes DEBUG    b''
+2021-04-30 22:41:47,901 web.auth.routes DEBUG    None
+2021-04-30 22:41:47,902 web.auth.routes DEBUG    None
+2021-04-30 22:41:47,902 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 28, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:41:47,903 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:41:47] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:42:11,669 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:42:13,256 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:42:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:42:14,766 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:42:14] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:42:15,766 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:42:15] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:42:31,932 web.auth.routes DEBUG    ImmutableMultiDict([])
+2021-04-30 22:42:31,932 web.auth.routes DEBUG    None
+2021-04-30 22:42:31,932 web.auth.routes DEBUG    None
+2021-04-30 22:42:31,933 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 28, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:42:31,934 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:42:31] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:45:29,974 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:45:31,733 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:45:31] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:45:33,388 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:45:33] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:45:34,736 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:45:34] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:46:05,700 web.auth.routes DEBUG    ImmutableMultiDict([])
+2021-04-30 22:46:05,701 web.auth.routes DEBUG    None
+2021-04-30 22:46:05,701 web.auth.routes DEBUG    None
+2021-04-30 22:46:05,701 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 28, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:46:05,703 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:46:05] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:49:46,882 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:49:48,482 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:49:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:49:49,980 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:49:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:49:50,992 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:49:50] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:50:11,523 web.auth.routes DEBUG    <Request 'http://127.0.0.1:5000/register' [POST]>
+2021-04-30 22:50:11,524 web.auth.routes DEBUG    None
+2021-04-30 22:50:11,524 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 27, in register
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-04-30 22:50:11,527 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:50:11] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-04-30 22:54:39,983 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 22:54:41,390 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:54:41] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 22:54:42,839 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:54:42] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 22:54:44,198 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:54:44] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 22:55:06,893 web.auth.routes DEBUG    <Request 'http://127.0.0.1:5000/register' [POST]>
+2021-04-30 22:55:06,893 web.auth.routes DEBUG    w
+2021-04-30 22:55:07,127 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:55:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-04-30 22:55:07,133 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 22:55:07] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:18:14,036 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:18:15,371 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:18:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:18:17,438 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:18:17] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:18:18,638 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:18:18] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:18:45,549 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:18:47,563 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:18:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:18:48,990 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:18:48] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:18:50,398 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:18:50] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:19:13,572 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('email', '22906827@student.uwa.edu.au'), ('phone', '0466227482'), ('birthday', '1999-04-09')])
+2021-04-30 23:19:13,581 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:19:13] "[37mPOST /register HTTP/1.1[0m" 200 -
+2021-04-30 23:20:19,012 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:20:20,194 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:20:20] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:20:24,670 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:20:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:20:26,141 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:20:26] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:20:45,790 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('email', '22906827@student.uwa.edu.au'), ('phone', '0466227482'), ('birthday', '1999-04-02')])
+2021-04-30 23:20:45,798 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:20:45] "[37mPOST /register HTTP/1.1[0m" 200 -
+2021-04-30 23:21:24,828 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:21:24] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:21:35,231 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('email', '22906827@student.uwa.edu.au'), ('phone', '0466227482'), ('birthday', '1999-04-02')])
+2021-04-30 23:21:35,235 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:21:35] "[37mPOST /register HTTP/1.1[0m" 200 -
+2021-04-30 23:22:15,386 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'www'), ('password', 'w1234567890'), ('email', '22906827@student.uwa.edu.au'), ('phone', '0466227482'), ('birthday', '1999-04-15')])
+2021-04-30 23:22:15,389 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:22:15] "[37mPOST /register HTTP/1.1[0m" 200 -
+2021-04-30 23:27:28,597 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:27:30,344 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:27:30] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:27:31,877 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:27:31] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:27:36,839 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:27:36] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:27:45,466 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:27:45] "[33mPOST /signin HTTP/1.1[0m" 404 -
+2021-04-30 23:28:50,289 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:28:51,424 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:28:51] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:28:52,808 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:28:52] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:28:53,850 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:28:53] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:29:03,613 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:29:03] "[33mPOST /signin HTTP/1.1[0m" 404 -
+2021-04-30 23:29:46,370 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:29:47,838 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:29:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:29:49,208 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:29:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:29:50,482 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:29:50] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:29:58,243 web.auth.routes DEBUG    login
+2021-04-30 23:29:58,243 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w12345678'), ('remember', 'on')])
+2021-04-30 23:29:58,248 web.auth.routes DEBUG    $2b$12$bis3EmXjIjmxPJsdf8HeOOWN1RFKjhW9Z9Cye8YPphwvuzJWvLysm
+2021-04-30 23:29:58,470 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:29:58] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-04-30 23:31:17,468 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:33:02,846 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:33:03,953 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:33:05,357 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:05] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:33:06,679 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:06] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:33:17,410 web.auth.routes DEBUG    login
+2021-04-30 23:33:17,411 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-04-30 23:33:17,417 web.auth.routes DEBUG    $2b$12$bis3EmXjIjmxPJsdf8HeOOWN1RFKjhW9Z9Cye8YPphwvuzJWvLysm
+2021-04-30 23:33:17,641 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-04-30 23:33:17,646 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:17] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:33:22,922 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:22] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:33:38,841 web.auth.routes DEBUG    login
+2021-04-30 23:33:38,843 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-04-30 23:33:38,847 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:33:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:34:22,701 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:34:22] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:34:34,219 web.auth.routes DEBUG    login
+2021-04-30 23:34:34,220 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:34:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-04-30 23:34:34,225 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:34:34] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:35:55,531 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:35:56,856 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:35:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:35:58,542 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:35:58] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:36:00,034 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:36:00] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:36:07,848 web.auth.routes DEBUG    login
+2021-04-30 23:36:07,849 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:36:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-04-30 23:36:07,854 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:36:07] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:38:00,861 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:38:02,362 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:38:02] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:38:03,788 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:38:03] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:38:05,126 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:38:05] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:38:10,260 web.auth.routes DEBUG    login
+2021-04-30 23:38:10,260 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'admin'), ('password', 'ddwadwqd'), ('remember', 'on')])
+2021-04-30 23:38:10,263 web          ERROR    Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 65, in Login
+    logger.debug(user.password)
+AttributeError: 'NoneType' object has no attribute 'password'
+2021-04-30 23:38:10,264 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:38:10] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2021-04-30 23:40:21,563 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:40:24,928 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:24] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:40:26,292 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:26] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:40:27,501 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:27] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:40:33,048 web.auth.routes DEBUG    login
+2021-04-30 23:40:33,049 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w121wwwww'), ('password', 'segsefsdf'), ('remember', 'on')])
+2021-04-30 23:40:33,053 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:33] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-04-30 23:40:39,598 web.auth.routes DEBUG    login
+2021-04-30 23:40:39,598 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'qfwefwefwe'), ('remember', 'on')])
+2021-04-30 23:40:39,823 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:39] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-04-30 23:40:49,679 web.auth.routes DEBUG    login
+2021-04-30 23:40:49,679 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-04-30 23:40:49,901 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-04-30 23:40:49,906 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:40:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:41:15,693 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:15] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:41:20,242 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:20] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:41:31,759 web.auth.routes DEBUG    login
+2021-04-30 23:41:31,759 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'admin'), ('password', 'edqwdwqd'), ('remember', 'on')])
+2021-04-30 23:41:31,762 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:31] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-04-30 23:41:39,121 web.auth.routes DEBUG    login
+2021-04-30 23:41:39,121 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-04-30 23:41:39,345 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-04-30 23:41:39,350 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:39] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:41:40,671 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:40] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-04-30 23:41:59,371 web.auth.routes DEBUG    login
+2021-04-30 23:41:59,372 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'wewewewewe'), ('password', 'wewewewe'), ('remember', 'on')])
+2021-04-30 23:41:59,374 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:41:59] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-04-30 23:48:01,570 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:48:03,047 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:48:04,589 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:48:05,955 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:05] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:48:08,931 web.auth.routes DEBUG    login
+2021-04-30 23:48:08,934 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:08] "[32mGET /login HTTP/1.1[0m" 302 -
+2021-04-30 23:48:08,940 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:08] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:48:10,809 web.auth.routes DEBUG    login
+2021-04-30 23:48:10,811 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:10] "[32mGET /login HTTP/1.1[0m" 302 -
+2021-04-30 23:48:10,815 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:10] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:48:24,881 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:48:26,384 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:48:32,515 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:32] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:48:34,112 web.auth.routes DEBUG    login
+2021-04-30 23:48:34,114 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:34] "[32mGET /login HTTP/1.1[0m" 302 -
+2021-04-30 23:48:34,118 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:34] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:48:35,630 web.auth.routes DEBUG    login
+2021-04-30 23:48:35,641 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:35] "[32mGET /login HTTP/1.1[0m" 302 -
+2021-04-30 23:48:35,646 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:35] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:48:37,094 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:48:37] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:49:07,053 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:49:08,535 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:49:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:49:09,793 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:49:09] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:49:11,018 web.auth.routes DEBUG    login
+2021-04-30 23:49:11,020 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:49:11] "[32mGET /login HTTP/1.1[0m" 302 -
+2021-04-30 23:49:11,024 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:49:11] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:49:12,650 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:49:12] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:49:13,642 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:49:13] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-04-30 23:58:47,959 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:58:49,757 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:58:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:58:51,448 web          ERROR    Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\main\routes.py", line 12, in home
+    return render_template("home.html")
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 20, in template
+    {% endwith %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endwith'.
+2021-04-30 23:58:51,454 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:58:51] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2021-04-30 23:59:01,800 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:59:03,742 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:59:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:59:05,497 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:59:05] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-04-30 23:59:25,277 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-30 23:59:26,618 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:59:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-30 23:59:28,024 werkzeug     INFO     127.0.0.1 - - [30/Apr/2021 23:59:28] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:00:32,448 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-01 00:00:33,937 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:00:33] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-01 00:00:35,808 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:00:35] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:00:40,300 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:00:40] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:02:06,941 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-01 00:02:09,815 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:02:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-01 00:02:11,379 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:02:11] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:03:30,411 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-01 00:03:35,496 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:03:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-01 00:03:36,901 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:03:36] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:04:14,653 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-01 00:04:15,691 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:04:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-01 00:04:17,050 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:04:17] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:04:20,062 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:04:20] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-01 00:04:23,071 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:04:23] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-01 00:30:55,328 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-01 00:30:57,427 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:30:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-01 00:30:58,963 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:30:58] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:31:00,073 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:31:00] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-01 00:32:11,702 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-01 00:32:13,359 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:32:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-01 00:32:14,849 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:32:14] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-01 00:32:17,090 werkzeug     INFO     127.0.0.1 - - [01/May/2021 00:32:17] "[37mGET /test HTTP/1.1[0m" 200 -

@@ -4,12 +4,24 @@ from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
 from flask_migrate import Migrate
 import logging
+from logging.config import fileConfig
+import os
+
 login_manager = LoginManager()
 login_manager.login_view = 'auth.login'
 login_manager.login_message_category = 'info'
 bcrypt = Bcrypt()
 db = SQLAlchemy()
 migrate = Migrate()
+fileConfig('conf/log-app.conf')
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return None
+
+def get_basedir():
+    return os.path.abspath(os.path.dirname(__file__))
 
 def get_logger(name):
     return logging.getLogger(name)

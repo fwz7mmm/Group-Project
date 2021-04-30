@@ -11,14 +11,20 @@
             <a href="{{url_for('main.home')}}"><button class="navbut">Home</button></a>
             <a href="{{url_for('main.home')}}"><button class="navbut">Test</button></a>
             <a href="{{url_for('main.home')}}"><button class="navbut">Statistic</button></a>
-            <a href="{{url_for('auth.login')}}"><button class="navbut">Log in</button></a>
+            {% if not current_user %}
+             <a href="{{url_for('auth.login')}}"><button class="navbut">Log in</button></a>
             <a href="{{url_for('auth.register')}}"><button class="navbut">Sign up</button></a>
+           {% endif %}
+
+        {% if current_user %}
+             <a href="{{url_for('main.test')}}"><button class="navbut"> test page</button></a>
+           {% endif %}
         </div>
 
         <div>
             <div class='content'>
                 <h1>Before starting</h1>
-                <h2>Read Web design learning books: </h4>
+                <h2>Read Web design learning books: </h2>
                 <h4>1. HTML and CSS: Design and Build Websites</h4>
                 <h4>2. Learning Web Design: A Beginner’s Guide</h4>
                 <h4>3. Don’t Make Me Think: A Common Sense Approach to Web Usability</h4>
