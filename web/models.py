@@ -31,7 +31,10 @@ class User(db.Model,UserMixin):
 class Questions(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(256))
-    choice = db.Column(db.PickleType)
+    choiceA = db.Column(db.String(128))
+    choiceB = db.Column(db.String(128))
+    choiceC = db.Column(db.String(128))
+    choiceD = db.Column(db.String(128))
     answer = db.Column(db.String(128))
     level = db.Column(db.String(64))
     topic = db.Column(db.String(64))

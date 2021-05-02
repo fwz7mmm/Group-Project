@@ -1,16 +1,41 @@
-
+{% extends "home.html" %}
 
 {% block content %}
-<div class="box box-primary">
-    <div class="box-header with-border"></div>
-    <div class="box-body">
-        <div class="callout callout-info">
 
-            <h3> test page </h3>
-        </div>
+<div id="test-page" class="test-page">
+
+    <div id="html" class="topic-c">
+        <h2>HTML</h2>
+        <input class="test-easy" type="button" value="easy"  id="easy" onclick="openform(this)">
+        <input class="test-normal" type="button" value="normal"  id="normal" onclick="openform(this)">
+        <input class="test-hard" type="button" value="hard"  id="hard" onclick="openform(this)">
     </div>
-    <div class="box-footer">
-        <a class="btn btn-primary" href="{{url_for('main.index')}}">back to home</a>
+    <div id="javascript" class="topic-c">
+        <h2>JavaScript</h2>
+        <input class="test-easy" type="button" value="easy"  id="easy" onclick="openform(this)">
+        <input class="test-normal" type="button" value="normal"  id="normal" onclick="openform(this)">
+        <input class="test-hard" type="button" value="hard"  id="hard" onclick="openform(this)">
+    </div>
+    <div id="css" class="topic-c">
+        <h2>CSS</h2>
+        <input class="test-easy" type="button" value="easy"  id="easy" onclick="openform(this)">
+        <input class="test-normal" type="button" value="normal"  id="normal" onclick="openform(this)">
+        <input class="test-hard" type="button" value="hard"  id="hard" onclick="openform(this)">
     </div>
 </div>
+
+<div id="submit-form" class="submit-form" hidden>
+    <form method="POST" class="form-container">
+        <input type="hidden" id="topic" name="topic" value="" >
+        <br>
+        <input type ="hidden" id="level" name="level" value="" >
+        <br>
+        <P>Do you want to start test now?</P>
+        <input class="submit-input" type="submit" value="Start">
+        <input class="submit-input" type="reset" onclick="hideform()" value="Cancel" >
+    </form>
+</div>
+
 {% endblock%}
+
+    

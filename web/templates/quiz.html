@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Log page</title>
+    </head> 
+    <body onload="hideDiv()">
+        <div class="quiz-page">
+            {% for question in quizs %}
+                <div id="{{ loop.index }}" class="question-list">
+                    <div class="question-description">
+                        <p>{{question.question}}</p>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" id="A" name="choice" value="{{question.choiceA}}">
+                        <label for="A">{{question.choiceA}}</label><br>
+                        <input type="checkbox" id="B" name="choice" value="{{question.choiceB}}">
+                        <label for="B">{{question.choiceB}}</label><br>
+                        <input type="checkbox" id="C" name="choice" value="{{question.choiceC}}">
+                        <label for="C">{{question.choiceC}}</label><br>
+                        <input type="checkbox" id="D" name="choice" value="{{question.choiceD}}">
+                        <label for="D">{{question.choiceD}}</label><br>
+                    </div>     
+                </div>
+            {% endfor %}
+            <button onclick="previousqs()"> Previous </button>
+            <button onclick="nextqs()"> Next </button>
+        </div>
+
+
+        <script type="text/javascript" src="{{ url_for('static', filename='quiz.js') }}"></script>
+    </body>
+</html>

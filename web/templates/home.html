@@ -8,8 +8,8 @@
 
     <body onload="windowonload()">
         <div class="topnav">
-            <a href="{{url_for('main.home')}}"><button class="navbut">Home</button></a>
-            <a href="{{url_for('main.home')}}"><button class="navbut">Test</button></a>
+            <a href="{{url_for('main.content')}}"><button class="navbut">Home</button></a>
+            <a href="{{url_for('main.test')}}"><button class="navbut">Test</button></a>
             <a href="{{url_for('main.home')}}"><button class="navbut">Statistic</button></a>
             {% if not current_user %}
              <a href="{{url_for('auth.login')}}"><button class="navbut">Log in</button></a>
@@ -21,34 +21,12 @@
            {% endif %}
         </div>
 
-        <div>
-            <div class='content'>
-                <h1>Before starting</h1>
-                <h2>Read Web design learning books: </h2>
-                <h4>1. HTML and CSS: Design and Build Websites</h4>
-                <h4>2. Learning Web Design: A Beginner’s Guide</h4>
-                <h4>3. Don’t Make Me Think: A Common Sense Approach to Web Usability</h4>
-                <h4>4. Learning How to Make Web Pages Functional</h4>
-                <h4>5. Designing with Web Standards</h4>
+        {% block content %}
     
-                <br>
-                <h2>Practicing Coding：</h2>
-                <h4>1. W3Schools</h4>
-                <p>To learn the basic coding language, it includes：HTML and CSS with simple language to teach you.</p>
-                <h4>2.Code Avengers</h4>
-                <p>participate in their coding challenge programme and bug hunting.</p>
-    
-                <h3>Once you have basic knowledge about the web development, you can start 
-                    testing your knowledge anytime.<br/>
-                    We provide you short test about HTML, CSS and Javascript questions. You can
-                    check your result once you finish test.
-                </h3>
-                {% block content %}
-    
-                   {% endblock %}
-        </div>
+        {% endblock %}
 
-        <script src="../static/login.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='login.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='test.js') }}"></script>
     </body>
 
     
