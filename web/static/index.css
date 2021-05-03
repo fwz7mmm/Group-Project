@@ -268,7 +268,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 }
 
 /**quize page css styles*/
-.choice input[type=checkbox]{
+.choice input[type=radio]{
 padding-left:5px;
   width:25px;
   height:25px;
@@ -289,5 +289,50 @@ padding-left:5px;
 }
 
 .quiz-page {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0; 
+  width: XXXpx; /*otherwise div defaults to page width*/
+  margin: 0 auto; /*horizontally centers div*/
   background-color: aqua;
+}
+
+.quiz-page #previous{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font:bold 14px Arial;
+  width:160px;
+  height:40px;
+  background-color:rgb(95, 247, 7);
+}
+
+.quiz-page #next{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  float:right;
+  font:bold 14px Arial;
+  width:160px;
+  height:40px;
+  background-color:rgb(95, 247, 7);
+}
+
+.quiz-page #submit-input{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  float:right;
+  font:bold 14px Arial;
+  width:160px;
+  height:40px;
+  background-color:rgb(0, 0, 0);
 }

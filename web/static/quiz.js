@@ -12,13 +12,14 @@ function hideDiv(){
 }
 
 function nextqs(){
-    
-    var n = parseInt(num);
+    n = parseInt(num);
     n = n + 1;
-    num = n;
-    var check = document.getElementById(num);
-    
-    if(check != null){
+    var check = document.getElementById(n);
+    if(radiocheck()==false){
+        alert("Please select an answer");
+    }
+    else if(check != null && radiocheck()){
+        num = n;
         var divs = document.getElementsByClassName("question-list");
         /** hide all divisions */
         for(var i=0; i<divs.length; i++){
@@ -27,14 +28,18 @@ function nextqs(){
         /** display first part */
         //divs[0].style.display='block';
         document.getElementById(num).style.display ='block';
-    }else{
-        alert("This is the last question")
+    }
+    else{
+        document.getElementById("next").style.display ='none';
+        document.getElementById("submit-input").style.display ='block';
+        alert("This is the last question, Click submit button to finish the test.");
     }
 }
 
 function previousqs(){
-    num = num - 1;
-    if(num >= 1){
+    
+    if(num > 1){
+        num = num - 1;
         var divs = document.getElementsByClassName("question-list");
         /** hide all divisions */
         for(var i=0; i<divs.length; i++){
@@ -43,7 +48,33 @@ function previousqs(){
         /** display first part */
         //divs[0].style.display='block';
         document.getElementById(num).style.display ='block';
+        document.getElementById("next").style.display ='block';
+        document.getElementById("submit-input").style.display ='none';
     }else{
         alert("This is first question");
+    }
+}
+
+function radiocheck(){
+    var div = document.getElementById(num);
+    if(document.getElementById(num+"A").checked)
+    {
+        document.getElementById(num+"A").checked = true;
+        return true;
+    }
+    if(document.getElementById(num+"B").checked){
+        document.getElementById(num+"B").checked = true;
+        return true;
+    }
+    if(document.getElementById(num+"C").checked){
+        document.getElementById(num+"C").checked = true;
+        return true;
+    }
+    if(document.getElementById(num+"D").checked){
+        document.getElementById(num+"D").checked = true;
+        return true;
+    }
+    else{
+        return false;
     }
 }
