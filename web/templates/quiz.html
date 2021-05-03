@@ -6,29 +6,34 @@
         <title>Log page</title>
     </head> 
     <body onload="hideDiv()">
-        <div class="quiz-page">
+        <div id="quiz-page" class="quiz-page">
             {% for question in quizs %}
                 <div id="{{ loop.index }}" class="question-list">
                     <div class="question-description">
                         <p>{{question.question}}</p>
                     </div>
                     <div class="choice">
-                        <input type="radio" id="{{ loop.index }}A" name="A" value="{{question.choiceA}}">
-                        <label for="A">{{question.choiceA}}</label><br>
-                        <input type="radio" id="{{ loop.index }}B" name="B" value="{{question.choiceB}}">
-                        <label for="B">{{question.choiceB}}</label><br>
-                        <input type="radio" id="{{ loop.index }}C" name="C" value="{{question.choiceC}}">
-                        <label for="C">{{question.choiceC}}</label><br>
-                        <input type="radio" id="{{ loop.index }}D" name="D" value="{{question.choiceD}}">
-                        <label for="D">{{question.choiceD}}</label><br>
+                        <form id="form{{ loop.index }}">
+                            <input type="radio" id="{{ loop.index }}A" name="radiobtn" value="{{question.choiceA}}">
+                            <label for="A">{{question.choiceA}}</label><br>
+                            <input type="radio" id="{{ loop.index }}B" name="radiobtn" value="{{question.choiceB}}">
+                            <label for="B">{{question.choiceB}}</label><br>
+                            <input type="radio" id="{{ loop.index }}C" name="radiobtn" value="{{question.choiceC}}">
+                            <label for="C">{{question.choiceC}}</label><br>
+                            <input type="radio" id="{{ loop.index }}D" name="radiobtn" value="{{question.choiceD}}">
+                            <label for="D">{{question.choiceD}}</label><br>
+                        </form>
                     </div>     
                 </div>
             {% endfor %}
-
             <button id="previous" onclick="previousqs()"> <i class="fa fa-arrow-left"></i>Previous </button>
-            <button id="next" onclick="nextqs()"><i class="fa fa-arrow-right"></i> Next </button>
-            <input class="submit-input" id="submit-input" type="submit" value="Submit" hidden>
+            <button id="next" onclick="nextqs()"><i class="fa fa-arrow-right"></i> Next </button> 
         </div>
+        <form method="POST" id="quiz-submit" class="quiz-submit" hidden>
+            <input type="hidden" id="answers" name="answers" value="" >
+            <input class="submit-input" id="submit-input" type="submit" value="Submit">
+            <input class="submit-input" type="reset" onclick="hideform()" value="Cancel" >
+        </form>
 
 
         <script type="text/javascript" src="{{ url_for('static', filename='quiz.js') }}"></script>

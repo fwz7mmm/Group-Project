@@ -1,4 +1,4 @@
-from flask import Flask,render_template, url_for,Blueprint,request,redirect
+from flask import Flask,render_template, url_for,Blueprint,request,redirect,json
 from web import get_logger,bcrypt,db
 from web.models import Questions,Quiztype
 
@@ -32,4 +32,6 @@ def test():
 def quiz(topic, level):
     quiztype = Quiztype.query.filter_by(topic=topic,level=level).first()
     quizs  =Questions.query.filter_by(quiztype_id=quiztype.id).all()
+    if request.method == "POST":
+        answers = request.form.get('answers')
     return render_template("quiz.html", quizs=quizs)
