@@ -35,8 +35,10 @@ def create_app():
     migrate.init_app(app, db)
     from web.auth.routes import auth
     from web.main.routes import main
+    from web.user.routes import user
     app.register_blueprint(auth)
     app.register_blueprint(main)
+    app.register_blueprint(user)
     with app.app_context():
         db.create_all()
         return app
