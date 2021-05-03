@@ -28,7 +28,12 @@ class User(db.Model,UserMixin):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
-class Questions(db.Model):
+class Quiztype(db.Model,UserMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    level = db.Column(db.String(64))
+    topic = db.Column(db.String(64))
+
+class Questions(db.Model,UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(256))
     choiceA = db.Column(db.String(128))
@@ -36,6 +41,13 @@ class Questions(db.Model):
     choiceC = db.Column(db.String(128))
     choiceD = db.Column(db.String(128))
     answer = db.Column(db.String(128))
-    level = db.Column(db.String(64))
-    topic = db.Column(db.String(64))
+    quiztype_id = db.Column(db.Integer, db.ForeignKey('quiztype.id'), nullable=False)
+    quiztype = db.relationship("Quiztype")
+
+class Quizdata(db.Model,UserMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    quiztype_id = db.Column(db.Integer, db.ForeignKey('quiztype.id'), nullable=False)
+    user = db.relationship("User")
+    quiztype = db.relationship("Quiztype")
 
