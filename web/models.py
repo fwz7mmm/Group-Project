@@ -14,7 +14,7 @@ class User(db.Model,UserMixin):
     email = db.Column(db.String(128), unique=True,nullable=False)
     password = db.Column(db.String(128), nullable=False)
     phone = db.Column(db.Integer)
-    birth = db.Column(db.DATE)
+    birth = db.Column(db.String(128))
     status = db.Column(db.Boolean)
     user_type = db.Column(db.Integer)
 

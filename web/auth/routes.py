@@ -21,14 +21,14 @@ def register():
         phone = request.form.get('phone')
         birthday = request.form.get('birthday')
 
-        username = User.query.filter_by(username=username).first()
-        email = User.query.filter_by(email=email).first()
-        phone = User.query.filter_by(phone=phone).first()
-        if username:
+        is_username = User.query.filter_by(username=username).first()
+        is_email = User.query.filter_by(email=email).first()
+        is_phone = User.query.filter_by(phone=phone).first()
+        if is_username:
             flash('username exists')
-        if email:
+        if is_email:
             flash('email exists')
-        if phone:
+        if is_phone:
             flash('phone exists')
         else:
             hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
@@ -39,7 +39,7 @@ def register():
             phone = phone,
             birth = birthday,
             status = True,
-            user_type=0,
+            user_type = 1,
             )
             db.session.add(user)
             db.session.commit()
