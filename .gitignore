@@ -1,0 +1,17 @@
+
+.idea/dataSources.xml
+*.xml
+.idea/Group-Project.iml
+__pycache__/app.cpython-38.pyc
+__pycache__/app.cpython-38.pyc
+__pycache__/config.cpython-38.pyc
+web/__pycache__/models.cpython-38.pyc
+web/main/__pycache__/__init__.cpython-38.pyc
+web/__pycache__/__init__.cpython-38.pyc
+web/__pycache__/models.cpython-38.pyc
+web/auth/__pycache__/__init__.cpython-38.pyc
+web/auth/__pycache__/forms.cpython-38.pyc
+web/auth/__pycache__/routes.cpython-38.pyc
+*.pyc
+web/main/__pycache__/routes.cpython-38.pyc
+web/main/__pycache__/__init__.cpython-38.pyc

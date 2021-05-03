@@ -2,7 +2,6 @@ from flask import render_template, url_for,Blueprint,redirect,flash,request
 from flask_login import login_user, logout_user, login_required,current_user
 from web import get_logger,bcrypt,db
 from flask_login import login_required
-from web.auth.forms import RegisterForm
 from web.models import User
 logger = get_logger(__name__)
 auth = Blueprint('auth', __name__)
@@ -44,7 +43,7 @@ def register():
             db.session.add(user)
             db.session.commit()
             return redirect(url_for('auth.login'))
-    return render_template('register.html')
+    return render_template('auth/register.html')
 
 
 @auth.route('/login', methods=['GET', 'POST'])
@@ -58,9 +57,7 @@ def login():
         password = request.form.get('password')
         remember = request.form.get('remember')
         logger.debug(request.form)
-
         user = User.query.filter_by(username=username).first()
-
         if user and user.status == False :
             flash('user not able use')
         if user and bcrypt.check_password_hash(user.password.encode('utf-8'), password.encode('utf-8')):
@@ -68,7 +65,7 @@ def login():
             return redirect(url_for('main.home'))
         else:
             flash('username or password error')
-    return render_template('login.html')
+    return render_template('auth/login.html')
 
 @auth.route('/logout')
 @login_required

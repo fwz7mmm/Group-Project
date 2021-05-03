@@ -32,4 +32,7 @@ def test():
 def quiz(topic, level):
     quiztype = Quiztype.query.filter_by(topic=topic,level=level).first()
     quizs  =Questions.query.filter_by(quiztype_id=quiztype.id).all()
+    for row in quizs:
+        logger.debug(row.question)
+
     return render_template("quiz.html", quizs=quizs)
