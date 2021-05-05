@@ -33,5 +33,9 @@ def quiz(topic, level):
     quiztype = Quiztype.query.filter_by(topic=topic,level=level).first()
     quizs  =Questions.query.filter_by(quiztype_id=quiztype.id).all()
     if request.method == "POST":
+        logger.debug(request.form)
         answers = request.form.get('answers')
+        logger.debug(answers)
+        logger.debug(type(answers))
+
     return render_template("quiz.html", quizs=quizs)
