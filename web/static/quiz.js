@@ -98,7 +98,8 @@ function generate_anwser(num){
 function openform(){
     document.getElementById("quiz-submit").style.display = 'block';
     document.getElementById("quiz-page").style.display = 'none';
-    document.getElementById("answers").value=answers;
+    var r =JSON.stringify(answers);
+    document.getElementById("answers").value=r;
 }
 
 function hideform(){
