@@ -55,15 +55,20 @@ def quiz(topic, level):
                 total+=1
                 questionId=item["questionId"]
                 question = Questions.query.filter_by(id=questionId).first()
+                if question.answer == item["answer"]:
+                    status = 1
+                    correct+=1
+                else:
+                    status = 0
                 result_list.append({"question":question.question,
                                     "choiceA":question.choiceA,
                                     "choiceB": question.choiceB,
                                     "choiceC": question.choiceC,
                                     "choiceD": question.choiceD,
                                     "answer":question.answer,
-                                    "useranswer": item["answer"]})
-                if question.answer == item["answer"]:
-                    correct+=1
+                                    "useranswer": item["answer"],
+                                    "status": status})
+                
             logger.debug(result_list)
             logger.debug(int(correct/total*100))
             result = json.dumps(result_list)

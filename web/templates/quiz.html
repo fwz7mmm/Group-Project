@@ -8,7 +8,7 @@
     <body onload="hideDiv()">
         <div id="quiz-page" class="quiz-page">
             {% for question in quizs %}
-                <div id="{{ loop.index }}" class="question-list">
+                <div id="{{ loop.index }}" class="question-list" name="{{ question.id }}">
                     <div class="question-description">
                         <p>{{question.question}}</p>
                     </div>
@@ -30,7 +30,7 @@
             <button id="next" onclick="nextqs()"><i class="fa fa-arrow-right"></i> Next </button> 
         </div>
         <form method="POST" id="quiz-submit" class="quiz-submit" hidden>
-            <input type="hidden" id="answers" name="answers" value="" >
+            <input type="text" id="answers" name="answers" >
             <input class="submit-input" id="submit-input" type="submit" value="Submit">
             <input class="submit-input" type="reset" onclick="hideform()" value="Cancel" >
         </form>

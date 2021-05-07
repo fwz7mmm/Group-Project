@@ -87,7 +87,8 @@ function radiocheck(){
 
 function generate_anwser(num){
     var div = document.getElementById(num);
-    var qs_id = div.getAttribute("Id");
+    var qs_id = div.getAttribute("name");
+    alert (qs_id);
     let answer = {
         "questionId": qs_id,
         "answer": selectradio

@@ -3824,3 +3824,373 @@ jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endwith'.
 2021-05-03 19:20:01,859 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:20:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2021-05-03 19:20:08,820 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:20:08] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
 2021-05-03 19:21:17,136 werkzeug     INFO      * Detected change in 'D:\\UWA Master\\CITS5505\\Group Project\\web\\main\\routes.py', reloading
+2021-05-03 19:21:17,231 werkzeug     INFO      * Restarting with stat
+2021-05-03 19:21:19,078 werkzeug     WARNING   * Debugger is active!
+2021-05-03 19:21:19,130 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-03 19:21:19,147 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-03 19:21:50,103 werkzeug     INFO      * Detected change in 'D:\\UWA Master\\CITS5505\\Group Project\\web\\__init__.py', reloading
+2021-05-03 19:21:50,192 werkzeug     INFO      * Restarting with stat
+2021-05-03 19:27:34,648 werkzeug     INFO      * Restarting with stat
+2021-05-03 19:27:35,928 werkzeug     WARNING   * Debugger is active!
+2021-05-03 19:27:35,959 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-03 19:27:35,975 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-03 19:27:40,094 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:27:40] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-03 19:27:40,706 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:27:40] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-03 19:27:41,861 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:27:41] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-03 19:27:42,826 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:27:42] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-03 19:27:44,343 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:27:44] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-03 19:27:44,367 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:27:44] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-03 19:28:01,498 werkzeug     INFO     127.0.0.1 - - [03/May/2021 19:28:01] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:28:13,316 werkzeug     INFO      * Restarting with stat
+2021-05-05 19:28:14,632 werkzeug     WARNING   * Debugger is active!
+2021-05-05 19:28:14,664 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-05 19:28:14,678 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-05 19:28:25,662 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-05 19:28:25,949 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:25] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:28:26,318 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:26] "[37mGET /static/background.jpg HTTP/1.1[0m" 200 -
+2021-05-05 19:28:26,429 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:28:28,138 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:28] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-05 19:28:28,181 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:28] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:28:28,197 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:28] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:28:29,519 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:29] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:28:31,440 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:31] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-05 19:28:31,461 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:31] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:28:31,486 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:28:31] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:29:01,896 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:01] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:29:02,088 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:02] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:29:02,089 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:02] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:29:02,143 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:29:10,472 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:10] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:29:30,216 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:30] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:29:30,333 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:30] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:29:30,334 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:30] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:29:30,367 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:29:41,256 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:41] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:29:41,719 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:41] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:29:42,848 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:42] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:29:42,874 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:42] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:29:42,886 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:42] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:29:42,887 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:42] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:29:43,225 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:29:44,712 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:44] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-05 19:29:44,725 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:29:44] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:30:08,796 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:08] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:30:09,780 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:09] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:30:10,005 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:10] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:30:10,011 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:10] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:30:10,013 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:10] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:30:10,158 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:30:11,384 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:11] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-05 19:30:11,400 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:30:11] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:31:05,868 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:05] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:31:06,685 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:06] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:31:06,722 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:06] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:31:06,739 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:06] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:31:06,745 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:06] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:31:07,196 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:31:07,993 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:07] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-05 19:31:08,004 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:08] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:31:57,620 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:57] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:31:58,208 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:58] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:31:58,247 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:58] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:31:58,257 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:58] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:31:58,258 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:58] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:31:58,632 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:31:59,801 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:59] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-05 19:31:59,813 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:31:59] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:32:18,639 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:32:18] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:32:18,665 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:32:18] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:32:18,668 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:32:18] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:32:18,730 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:32:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:33:11,827 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:33:11] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:33:11,910 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:33:11] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:33:11,911 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:33:11] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:33:11,977 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:33:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:34:08,085 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:08] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:34:08,790 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:08] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:34:08,939 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:08] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:34:08,976 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:08] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:34:08,977 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:08] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:34:09,504 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:34:09,927 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:09] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-05 19:34:09,960 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:09] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:34:09,966 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:09] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-05 19:34:09,968 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:09] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-05 19:34:10,155 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:34:11,693 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:11] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-05 19:34:11,705 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:11] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:34:21,052 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:21] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:34:21,082 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:21] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:34:21,082 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:21] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:34:21,134 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:34:30,715 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:30] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:34:58,827 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:58] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:34:58,867 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:58] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:34:58,867 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:58] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:34:58,920 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:34:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:35:31,832 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:31] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:35:31,883 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:31] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:35:31,890 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:31] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:35:31,993 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:35:33,395 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:33] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:35:33,427 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:33] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:35:33,429 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:33] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:35:33,474 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:35:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:41:55,428 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:41:55] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:41:55,467 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:41:55] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:41:55,467 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:41:55] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:41:55,543 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:41:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-05 19:42:51,940 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:42:51] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-05 19:42:51,975 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:42:51] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-05 19:42:51,977 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:42:51] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-05 19:42:52,026 werkzeug     INFO     127.0.0.1 - - [05/May/2021 19:42:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:41:24,584 werkzeug     INFO      * Restarting with stat
+2021-05-07 14:41:26,272 werkzeug     WARNING   * Debugger is active!
+2021-05-07 14:41:26,323 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-07 14:41:26,343 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-07 14:41:35,395 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-07 14:41:35,491 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:35] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:41:35,960 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:35] "[37mGET /static/background.jpg HTTP/1.1[0m" 200 -
+2021-05-07 14:41:35,984 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:41:38,351 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-07 14:41:38,431 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:38] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-07 14:41:38,567 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:38] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-07 14:41:45,127 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:45] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:41:47,492 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:47] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-07 14:41:47,524 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:47] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:41:47,596 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:47] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:41:56,554 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:41:56] "[37mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:43:33,032 werkzeug     INFO      * Detected change in 'D:\\UWA Master\\CITS5505\\Group Project\\web\\main\\routes.py', reloading
+2021-05-07 14:43:33,136 werkzeug     INFO      * Restarting with stat
+2021-05-07 14:43:38,156 werkzeug     WARNING   * Debugger is active!
+2021-05-07 14:43:38,203 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-07 14:43:38,222 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-07 14:43:39,984 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:39] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:43:40,526 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:40] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:43:41,130 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:41] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-07 14:43:43,157 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:43] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-07 14:43:43,189 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:43] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:43:43,197 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:43] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-07 14:43:43,197 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:43] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-07 14:43:43,333 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:43:43,787 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:43] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:43:45,503 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:45] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-07 14:43:45,519 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:45] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:43:54,099 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[35m[1mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 500 -
+2021-05-07 14:43:54,115 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-07 14:43:54,123 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-07 14:43:54,123 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-07 14:43:54,227 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-07 14:43:54,259 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-07 14:43:54,331 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:43:54] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-07 14:45:18,268 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:18] "[35m[1mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 500 -
+2021-05-07 14:45:20,124 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:20] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:45:21,055 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:21] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:45:27,974 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:45:32,254 werkzeug     INFO      * Restarting with stat
+2021-05-07 14:45:33,519 werkzeug     WARNING   * Debugger is active!
+2021-05-07 14:45:33,548 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-07 14:45:33,558 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-07 14:45:34,722 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:34] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:45:34,762 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:34] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:45:34,770 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:34] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-07 14:45:34,770 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:34] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-07 14:45:35,140 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:45:35,766 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:35] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:45:35,798 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:35] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:45:35,798 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:35] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-07 14:45:35,798 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:35] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-07 14:45:35,942 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:45:37,821 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:37] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-07 14:45:37,845 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:37] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:45:45,671 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[35m[1mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 500 -
+2021-05-07 14:45:45,695 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-07 14:45:45,695 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-07 14:45:45,695 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-07 14:45:45,783 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-07 14:45:45,799 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-07 14:45:45,839 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:45:45] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-07 14:46:53,527 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:53] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,007 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,031 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,031 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,063 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:46:55,237 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,253 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,253 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,285 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:46:55,435 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,451 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,451 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,491 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:46:55,616 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,640 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,640 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,672 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:46:55,811 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,835 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,835 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:46:55,867 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:46:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:47:05,037 web.main.routes DEBUG    [{'question': 'Question 1', 'choiceA': 'A: yes', 'choiceB': 'B: Yes', 'choiceC': 'C: no', 'choiceD': 'D: not', 'answer': 'A: yes', 'useranswer': 'C: no'}, {'question': 'Question 2', 'choiceA': 'A: ok', 'choiceB': 'B: okkk', 'choiceC': 'C: asdsa', 'choiceD': 'D: oijo', 'answer': 'A: ok', 'useranswer': 'D: oijo'}, {'question': 'Question 3', 'choiceA': 'A: no', 'choiceB': 'B: sadas', 'choiceC': 'C: oijoi', 'choiceD': 'D: odijfo', 'answer': 'C: oijoi', 'useranswer': 'B: Jack'}]
+2021-05-07 14:47:05,037 web.main.routes DEBUG    0
+2021-05-07 14:47:05,045 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:47:05] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-07 14:47:05,061 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:47:05] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22useranswer%22%3A+%22C%3A+no%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22useranswer%22%3A+%22B%3A+Jack%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 14:57:11,725 werkzeug     INFO      * Detected change in 'D:\\UWA Master\\CITS5505\\Group Project\\web\\main\\routes.py', reloading
+2021-05-07 14:57:40,477 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:57:40] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:57:47,686 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:57:47] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:57:53,455 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:57:53] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22useranswer%22%3A+%22C%3A+no%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22useranswer%22%3A+%22B%3A+Jack%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 14:57:54,062 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:57:54] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:57:54,274 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:57:54] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 14:57:54,418 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:57:54] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-07 14:58:04,862 werkzeug     INFO      * Restarting with stat
+2021-05-07 14:58:06,368 werkzeug     WARNING   * Debugger is active!
+2021-05-07 14:58:06,415 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-07 14:58:06,446 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-07 14:58:09,009 werkzeug     INFO      * Restarting with stat
+2021-05-07 14:58:10,243 werkzeug     WARNING   * Debugger is active!
+2021-05-07 14:58:10,274 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-07 14:58:10,281 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-07 14:58:18,130 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:18] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:58:19,935 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:19] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 14:58:19,967 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:19] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 14:58:19,967 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:19] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 14:58:19,999 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 14:58:30,249 web.main.routes DEBUG    [{'question': 'Question 1', 'choiceA': 'A: yes', 'choiceB': 'B: Yes', 'choiceC': 'C: no', 'choiceD': 'D: not', 'answer': 'A: yes', 'useranswer': 'B: Yes', 'status': 0}, {'question': 'Question 2', 'choiceA': 'A: ok', 'choiceB': 'B: okkk', 'choiceC': 'C: asdsa', 'choiceD': 'D: oijo', 'answer': 'A: ok', 'useranswer': 'C: asdsa', 'status': 0}, {'question': 'Question 3', 'choiceA': 'A: no', 'choiceB': 'B: sadas', 'choiceC': 'C: oijoi', 'choiceD': 'D: odijfo', 'answer': 'C: oijoi', 'useranswer': 'D: DD', 'status': 0}]
+2021-05-07 14:58:30,249 web.main.routes DEBUG    0
+2021-05-07 14:58:30,249 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:30] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-07 14:58:30,265 werkzeug     INFO     127.0.0.1 - - [07/May/2021 14:58:30] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:09:10,871 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:09:10] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:09:10,919 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:09:10] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
+2021-05-07 15:09:10,919 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:09:10] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:09:10,951 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:09:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:21:40,851 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:21:40] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:21:40,923 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:21:40] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:21:40,931 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:21:40] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:21:40,979 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:21:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:22:34,784 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:34] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:22:34,816 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:34] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:22:34,816 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:34] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:22:34,848 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:22:56,667 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:56] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:22:56,699 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:56] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:22:56,739 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:22:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:25:08,354 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:08] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:25:08,394 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:08] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:25:08,410 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:25:09,393 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:09] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:25:10,698 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:10] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:25:10,722 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:10] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:25:10,722 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:10] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:25:10,754 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:25:18,648 web.main.routes DEBUG    [{'question': 'Question 1', 'choiceA': 'A: yes', 'choiceB': 'B: Yes', 'choiceC': 'C: no', 'choiceD': 'D: not', 'answer': 'A: yes', 'useranswer': 'B: Yes', 'status': 0}, {'question': 'Question 2', 'choiceA': 'A: ok', 'choiceB': 'B: okkk', 'choiceC': 'C: asdsa', 'choiceD': 'D: oijo', 'answer': 'A: ok', 'useranswer': 'D: oijo', 'status': 0}, {'question': 'Question 3', 'choiceA': 'A: no', 'choiceB': 'B: sadas', 'choiceC': 'C: oijoi', 'choiceD': 'D: odijfo', 'answer': 'C: oijoi', 'useranswer': 'D: DD', 'status': 0}]
+2021-05-07 15:25:18,648 web.main.routes DEBUG    0
+2021-05-07 15:25:18,656 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:18] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-07 15:25:18,664 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:25:18] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22C%3A+oijoi%22%2C+%22choiceA%22%3A+%22A%3A+no%22%2C+%22choiceB%22%3A+%22B%3A+sadas%22%2C+%22choiceC%22%3A+%22C%3A+oijoi%22%2C+%22choiceD%22%3A+%22D%3A+odijfo%22%2C+%22question%22%3A+%22Question+3%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:32:10,864 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:10] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:32:13,126 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:13] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 15:32:18,614 werkzeug     INFO      * Restarting with stat
+2021-05-07 15:32:19,880 werkzeug     WARNING   * Debugger is active!
+2021-05-07 15:32:19,912 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-07 15:32:19,936 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-07 15:32:21,866 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:21] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 15:32:21,898 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:21] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:32:21,898 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:21] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-07 15:32:21,898 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:21] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-07 15:32:22,867 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:32:24,404 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:24] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-07 15:32:24,428 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:24] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:32:26,974 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:26] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:32:26,998 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:26] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:32:26,998 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:26] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:32:27,030 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:32:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:35:46,039 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:35:46] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:35:46,095 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:35:46] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:35:46,095 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:35:46] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:35:46,143 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:35:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:35:57,227 web.main.routes DEBUG    [{'question': 'Question 1', 'choiceA': 'A: yes', 'choiceB': 'B: Yes', 'choiceC': 'C: no', 'choiceD': 'D: not', 'answer': 'A: yes', 'useranswer': 'C: no', 'status': 0}, {'question': 'Question 2', 'choiceA': 'A: ok', 'choiceB': 'B: okkk', 'choiceC': 'C: asdsa', 'choiceD': 'D: oijo', 'answer': 'A: ok', 'useranswer': 'C: asdsa', 'status': 0}]
+2021-05-07 15:35:57,227 web.main.routes DEBUG    0
+2021-05-07 15:35:57,235 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:35:57] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-07 15:35:57,259 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:35:57] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+no%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C%3A+asdsa%22%7D%5D&mark=0 HTTP/1.1[0m" 200 -
+2021-05-07 15:36:07,806 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:36:07] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:36:18,865 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:36:18] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:36:18,889 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:36:18] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:36:18,897 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:36:18] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:36:18,929 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:39:14,318 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:14] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:39:14,358 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:14] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:39:14,358 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:14] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:39:14,414 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:39:53,245 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:53] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:39:53,277 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:53] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:39:53,277 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:53] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:39:53,309 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:39:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:40:11,026 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:11] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 15:40:11,946 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:11] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-07 15:40:11,994 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:11] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-07 15:40:11,994 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:11] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:40:12,002 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:12] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-07 15:40:12,861 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:40:13,517 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:13] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-07 15:40:13,533 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:13] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:40:16,296 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:16] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:40:16,344 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:16] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:40:16,352 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:16] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:40:16,400 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:40:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:41:36,289 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:36] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:41:36,321 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:36] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:41:36,321 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:36] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:41:36,377 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:41:58,855 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:58] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:41:58,887 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:58] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:41:58,887 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:58] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:41:58,951 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:41:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:42:11,605 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[35m[1mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 500 -
+2021-05-07 15:42:11,637 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-07 15:42:11,645 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-07 15:42:11,645 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-07 15:42:11,693 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-07 15:42:11,733 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-07 15:42:11,781 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:42:11] "[37mGET /quiz/html%2Ceasy?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-07 15:43:48,921 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:43:48] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:43:53,167 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:43:53] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:43:53,199 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:43:53] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:43:53,199 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:43:53] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:43:53,231 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:43:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:44:32,783 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:44:32] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-07 15:44:32,815 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:44:32] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-07 15:44:32,815 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:44:32] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-07 15:44:32,855 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:44:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:44:44,712 web.main.routes DEBUG    [{'question': 'Question 1', 'choiceA': 'A: yes', 'choiceB': 'B: Yes', 'choiceC': 'C: no', 'choiceD': 'D: not', 'answer': 'A: yes', 'useranswer': 'B: Yes', 'status': 0}, {'question': 'Question 2', 'choiceA': 'A: ok', 'choiceB': 'B: okkk', 'choiceC': 'C: asdsa', 'choiceD': 'D: oijo', 'answer': 'A: ok', 'useranswer': 'D: oijo', 'status': 0}, {'question': 'Question 4', 'choiceA': 'A: mark', 'choiceB': 'B: Jack', 'choiceC': 'C: Oj', 'choiceD': 'D: DD', 'answer': 'D: DD', 'useranswer': 'D: DD', 'status': 1}]
+2021-05-07 15:44:44,712 web.main.routes DEBUG    33
+2021-05-07 15:44:44,720 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:44:44] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-07 15:44:44,736 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:44:44] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 15:52:37,125 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:52:37] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 15:52:37,149 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:52:37] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:52:37,181 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:52:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:56:18,855 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:56:18] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 15:56:18,893 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:56:18] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:56:18,927 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:56:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:56:35,270 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:56:35] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 15:56:35,296 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:56:35] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:56:35,330 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:56:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:58:01,905 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:58:01] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 15:58:01,940 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:58:01] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:58:01,974 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:58:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 15:59:40,311 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:59:40] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 15:59:40,347 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:59:40] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 15:59:40,395 werkzeug     INFO     127.0.0.1 - - [07/May/2021 15:59:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 16:00:59,112 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:00:59] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 16:00:59,138 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:00:59] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 16:00:59,168 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:00:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 16:01:38,090 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:01:38] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 16:01:38,135 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:01:38] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 16:01:38,175 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:01:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 16:02:48,946 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:02:48] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 16:02:48,971 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:02:48] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 16:02:49,002 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:02:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 16:03:05,265 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:03:05] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 16:03:05,288 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:03:05] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 16:03:05,322 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:03:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-07 16:03:12,894 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:03:12] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A%3A+yes%22%2C+%22choiceA%22%3A+%22A%3A+yes%22%2C+%22choiceB%22%3A+%22B%3A+Yes%22%2C+%22choiceC%22%3A+%22C%3A+no%22%2C+%22choiceD%22%3A+%22D%3A+not%22%2C+%22question%22%3A+%22Question+1%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B%3A+Yes%22%7D%2C+%7B%22answer%22%3A+%22A%3A+ok%22%2C+%22choiceA%22%3A+%22A%3A+ok%22%2C+%22choiceB%22%3A+%22B%3A+okkk%22%2C+%22choiceC%22%3A+%22C%3A+asdsa%22%2C+%22choiceD%22%3A+%22D%3A+oijo%22%2C+%22question%22%3A+%22Question+2%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D%3A+oijo%22%7D%2C+%7B%22answer%22%3A+%22D%3A+DD%22%2C+%22choiceA%22%3A+%22A%3A+mark%22%2C+%22choiceB%22%3A+%22B%3A+Jack%22%2C+%22choiceC%22%3A+%22C%3A+Oj%22%2C+%22choiceD%22%3A+%22D%3A+DD%22%2C+%22question%22%3A+%22Question+4%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22D%3A+DD%22%7D%5D&mark=33 HTTP/1.1[0m" 200 -
+2021-05-07 16:03:12,919 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:03:12] "[37mGET /static/result.js HTTP/1.1[0m" 200 -
+2021-05-07 16:03:12,947 werkzeug     INFO     127.0.0.1 - - [07/May/2021 16:03:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
