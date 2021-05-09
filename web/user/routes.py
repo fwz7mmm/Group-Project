@@ -9,10 +9,13 @@ user = Blueprint('user', __name__)
 
 
 @user.route("/profile",methods=['POST','Get'])
-#@login_required
+@login_required
 def profile():
+    if current_user.is_authenticated:
+        user_id = current_user.get_id()
+        user = User.query.filter_by(id=user_id).first()
 
-    return render_template('user/profile.html')
+    return render_template('user/profile.html',user=user)
 
 
 
