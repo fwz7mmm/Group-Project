@@ -336,3 +336,17 @@ padding-left:5px;
   height:40px;
   background-color:rgb(0, 0, 0);
 }
+
+/** result page */
+.result-page #back{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  float:right;
+  font:bold 14px Arial;
+  width:160px;
+  height:40px;
+  background-color:rgb(43, 7, 247);
+}

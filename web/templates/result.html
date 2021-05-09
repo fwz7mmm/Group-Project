@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Log page</title>
     </head>
     <body onload="Onload()">
-        <div id="quiz-page" class="quiz-page">
+        <div id="result-page" class="result-page">
             {% for question in result %}
                 <div id="{{ loop.index }}" class="question-list">
                     <div class="question-description">
@@ -59,6 +60,7 @@
                 </div>
             {% endfor %}
             <p style="font-size:50px; color:green"> Final mark: {{ mark }}</p>
+            <a href="{{url_for('main.test')}}"><button id="back">Back</button></a>
         </div>
 
         <script type="text/javascript" src="{{ url_for('static', filename='result.js') }}"></script>

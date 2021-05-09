@@ -43,8 +43,6 @@ function previousqs(){
     
     if(num > 1){
         answers.splice(-1,1);
-        var obj=JSON.stringify(answers);
-        alert(obj);
         document.getElementById(num).style.display ='none';
         num = num - 1;
         /** hide all divisions */
@@ -88,7 +86,6 @@ function radiocheck(){
 function generate_anwser(num){
     var div = document.getElementById(num);
     var qs_id = div.getAttribute("name");
-    alert (qs_id);
     let answer = {
         "questionId": qs_id,
         "answer": selectradio
@@ -105,8 +102,6 @@ function openform(){
 
 function hideform(){
     answers.splice(-1,1);
-        var obj=JSON.stringify(answers);
-        alert(obj);
     document.getElementById("quiz-submit").style.display = 'none';
     document.getElementById("quiz-page").style.display = 'block';
 }
