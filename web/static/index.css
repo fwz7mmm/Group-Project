@@ -269,40 +269,43 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 
 /**quize page css styles*/
 .choice input[type=radio]{
-padding-left:5px;
-  width:25px;
-  height:25px;
-  margin-top: 15px;
+  padding-left:5px;
+  width:15px;
+  height:15px;
+  margin-top: 25px;
   margin-bottom: 15px;
 }
 
 .choice label{
-  text-align: center;
-  font-size: 30px;
+  text-align: left;
+  font-size: 15px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .question-description p{
-  text-align: center;
-  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .quiz-page {
+  border :2px solid black;
   position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0; 
+  top:10%;
+  bottom:30%;
+  left:20%;
+  right:20%; 
   width: XXXpx; /*otherwise div defaults to page width*/
   margin: 0 auto; /*horizontally centers div*/
-  background-color: aqua;
+  background-color: rgb(176, 253, 253);
 }
 
 .quiz-page #previous{
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 20%;
+  left: 20%;
   margin-right: auto;
   margin-left: auto;
   font:bold 14px Arial;
@@ -313,8 +316,8 @@ padding-left:5px;
 
 .quiz-page #next{
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 20%;
+  right: 20%;
   margin-bottom: 10px;
   margin-right: 0px;
   float:right;

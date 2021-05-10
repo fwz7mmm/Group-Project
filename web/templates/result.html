@@ -6,6 +6,11 @@
         <title>Log page</title>
     </head>
     <body onload="Onload()">
+        {% if (mark|int >= 50) %}
+            <p style="font-size:50px; color:green"> Final mark: {{ mark }} / 100</p>
+        {% else %}
+            <p style="font-size:50px; color:rgb(255, 4, 4)"> Final mark: {{ mark }} / 100</p>
+        {% endif %}
         <div id="result-page" class="result-page">
             {% for question in result %}
                 <div id="{{ loop.index }}" class="question-list">
@@ -59,7 +64,7 @@
                     </div>
                 </div>
             {% endfor %}
-            <p style="font-size:50px; color:green"> Final mark: {{ mark }}</p>
+            
             <a href="{{url_for('main.test')}}"><button id="back">Back</button></a>
         </div>
 
