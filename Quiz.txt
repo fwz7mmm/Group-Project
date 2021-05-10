@@ -1,0 +1,611 @@
+HTMl
+What is the difference between XML and HTML?
+ A. HTML is used for exchanging data, XML is not. 
+ B. XML is used for exchanging data, HTML is not.
+ C. HTML can have user defined tags, XML cannot.
+ D. XML and HTML is used for exchanging data.
+ B. XML is used for exchanging data, HTML is not.
+
+Opening Tag of HTML Tag is called as ________.
+ A. Closed Tag
+ B. Starting Tag 
+ C. Forward Tag
+ D. Enging Tag
+ B. Starting Tag 
+
+HTML stands for ________.
+ A. Hyper Text Markup Language 
+ B. Hyper Text Makeup Language
+ C. None of these
+ D. Hyper Tech Markup Language
+ A. Hyper Text Markup Language 
+
+HTML program is saved using _________ extension.
+ A. .htl
+ B. .html 
+ C. .hml
+ D. .htlm
+ B. .html
+ 
+Who was the primary author of HTML?
+ A. Brendan Eich
+ B. Sabeer Bhatiya
+ C. Google Inc.
+ D. Tim Berners-Lee 
+ D. Tim Berners-Lee 
+ 
+Which of the following attributes comes in handy when borders have to be put between groups of columns instead of every column?
+ A. Col
+ B. Colgroup 
+ C. Rowspan
+ D. Row
+ B. Colgroup 
+ 
+Which of the following is valid colour code ?
+ A. #000000; 
+ B. #0000000;
+ C. #00000000;
+ D. #000000000;
+ A. #000000;
+
+Caption Tag in HTML ?
+ A. Is used to display the Title for table at the top
+ B. Is used to display the Title for table at the bottom
+ C. Both 
+ D. None
+ C. Both
+
+Which of the following is used increase the row height?
+ A. Cellspacing
+ B. Cellpadding
+ C. Row span 
+ D. Col span
+ C. Row span
+ 
+Which of the following is used increase the col width?
+ A. Cellspacing
+ B. Cellpadding
+ C. Row span
+ D. Col span 
+ D. Col span
+
+DOM stands for
+ A. Document object model
+ B. Data object model
+ C. Document Oriented model 
+ D. Data oriented model
+ C. Document Oriented model 
+
+What is mean by DTD ?
+ A. Document type data
+ B. Data type definition
+ C. Document type definition 
+ D. Definition type document
+ C. Document type definition 
+
+Text/Html is called the __________ of the page
+ A. Content type
+ B. MIME type
+ C. Content type/MIME type 
+ D. None of these
+ C. Content type/MIME type 
+ 
+The href attribute in the link tag specifies the:
+ A. Destination of a link. 
+ B. Link
+ C. Hypertext
+ D. None of the above
+ A. Destination of a link.
+
+What are <div> tags used for?
+ A. To replace paragraphs. i.e. p tags
+ B. To logically divide the paragraphs
+ C. To logically divide the document 
+ D. To provide space between tables
+ C. To logically divide the document
+
+How can we resize the image?
+ A. Using resize attribute
+ B. Using height and width 
+ C. Using size attribute
+ D. Using rs attribute
+ B. Using height and width
+ 
+When creating a Web document, what format is used to express an image's height and width?
+ A. Pixels 
+ B. Centimeters
+ C. Dots per inch
+ D. Inches
+ A. Pixels 
+ 
+What are meta tags used for?
+ A. To store information usually relevant to browsers and search engines 
+ B. To only store information usually relevant to browsers
+ C. To only store information about search engines
+ D. To store information about external links
+ A. To store information usually relevant to browsers and search engines
+ 
+For frames in HTML, how do you specify the rest of the screen?
+ A. Using &
+ B. Using $
+ C. Using * 
+ D. Using #
+ C. Using * 
+ 
+ASCII stands for______
+ A. American Standard Code for Informal Interchange
+ B. American Standard Code for Interchanging Information
+ C. American Standard Code for Information Interchange 
+ D. American Standard Code for Information Interval
+ C. American Standard Code for Information Interchange 
+ 
+While searching on the Internet, you decide to check in more than one search engine because?
+ A. all web users prefer this technique
+ B. they will avoid repetition of information
+ C. each engine produces different results 
+ D. they will avoid false information
+ C. each engine produces different results 
+
+HTML documents are saved in?
+ A. ASCII text 
+ B. Machine language codes
+ C. Special Binary format
+ D. None of these
+ A. ASCII text
+ 
+What does an HTML tag do?
+ A. It determines the organizational structure of your Web site.
+ B. It connects your web site to an operating environment.
+ C. It hides programming instructions from view.
+ D. It specifies formatting and layout instructions for your web page. 
+ D. It specifies formatting and layout instructions for your web page.
+ 
+Caption Tag in HTML ?
+ A. Is used to display the Title for table at the top
+ B. Is used to display the Title for table at the bottom
+ C. Both 
+ D. None
+ C. Both
+ 
+Which of the following are attributes of Font Tag ?
+ A. Face
+ B. Size
+ C. Color
+ D. All of above 
+ D. All of above 
+ 
+____________tag is used to specify an inline frame
+ A. < jframe>
+ B. < frameset>
+ C. < iframe> 
+ D. < frame>
+ C. < iframe>
+ 
+What is mean by DTD?
+ A. Document type data
+ B. Data type definition
+ C. Document type definition 
+ D. Definition type document
+ C. Document type definition
+ 
+<canvas > element is only a ____________to the graphics.
+ A. component
+ B. container 
+ C. attribute
+ D. method
+ B. container
+ 
+Ancestor of all other elements on the page is called________
+ A. parent
+ B. ancestor
+ C. root element
+ D. siblings 
+ D. siblings 
+ 
+What do you mean by SVG?
+ A. Secondary vector graphics
+ B. scalable vertical graphics
+ C. Scalable vector graphics 
+ D. scalable vector graph
+ C. Scalable vector graphics 
+
+CSS
+How can you created rounded corners using CSS3?
+ A. border[round]: 30px;
+ B. corner-effect: round;
+ C. border-radius: 30px; 
+ D. alpha-effect: round-corner;
+ C. border-radius: 30px;
+ 
+How do you add shadow to elements in CSS3?
+ A. box-shadow: 10px 10px 5px grey; 
+ B. shadow-right: 10px shadow-bottom: 10px;
+ C. shadow-color: grey;
+ D. alpha-effect[shadow]: 10px 10px 5px grey;
+ A. box-shadow: 10px 10px 5px grey;
+ 
+How to you modify a border image using CSS3?
+ A. border: url(image.png);
+ B. border-variable: image url(image.png);
+ C. border-image: url(border.png) 30 30 round; 
+ D. None
+ C. border-image: url(border.png) 30 30 round; 
+ 
+How to resize a background image using CSS3?
+ A. background-size: 80px 60px; 
+ B. bg-dimensions: 80px 60px;
+ C. background-proportion: 80px 60px;
+ D. alpha-effect: bg-resize 80px 60px;
+ A. background-size: 80px 60px; 
+ 
+How to add text shadow using CSS3?
+ A. font: shadowed 5px 5px 5px grey;
+ B. font-shadow: 5px 5px 5px grey;
+ C. text-shadow: 5px 5px 5px grey; 
+ D. shadow: text 5px 5px 5px grey;
+ C. text-shadow: 5px 5px 5px grey; 
+ 
+How to force a word wrap using CSS3?
+ A. word-wrap: break-word; 
+ B. text-wrap: break-word;
+ C. text-wrap: force;
+ D. text-width: set;
+ A. word-wrap: break-word;
+ 
+Which of these are valid CSS3 transformation statements.
+ A. matrix() 
+ B. modify()
+ C. skip()
+ D. simulate()
+ A. matrix() 
+ 
+How to rotate objects using CSS3?
+ A. object-rotation: 30deg;
+ B. transform: rotate(30deg); 
+ C. rotate-object: 30deg;
+ D. transform: rotate-30deg-clockwise;
+ B. transform: rotate(30deg);
+
+How to re-size/scale objects using CSS3?
+ A. transform: scale(2,4); 
+ B. scale-object: 2,4;
+ C. scale: (2,4);
+ D. None
+ A. transform: scale(2,4);
+
+How to create transition effects using CSS3?
+ A. transition: width 2s; 
+ B. transition-duration: 2s; transition-effect: width;
+ C. alpha-effect: transition (width,2s);
+ D. None
+ A. transition: width 2s;
+ 
+Look at the code. What piece of code is missing when make a text shadow? #basicTextShadow p{ text-shadow: 1px 1px 3px; }
+ A. the color
+ B. the element
+ C. the id name 
+ D. the text shadow height
+ C. the id name
+ 
+Does the box-shadow support all browsers ?
+ A. true 
+ B. false
+ A. true
+ 
+True or False. In vertical offsets for box shadows, the (-1) means that the box-shadow will be below the box?
+ A. True
+ B. False 
+ B. False
+ 
+What does RGBa mean?
+ A. Review Get assistance Back-up your information acquire proof
+ B. Red Green Blue alpha
+ C. Red Gray Brown alpha 
+ D. Red Gold Black alpha
+ C. Red Gray Brown alpha 
+ 
+__________ is a property that allows developers to add rounded corners on the design elements.
+ A. Corner
+ B. Box Shadow
+ C. Round Corner
+ D. Border-Radius 
+ D. Border-Radius
+ 
+Box-Shadow is a property that allows developers to apply a....
+ A. Border
+ B. Drop Shadow 
+ C. Rounded Corner
+ D. Background
+ B. Drop Shadow 
+ 
+If you put a value of 0 for a Border-Radius what will happen?.
+ A. The Corner will curve horizontal.
+ B. The Corner will be square. 
+ C. The Corner will curve vertical.
+ D. The world will end.
+ B. The Corner will be square.
+ 
+Which prefix do you need to get CSS3 properties to work on older Mozilla Firefox browsers?
+ A. -webkit-
+ B. -moz- 
+ C. -o-
+ D. -gecko-
+ B. -moz-
+ 
+What does the a stand for in RGBa?
+ A. alpha 
+ B. aqua
+ C. Apple
+ D. about
+ A. alpha
+
+What are the first three values of text-shadow in order?
+ A. vertical, blur, horizontal
+ B. blur, vertical, horizontal
+ C. vertical, horizontal, blur
+ D. horizontal, vertical, blur 
+ D. horizontal, vertical, blur
+ 
+Can you have multiple box-shadows?
+ A. yes 
+ B. no
+ A. yes
+ 
+How do four values work on border-radius
+ A. top, bottom, left, right
+ B. up, down, front, behind
+ C. top-left, top-right, bottom-right, bottom-left 
+ D. bottom-left, bottom-right, top-right, top-left
+ C. top-left, top-right, bottom-right, bottom-left
+ 
+How can you created rounded corners using CSS3?
+ A. border[round]: 30px;
+ B. corner-effect: round;
+ C. border-radius: 30px; 
+ D. alpha-effect: round-corner;
+ C. border-radius: 30px;
+ 
+Has CSS3 been fully supported by all browsers?
+ A. Yes
+ B. No 
+ B. No
+ 
+How to add text shadow using CSS3?
+ A. font: shadowed 5px 5px 5px grey;
+ B. font-shadow: 5px 5px 5px grey;
+ C. text-shadow: 5px 5px 5px grey; 
+ D. shadow: text 5px 5px 5px grey;
+ C. text-shadow: 5px 5px 5px grey; 
+ 
+How to rotate objects using CSS3?
+ A. object-rotation: 30deg;
+ B. transform: rotate(30deg); 
+ C. rotate-object: 30deg;
+ D. transform: rotate-30deg-clockwise;
+ B. transform: rotate(30deg); 
+ 
+How to create transition effects using CSS3?
+ A. transition: width 2s; 
+ B. transition-duration: 2s; transition-effect: width;
+ C. alpha-effect: transition (width,2s);
+ D. None
+ A. transition: width 2s; 
+
+How to force a word wrap using CSS3?
+ A. word-wrap: break-word; 
+ B. words-wrap: break-word;
+ C. text-wrap: break-word;
+ D. text-width: word-wrap;
+ A. word-wrap: break-word;
+
+How to you modify a border image using CSS3?
+ A. border: url(image.png);
+ B. border: image url(image.png);
+ C. border-image: url(border.png) 30 30 round; 
+ D. None
+ C. border-image: url(border.png) 30 30 round; 
+
+How to resize a background image using CSS3?
+ A. background-size: 80px 60px; 
+ B. background-proportion: 80px 60px;
+ C. alpha-effect: bg-resize 80px 60px;
+ D. None
+ A. background-size: 80px 60px;
+ 
+JS
+Which of the following is a server-side Java Script object?
+ A. Function
+ B. File 
+ C. FileUpload
+ D. Date
+ B. File 
+ 
+Java script can be used for Storing the form's contents to a database file on the server
+ A. False 
+ B. True
+ A. False
+ 
+To insert a JavaScript into an HTML page, which tag is used?
+ A. < script=’java’>
+ B. < javascript>
+ C. < script> 
+ D. < js>
+ C. < script> 
+ 
+Which of the below is used in Java script to insert special characters?
+ A. &
+ B. \ 
+ C. -
+ D. %
+ B. \ 
+ 
+How does Java Script store dates in objects of Date type?
+ A. The number of days since January 1st, 1900
+ B. The number of seconds since January 1st, 1970
+ C. The number of milliseconds since January 1st, 1970 
+ D. The number of picoseconds since January 1st, 1970
+ C. The number of milliseconds since January 1st, 1970 
+ 
+C-style block-level scoping is not supported in Java script
+ A. False
+ B. True 
+ B. True 
+ 
+JavaScript ignores extra spaces
+ A. True
+ B. False 
+ B. False 
+ 
+Which is the correct way to write a JavaScript array?
+ A. var txt = new Array(1:"arr",2:"kim",3:"jim")
+ B. var txt = new Array:1=(" arr ")2=("kim")3=("jim")
+ C. var txt = new Array("arr ","kim","jim") 
+ D. var txt = new Array=" arr ","kim","jim"
+ C. var txt = new Array("arr ","kim","jim")
+ 
+Which of the following is correct to write “Hello World” on the web page?
+ A. System.out.println(“Hello World”)
+ B. print(“Hello World”)
+ C. document.write(“Hello World”) 
+ D. response.write(“Hello World”)
+ C. document.write(“Hello World”) 
+ 
+Which of the following is correct to write “Hello World” on the web page?
+ A. System.out.println(“Hello World”)
+ B. print(“Hello World”)
+ C. document.write(“Hello World”) 
+ D. response.write(“Hello World”)
+ C. document.write(“Hello World”) 
+ 
+Which of the following is the tainted property of a window object in Java Script?
+ A. Pathname
+ B. Protocol
+ C. Defaultstatus 
+ D. Host
+ C. Defaultstatus 
+ 
+Which attribute needs to be changed to make elements invisible?
+ A. visibilty 
+ B. visible
+ C. invisibility
+ D. invisible
+ A. visibilty 
+ 
+Which of the following is used to capture all click events in a window?
+ A. window.captureEvents(Event.CLICK); 
+ B. window.routeEvents(Event.CLICK );
+ C. window.handleEvents (Event.CLICK);
+ D. window.raiseEvents(Event.CLICK );
+ A. window.captureEvents(Event.CLICK); 
+
+Javascript is an object oriented language?
+ A. False
+ B. True 
+ B. True
+ 
+Which of the following is not a valid JavaScript variable name?
+ A. 2java 
+ B. _java_and_ java _names
+ C. javaandjava
+ D. None of the above
+ A. 2java 
+
+Which of the ways below is incorrect of instantiating a date?
+ A. new Date(dateString)
+ B. new Date()
+ C. new Date(seconds) 
+ D. new Date(year, month, day, hours, minutes, seconds, milliseconds)
+ C. new Date(seconds)
+ 
+What is negative infinity in Java script?
+ A. Any of below
+ B. number in JavaScript, derived by dividing number by a negative number.
+ C. number in JavaScript, derived by dividing number by zero.
+ D. number in JavaScript, derived by dividing negative number by zero 
+ D. number in JavaScript, derived by dividing negative number by zero 
+ 
+___________ JavaScript is also called client-side JavaScript.
+ A. Microsoft
+ B. Navigator 
+ C. LiveWire
+ D. Native
+ B. Navigator
+ 
+What language defines the behavior of a web page?
+ A. HTML
+ B. CSS
+ C. XML
+ D. Java Script 
+ D. Java Script 
+ 
+Why so Java and JavaScript have similar name?
+ A. Java Script is a stripped-down version of Java
+ B. The syntax of JavaScript is loosely based on Java syntax 
+ C. They both support Object Oriented Programming
+ D. None of the above
+ B. The syntax of JavaScript is loosely based on Java syntax 
+ 
+File is a server-side JavaScript object?
+ A. True 
+ B. False
+ A. True 
+ 
+What is the alternate name for Java script?
+ A. LimeScript
+ B. Both a and d
+ C. ECMScript
+ D. ECMAScript 
+ D. ECMAScript 
+ 
+Which of the following is a client-side Java Script object?
+ A. File
+ B. Function
+ C. FileUpload 
+ D. Time
+ C. FileUpload 
+ 
+What java wrapper type is created when a JavaScript object is sent to Java?
+ A. ScriptObject
+ B. JavaObject
+ C. Jobject
+ D. JSObject 
+ D. JSObject 
+ 
+Is it possible to declare a variable in Java Script along its type?
+ A. Yes 
+ B. No
+ A. Yes 
+ 
+JavaScript ignores extra spaces
+ A. True 
+ B. False
+ A. True
+ 
+Which of the following method is used to evaluate a string of Java Script code in the context of the specified object?
+ A. Eval 
+ B. ParseDoule
+ C. ParseObject
+ D. Efloat
+ A. Eval 
+ 
+Java Script supports all boolean operators
+ A. True
+ B. False 
+ B. False
+ 
+Java Script entities start with ____________ and end with ______________
+ A. Semicolon, colon
+ B. Semicolon, Ampersand
+ C. Ampersand, colon
+ D. Ampersand, semicolon 
+ D. Ampersand, semicolon
+ 
+How to append a value to an array of Java Script?
+ A. arr[arr.length] = value 
+ B. arr[arr.length+1] = new Arrays()
+ C. arr[arr.length-1] = value
+ D. arr[arr.length*1] = value
+ A. arr[arr.length] = value
+ 
+
+ 
