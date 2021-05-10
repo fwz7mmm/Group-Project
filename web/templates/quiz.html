@@ -18,10 +18,14 @@
                             <label for="A">{{question.choiceA}}</label><br>
                             <input type="radio" id="{{ loop.index }}B" name="radiobtn" value="{{question.choiceB}}">
                             <label for="B">{{question.choiceB}}</label><br>
+                            {% if question.choiceC is not none %}
                             <input type="radio" id="{{ loop.index }}C" name="radiobtn" value="{{question.choiceC}}">
                             <label for="C">{{question.choiceC}}</label><br>
+                            {% endif %}
+                            {% if question.choiceD is not none %}
                             <input type="radio" id="{{ loop.index }}D" name="radiobtn" value="{{question.choiceD}}">
                             <label for="D">{{question.choiceD}}</label><br>
+                            {% endif %}
                         </form>
                     </div>     
                 </div>

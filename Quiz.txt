@@ -30,7 +30,7 @@ HTML program is saved using _________ extension.
 Who was the primary author of HTML?
  A. Brendan Eich
  B. Sabeer Bhatiya
- C. Google Inc.
+ C. Google Inc
  D. Tim Berners-Lee 
  D. Tim Berners-Lee 
  
@@ -552,8 +552,8 @@ File is a server-side JavaScript object?
  
 What is the alternate name for Java script?
  A. LimeScript
- B. Both a and d
- C. ECMScript
+ B. ECMScript
+ C. Both a and d
  D. ECMAScript 
  D. ECMAScript 
  
