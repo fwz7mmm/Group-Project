@@ -10,3 +10,9 @@ class UserSearchForm(FlaskForm):
     usertype_select = SelectField('select user type:', choices=user_type,coerce=int)
     search = SubmitField('search')
 
+
+class ResetPasswordForm(FlaskForm):
+    password = PasswordField('password', validators=[DataRequired()])
+    confirm_password = PasswordField('confirm password', validators=[DataRequired(), EqualTo('password')])
+    submit = SubmitField('submit')
+

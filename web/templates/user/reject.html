@@ -1,0 +1,15 @@
+
+{% extends "home.html" %}
+
+{% block content %}
+<div id="log-page" class="log-page">
+    <span onclick="closelog()" class="close" title="Close-page">&times;</span>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="notification is-danger">
+           {{ messages[0] }}. </a>.
+         </div>
+        {% endif %}
+        {% endwith %}
+</div>
+{% endblock %}

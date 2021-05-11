@@ -26,11 +26,13 @@
                 <th>phone</th>
                 <th>birth</th>
                 <th>status</th>
+                <th>user type</th>
                 <th>reset password</th>
-                <th>user_type</th>
+                <th>user static</th>
+                <th>change status</th>
             </tr>
             {% for row in users %}
-            <tr>
+                <tr>
                 <td>{{row.username}}</td>
                 <td>{{row.email}}</td>
                 <td>{{row.phone}}</td>
@@ -39,30 +41,55 @@
                         {% if row.id == current_user.id %}
                         {% else %}
                             {% if row.status == 1 %}
-                            <input type="checkbox" data-id="{{row.id}}" class="status" data-on-text="active" data-off-text="inactive"
-                                data-size="mini" checked>
+                                 <label >active </label>
                             {% else %}
-                            <input type="checkbox" data-id="{{row.id}}" class="status" data-on-text="active" data-off-text="inactive"
-                                data-size="mini">
+                                 <label >inactive</label>
                             {% endif %}
+                            </form>
                         {% endif %}
+
                 </td>
+
+                <td>
+                {% if row.user_type == 1 %}
+                <label >Admin </label>
+                {% elif row.user_type ==  2%}
+                <label >User </label>
+                {% endif %}
+                </td>
+
                 <td>
                         {% if row.user_type == 2 %}
-                            <form action="{{ url_for('user.profile', user_id=row.id) }}" method="POST">
-                                <input class="fa " type="submit" value="reset password">
+                            <form action="{{ url_for('user.reset_password', userid=row.id) }}" method="Get">
+                                <input class="" type="submit" value="reset password">
                         {% else %}
                         {% endif %}
                 </form>
                 </td>
 
-                {% if row.user_type == 1 %}
-                <td>Admin</td>
-                {% elif row.user_type ==  2%}
-                <td>User</td>
-                {% else%}
-                <td></td>
-                {% endif %}
+                 <td>
+                        {% if row.user_type == 2 %}
+                            <form action="{{ url_for('main.statistic', userid=row.id) }}" method="Get">
+                                <input class="" type="submit" value="statistic ">
+                        {% else %}
+                        {% endif %}
+                </form>
+                </td>
+
+                 <td>
+                        {% if row.id == current_user.id %}
+                        {% else %}
+                            {% if row.status == 1 %}
+                                <form action="{{ url_for('user.user_status', userid=row.id ,status=0) }}" method="POST">
+                                <input class="" type="submit" value="inactive">
+                            {% else %}
+                                <form action="{{ url_for('user.user_status', userid=row.id,status=1) }}" method="POST">
+                                <input class="" type="submit" value="active">
+                            {% endif %}
+                            </form>
+                        {% endif %}
+                </td>
+
             </tr>
             {% endfor %}
         </table>
@@ -72,20 +99,3 @@
 </div>
 {% endblock %}
 
-
-{% block scripts %}
-<script>
-    function initPage() {
-
-        $('.status').bootstrapSwitch();
-        $(".status").on("switchChange.bootstrapSwitch", function (event, state) {
-            switchStatus($(this).data("id"), state?1:0, this);
-        });
-    }
-    function switchStatus(id, status, switchBox) {
-        restTemplate("POST", "/users/" + id + "/status/" + status, null, function () {
-            $($(switchBox)).bootstrapSwitch("state", status);
-        });
-    }
-</script>
-{% endblock %}

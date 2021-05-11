@@ -1,7 +1,8 @@
 from flask import Flask,render_template, url_for,session,Blueprint,request,redirect,json,flash
 from web import get_logger,bcrypt,db
-from web.models import Questions,Quiztype
-
+from web.models import Questions,Quiztype,Quizdata
+from flask_login import login_user, logout_user, login_required,current_user
+from datetime import datetime
 logger = get_logger(__name__)
 main = Blueprint('main', __name__)
 from flask_login import login_required
@@ -69,13 +70,30 @@ def quiz(topic, level):
                                     "useranswer": item["answer"],
                                     "status": status})
                 
-            logger.debug(result_list)
-            logger.debug(int(correct/total*100))
+            #logger.debug(result_list)
+            #logger.debug(int(correct/total*100))
+            mark=int(correct/total*100)
             result = json.dumps(result_list)
             # cookies
             session['test_result'] = result
-            return redirect(url_for('main.result', result=result, mark=int(correct/total*100)))
+            # add new quiz data
+            quizdata = Quizdata(
+                user_id= current_user.id,
+                quiztype_id = quiztype.id,
+                score = mark,
+                date = str(datetime.now()),
+            )
+            db.session.add(quizdata)
+            db.session.commit()
+            return redirect(url_for('main.result', result=result, mark=mark))
         else:
             flash("error")
 
     return render_template("quiz.html", quizs=quizs)
+
+
+@main.route('/main/<int:userid>/statistic', methods=['GET', 'POST'])
+#@login_required
+def statistics(userid):
+    user = Quizdata.query.filter_by(id=userid).all()
+    return render_template("statistics.html",user=user)

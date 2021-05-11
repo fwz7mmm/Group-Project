@@ -48,6 +48,8 @@ class Quizdata(db.Model,UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     quiztype_id = db.Column(db.Integer, db.ForeignKey('quiztype.id'), nullable=False)
+    score = db.Column(db.Integer, nullable=False)
+    date = db.Column(db.String(128), nullable=False)
     user = db.relationship("User")
     quiztype = db.relationship("Quiztype")
 
