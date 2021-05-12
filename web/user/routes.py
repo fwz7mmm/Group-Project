@@ -2,7 +2,7 @@ from flask import render_template, url_for,Blueprint,redirect,flash,request
 from flask_login import login_user, logout_user, login_required,current_user
 from web import get_logger,bcrypt,db
 from flask_login import login_required
-from web.models import User
+from web.models import User, Quizdata, Quiztype
 from web.user.forms import UserSearchForm,ResetPasswordForm
 
 logger = get_logger(__name__)
@@ -18,15 +18,6 @@ def profile():
 
     return render_template('user/profile.html',user=user)
 
-
-@user.route("/static",methods=['POST','Get'])
-@login_required
-def static():
-    if current_user.is_authenticated:
-        user_id = current_user.get_id()
-        user = User.query.filter_by(id=user_id).first()
-
-    return render_template('user/profile.html',user=user)
 
 
 @user.route("/managment",methods=['POST','Get'])
@@ -78,13 +69,38 @@ def reset_password(userid):
             logger.debug(password)
             db.session.commit()
             flash('change password success','success')
-            return redirect(url_for('user.managment'))
+
+            if user.user_type == 1:
+               return redirect(url_for('user.managment'))
+            else:
+               return redirect(url_for('auth.logout'))
         elif request.form.get('password')!=request.form.get('confirm_password') :
             flash('password and comfirm password are not same ', 'success')
         else:
             flash('change password fail')
 
     return render_template('user/resetpassword.html',form=form)
+
+
+@user.route('/user/<int:userid>/statistic', methods=['GET', 'POST'])
+#@login_required
+def statistic(userid):
+    users = Quizdata.query.filter_by(user_id=userid).all()
+    user_list = []
+    score =0
+    total =0
+    average_score=0
+    for item in users:
+        score+=item.score
+        total+=1
+        quiztype = Quiztype.query.filter_by(id=item.quiztype_id).first()
+        user_list.append({"score": item.score,
+                            "date": item.date,
+                            "level": quiztype.level,
+                            "topic": quiztype.topic,})
+    if total > 0:
+       average_score = int(score/total)
+    return render_template("statistic.html", users=user_list,average_score=average_score,total=total)
 
 
 

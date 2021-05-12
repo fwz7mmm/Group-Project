@@ -23,11 +23,8 @@
 
             <a href="{{url_for('main.home')}}"><button type="submit">Login</button></a>
 
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
             <br>
-            <span class="psw">Forgot <a href="#">password?</a></span>
+            <span class="psw">Forgot <a href="{{url_for('auth.forget_password')}}">password?</a></span>
         </div>
     </form>
 </div>

@@ -2,9 +2,32 @@ from flask import render_template, url_for,Blueprint,redirect,flash,request
 from flask_login import login_user, logout_user, login_required,current_user
 from web import get_logger,bcrypt,db
 from flask_login import login_required
+from flask_mail import Message
+from web import mail
 from web.models import User
+from web.auth.forms import ForgetPasswordForm
+import random
+import string
 logger = get_logger(__name__)
+
 auth = Blueprint('auth', __name__)
+
+
+def get_random_string():
+    # choose from all lowercase letter
+    letters = string.ascii_lowercase
+    result_str = ''.join(random.choice(letters) for i in range(8))
+    return  result_str
+
+def send_mail(email):
+    random_password = get_random_string()
+
+    msg = Message('Hello from the  WebQuiz!', sender='wenwuw121wwwww@gmail.com', recipients=[str(email)],
+                  body="Hey this is new password")
+    msg.html = "<b> New password is " + random_password + "</b>"
+    mail.send(message=msg)
+
+    return random_password
 
 
 @auth.route("/register",methods=['POST','Get'])
@@ -55,12 +78,11 @@ def login():
     if  request.method == 'POST':
         username = request.form.get('username')
         password = request.form.get('password')
-        remember = request.form.get('remember')
         logger.debug(request.form)
         user = User.query.filter_by(username=username).first()
-        if user and user.status == False :
+        if user and user.status == 0 :
             flash('user not able use')
-        if user and bcrypt.check_password_hash(user.password.encode('utf-8'), password.encode('utf-8')):
+        elif user and bcrypt.check_password_hash(user.password.encode('utf-8'), password.encode('utf-8')):
             login_user(user, True)
             return redirect(url_for('main.home'))
         else:
@@ -73,4 +95,24 @@ def logout():
     logout_user()
     flash('You have login out')
     return redirect(url_for('auth.login'))
+
+
+@auth.route("/forget_password",methods=['POST','GET'])
+def forget_password():
+    form = ForgetPasswordForm()
+    if  request.method == 'POST' :
+        email=request.form.get('email')
+        user = User.query.filter_by(email=email).first()
+        if user :
+            newpassword=send_mail(user.email)
+            logger.debug(newpassword)
+            user.password = bcrypt.generate_password_hash(newpassword).decode('utf-8')
+            logger.debug(user.password)
+            db.session.commit()
+            flash('One message have send to you email with new password','success')
+            return redirect(url_for('auth.login'))
+        else:
+            flash('email is wrong')
+
+    return render_template('auth/forgetpassword.html',form=form)
 

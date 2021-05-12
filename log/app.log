@@ -4260,3 +4260,1545 @@ jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endwith'.
 2021-05-09 15:03:38,886 werkzeug     INFO     127.0.0.1 - - [09/May/2021 15:03:38] "[37mGET /home HTTP/1.1[0m" 200 -
 2021-05-09 15:03:42,594 werkzeug     INFO     127.0.0.1 - - [09/May/2021 15:03:42] "[37mGET /profile HTTP/1.1[0m" 200 -
 2021-05-09 15:04:05,325 werkzeug     INFO     127.0.0.1 - - [09/May/2021 15:04:05] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-10 19:33:01,895 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 19:49:07,935 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 19:49:09,114 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-10 19:49:09,133 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:09] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-10 19:49:09,154 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:09] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2021-05-10 19:49:09,448 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-10 19:49:13,164 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:13] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:49:13,191 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:13] "[36mGET /static/login.js HTTP/1.1[0m" 304 -
+2021-05-10 19:49:13,191 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:49:13] "[36mGET /static/test.js HTTP/1.1[0m" 304 -
+2021-05-10 19:53:04,489 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 19:53:06,046 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:06] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-10 19:53:07,797 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:07] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:53:10,670 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-10 19:53:10,673 web.auth.routes DEBUG    login
+2021-05-10 19:53:10,680 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:10] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-10 19:53:15,675 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-10 19:53:17,367 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:17] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:53:22,802 web.auth.routes DEBUG    login
+2021-05-10 19:53:22,803 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:22] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-10 19:53:28,335 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:28] "[32mGET /managment HTTP/1.1[0m" 302 -
+2021-05-10 19:53:28,337 web.auth.routes DEBUG    login
+2021-05-10 19:53:28,338 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:28] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-10 19:53:45,579 web.auth.routes DEBUG    login
+2021-05-10 19:53:45,580 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-05-10 19:53:45,814 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-10 19:53:45,818 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:45] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:53:55,363 web.user.routes DEBUG    None
+2021-05-10 19:53:55,372 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:55] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:53:59,957 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-10 19:53:59,960 web.auth.routes DEBUG    login
+2021-05-10 19:53:59,960 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:53:59] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-10 19:54:12,443 web.auth.routes DEBUG    login
+2021-05-10 19:54:12,443 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789'), ('remember', 'on')])
+2021-05-10 19:54:12,675 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-10 19:54:12,680 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:12] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:54:20,886 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:20] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:54:33,557 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:33] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-10 19:54:44,109 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:54:46,206 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-10 19:54:46,211 web.auth.routes DEBUG    login
+2021-05-10 19:54:46,212 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-10 19:54:53,299 web.auth.routes DEBUG    login
+2021-05-10 19:54:53,309 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-05-10 19:54:53,531 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-10 19:54:53,536 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:53] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:54:55,113 web.user.routes DEBUG    None
+2021-05-10 19:54:55,115 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:55] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:54:59,342 web.user.routes DEBUG    1
+2021-05-10 19:54:59,344 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:54:59] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:55:03,368 web.user.routes DEBUG    2
+2021-05-10 19:55:03,369 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:55:03] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:55:06,845 web.user.routes DEBUG    0
+2021-05-10 19:55:06,846 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:55:06] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:55:15,740 web.user.routes DEBUG    1
+2021-05-10 19:55:15,742 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:55:15] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:55:20,229 web.user.routes DEBUG    2
+2021-05-10 19:55:20,230 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:55:20] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:55:25,107 web.user.routes DEBUG    0
+2021-05-10 19:55:25,108 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:55:25] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:56:19,674 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:56:19] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 19:56:21,744 web.user.routes DEBUG    None
+2021-05-10 19:56:21,746 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:56:21] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:56:31,087 web.user.routes DEBUG    0
+2021-05-10 19:56:31,088 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:56:31] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:57:24,010 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 19:57:28,026 web.user.routes DEBUG    0
+2021-05-10 19:57:28,041 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:57:28] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:57:30,570 web.user.routes DEBUG    1
+2021-05-10 19:57:30,572 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:57:30] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:57:32,555 web.user.routes DEBUG    2
+2021-05-10 19:57:32,556 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:57:32] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 19:57:35,126 web.user.routes DEBUG    0
+2021-05-10 19:57:35,128 werkzeug     INFO     127.0.0.1 - - [10/May/2021 19:57:35] "[37mPOST /managment HTTP/1.1[0m" 200 -
+2021-05-10 20:01:30,924 werkzeug     INFO     127.0.0.1 - - [10/May/2021 20:01:30] "[37mPOST /profile?user_id=2 HTTP/1.1[0m" 200 -
+2021-05-10 23:21:24,239 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 23:21:25,374 werkzeug     INFO     127.0.0.1 - - [10/May/2021 23:21:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-10 23:21:26,758 werkzeug     INFO     127.0.0.1 - - [10/May/2021 23:21:26] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-10 23:21:28,170 web.user.routes DEBUG    None
+2021-05-10 23:21:28,180 werkzeug     INFO     127.0.0.1 - - [10/May/2021 23:21:28] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 23:21:56,292 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 23:21:57,515 web.user.routes DEBUG    None
+2021-05-10 23:21:57,532 werkzeug     INFO     127.0.0.1 - - [10/May/2021 23:21:57] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 23:22:01,412 web.user.routes DEBUG    None
+2021-05-10 23:22:01,414 werkzeug     INFO     127.0.0.1 - - [10/May/2021 23:22:01] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-10 23:32:02,763 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-10 23:32:03,445 web.user.routes DEBUG    None
+2021-05-10 23:32:03,461 werkzeug     INFO     127.0.0.1 - - [10/May/2021 23:32:03] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 00:10:07,777 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 00:10:09,563 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:10:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 00:10:11,706 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:10:11] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 00:10:14,327 web.user.routes DEBUG    None
+2021-05-11 00:10:14,337 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:10:14] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 00:12:17,520 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 00:12:19,008 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:12:19] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 00:12:20,496 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:12:20] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 00:12:21,337 web.user.routes DEBUG    None
+2021-05-11 00:12:21,346 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:12:21] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 00:25:54,047 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 00:25:57,868 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:25:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 00:25:59,013 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:25:59] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 00:26:00,490 web.user.routes DEBUG    None
+2021-05-11 00:26:00,500 werkzeug     INFO     127.0.0.1 - - [11/May/2021 00:26:00] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:08:14,925 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:08:16,765 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:08:16,797 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:16] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2021-05-11 14:08:16,830 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:16] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2021-05-11 14:08:17,315 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-11 14:08:20,631 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:20] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:08:20,696 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:20] "[36mGET /static/test.js HTTP/1.1[0m" 304 -
+2021-05-11 14:08:20,697 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:20] "[36mGET /static/login.js HTTP/1.1[0m" 304 -
+2021-05-11 14:08:21,825 web.user.routes DEBUG    None
+2021-05-11 14:08:21,852 web          ERROR    Exception on /managment [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 47, in managment
+    return render_template('user/managment.html', form= form,users=user_items)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 1, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 40, in top-level template code
+    {% block content %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 44, in block "content"
+    <form action="{{ url_for('user.changestate', user_id=row.id ,status=0) }}" method="POST">
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user.changestate' with values ['status', 'user_id']. Did you mean 'user.static' instead?
+2021-05-11 14:08:21,870 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:08:21] "[35m[1mGET /managment HTTP/1.1[0m" 500 -
+2021-05-11 14:17:44,591 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:17:49,792 web.user.routes DEBUG    None
+2021-05-11 14:17:49,843 web          ERROR    Exception on /managment [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 47, in managment
+    return render_template('user/managment.html', form= form,users=user_items)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 1, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 40, in top-level template code
+    {% block content %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 44, in block "content"
+    <form action="{{ url_for('user.states', user_id=row.id ,status=0) }}" method="POST">
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user.states' with values ['status', 'user_id']. Did you mean 'user.static' instead?
+2021-05-11 14:17:49,858 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:17:49] "[35m[1mGET /managment HTTP/1.1[0m" 500 -
+2021-05-11 14:17:51,757 web.user.routes DEBUG    None
+2021-05-11 14:17:51,759 web          ERROR    Exception on /managment [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 47, in managment
+    return render_template('user/managment.html', form= form,users=user_items)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 1, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 40, in top-level template code
+    {% block content %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 44, in block "content"
+    <form action="{{ url_for('user.states', user_id=row.id ,status=0) }}" method="POST">
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user.states' with values ['status', 'user_id']. Did you mean 'user.static' instead?
+2021-05-11 14:17:51,762 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:17:51] "[35m[1mGET /managment HTTP/1.1[0m" 500 -
+2021-05-11 14:24:06,520 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:24:08,263 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:24:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:24:10,879 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:24:10] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:24:13,253 web.user.routes DEBUG    None
+2021-05-11 14:24:13,274 web          ERROR    Exception on /managment [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 47, in managment
+    return render_template('user/managment.html', form= form,users=user_items)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 1, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 40, in top-level template code
+    {% block content %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\user\managment.html", line 44, in block "content"
+    <form action="{{ url_for('user.user_status', user_id=row.id ,status=0) }}" method="POST">
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user.user_status' with values ['status', 'user_id']. Did you forget to specify values ['userid']?
+2021-05-11 14:24:13,284 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:24:13] "[35m[1mGET /managment HTTP/1.1[0m" 500 -
+2021-05-11 14:24:58,300 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:25:02,665 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:25:02] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:25:04,943 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:25:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:25:06,313 web.user.routes DEBUG    None
+2021-05-11 14:25:06,332 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:25:06] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:25:18,747 web.user.routes DEBUG    userid:2 set status:0
+2021-05-11 14:25:18,762 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:25:18] "[32mPOST /user/2/status/0 HTTP/1.1[0m" 302 -
+2021-05-11 14:25:18,768 web.user.routes DEBUG    None
+2021-05-11 14:25:18,772 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:25:18] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:26:15,237 web.user.routes DEBUG    userid:2 set status:1
+2021-05-11 14:26:15,249 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:26:15] "[32mPOST /user/2/status/1 HTTP/1.1[0m" 302 -
+2021-05-11 14:26:15,257 web.user.routes DEBUG    None
+2021-05-11 14:26:15,261 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:26:15] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:36:55,896 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:37:22,104 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:37:23,691 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:37:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:37:25,668 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:37:25] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:37:26,754 web.user.routes DEBUG    None
+2021-05-11 14:37:26,770 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:37:26] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:37:28,372 flask_wtf.csrf INFO     The CSRF token is missing.
+2021-05-11 14:37:28,381 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:37:28] "[37mPOST /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 14:39:16,184 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:39:17,611 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:39:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:39:19,610 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:39:19] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:39:20,799 web.user.routes DEBUG    None
+2021-05-11 14:39:20,816 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:39:20] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:39:21,791 flask_wtf.csrf INFO     The CSRF token is missing.
+2021-05-11 14:39:21,797 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:39:21] "[37mPOST /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 14:39:26,314 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:39:26] "[37mPOST /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 14:47:32,714 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:47:35,995 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:47:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:47:37,822 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:47:37] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:47:41,474 web.user.routes DEBUG    None
+2021-05-11 14:47:41,520 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:47:41] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:47:42,966 web          ERROR    Exception on /user/2/reset_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 77, in reset_password
+    user.password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-05-11 14:47:42,972 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:47:42] "[35m[1mPOST /user/2/reset_password HTTP/1.1[0m" 500 -
+2021-05-11 14:49:38,391 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 14:49:39,872 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:49:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 14:49:41,944 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:49:41] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 14:49:42,942 web.user.routes DEBUG    None
+2021-05-11 14:49:42,959 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:49:42] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 14:49:44,093 web          ERROR    Exception on /user/2/reset_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 77, in reset_password
+    user.password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_bcrypt.py", line 151, in generate_password_hash
+    raise ValueError('Password must be non-empty.')
+ValueError: Password must be non-empty.
+2021-05-11 14:49:44,096 werkzeug     INFO     127.0.0.1 - - [11/May/2021 14:49:44] "[35m[1mPOST /user/2/reset_password HTTP/1.1[0m" 500 -
+2021-05-11 15:08:28,327 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:08:30,247 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:08:30] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 15:08:30,706 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:08:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-11 15:08:31,910 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:08:31] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:08:33,251 web.user.routes DEBUG    None
+2021-05-11 15:08:33,269 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:08:33] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:08:34,271 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:08:34] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 15:08:39,974 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:08:39] "[37mPOST /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 15:19:18,815 web.user.routes DEBUG    w
+2021-05-11 15:19:18,837 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:19:18] "[37mPOST /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 15:21:44,398 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:21:45,847 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:21:45] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 15:21:47,516 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:21:47] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:21:48,747 web.user.routes DEBUG    None
+2021-05-11 15:21:48,763 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:21:48] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:21:50,375 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:21:50] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 15:21:56,100 web.user.routes DEBUG    w
+2021-05-11 15:21:56,119 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:21:56] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-11 15:21:56,131 web.user.routes DEBUG    None
+2021-05-11 15:21:56,131 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:21:56] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:23:40,126 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:23:41,393 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:23:41] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 15:23:42,839 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:23:42] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:23:43,709 web.user.routes DEBUG    None
+2021-05-11 15:23:43,723 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:23:43] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:25:56,844 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:25:58,248 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:25:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 15:26:00,104 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:26:00] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:26:01,004 web.user.routes DEBUG    None
+2021-05-11 15:26:01,033 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:26:01] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:27:08,647 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:30:36,398 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:30:37,783 web.user.routes DEBUG    None
+2021-05-11 15:30:37,815 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:30:37] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:36:54,580 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:36:56,667 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:36:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-11 15:36:56,671 web.auth.routes DEBUG    login
+2021-05-11 15:36:56,688 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:36:56] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 15:39:58,901 web.auth.routes DEBUG    login
+2021-05-11 15:39:58,926 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w'), ('remember', 'on')])
+2021-05-11 15:39:59,577 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:39:59] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-11 15:40:04,536 web.auth.routes DEBUG    login
+2021-05-11 15:40:04,536 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'ww'), ('remember', 'on')])
+2021-05-11 15:40:05,175 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:40:05] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-11 15:40:11,761 web.auth.routes DEBUG    login
+2021-05-11 15:40:11,761 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'ww'), ('remember', 'on')])
+2021-05-11 15:40:12,468 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:40:12] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-11 15:40:35,926 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:40:44,531 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:40:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 15:40:46,666 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:40:46] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:40:48,612 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:40:48] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-05-11 15:41:55,563 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:41:55] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:41:57,384 web.auth.routes DEBUG    login
+2021-05-11 15:41:57,395 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:41:57] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 15:42:00,995 web.auth.routes DEBUG    login
+2021-05-11 15:42:00,995 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w'), ('remember', 'on')])
+2021-05-11 15:42:01,701 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:42:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-11 15:42:01,718 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:42:01] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:42:07,967 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:42:07] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-11 15:42:12,442 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:42:12] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-11 15:48:01,625 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:48:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-11 15:48:01,635 web.auth.routes DEBUG    login
+2021-05-11 15:48:01,641 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:48:01] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 15:48:07,880 web.auth.routes DEBUG    login
+2021-05-11 15:48:07,900 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-05-11 15:48:08,592 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:48:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-11 15:48:08,613 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:48:08] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:48:09,680 web.user.routes DEBUG    None
+2021-05-11 15:48:09,738 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:48:09] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:48:28,487 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:48:29,764 web.user.routes DEBUG    None
+2021-05-11 15:48:29,816 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:48:29] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:48:59,700 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:49:03,373 web.user.routes DEBUG    None
+2021-05-11 15:49:03,405 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:49:03] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:49:16,325 web.user.routes DEBUG    None
+2021-05-11 15:49:16,328 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:49:16] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:49:55,948 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:49:57,509 web.user.routes DEBUG    None
+2021-05-11 15:49:57,554 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:49:57] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:49:59,688 web.user.routes DEBUG    None
+2021-05-11 15:49:59,689 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:49:59] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:51:08,979 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:51:13,099 web.user.routes DEBUG    None
+2021-05-11 15:51:13,146 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:51:13] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:51:19,490 web.user.routes DEBUG    None
+2021-05-11 15:51:19,492 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:51:19] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:52:04,007 web.user.routes DEBUG    None
+2021-05-11 15:52:04,012 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:52:04] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:52:14,825 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:52:16,937 web.user.routes DEBUG    None
+2021-05-11 15:52:16,975 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:52:16] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:52:55,595 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:52:57,526 web.user.routes DEBUG    None
+2021-05-11 15:52:57,574 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:52:57] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:53:58,070 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:53:59,284 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:53:59] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 15:54:00,844 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:54:00] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 15:54:01,952 web.user.routes DEBUG    None
+2021-05-11 15:54:01,969 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:54:01] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:54:42,727 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:54:45,702 web.user.routes DEBUG    None
+2021-05-11 15:54:45,731 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:54:45] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:56:00,734 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 15:56:04,389 web.user.routes DEBUG    None
+2021-05-11 15:56:04,428 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:56:04] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:56:06,460 web.user.routes DEBUG    None
+2021-05-11 15:56:06,464 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:56:06] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 15:56:08,590 web.user.routes DEBUG    None
+2021-05-11 15:56:08,591 werkzeug     INFO     127.0.0.1 - - [11/May/2021 15:56:08] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:01:24,513 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:01:25,703 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:01:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 16:01:29,449 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:01:29] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 16:01:30,364 web.user.routes DEBUG    None
+2021-05-11 16:01:30,380 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:01:30] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:01:46,247 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:01:47,629 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:01:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 16:01:49,090 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:01:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 16:01:50,073 web.user.routes DEBUG    None
+2021-05-11 16:01:50,089 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:01:50] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:02:01,801 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:02:03,439 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:02:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 16:02:04,495 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:02:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 16:02:05,479 web.user.routes DEBUG    None
+2021-05-11 16:02:05,495 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:02:05] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:02:25,825 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:02:27,419 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:02:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 16:02:28,582 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:02:28] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 16:02:29,913 web.user.routes DEBUG    None
+2021-05-11 16:02:29,942 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:02:29] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:09:03,498 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:09:04,986 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:09:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 16:09:06,126 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:09:06] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 16:09:07,826 web.user.routes DEBUG    None
+2021-05-11 16:09:07,840 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:09:07] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:10:00,956 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:10:03,291 web.user.routes DEBUG    None
+2021-05-11 16:10:03,333 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:10:03] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:11:14,667 web.user.routes DEBUG    None
+2021-05-11 16:11:14,669 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:11:14] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:12:42,877 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:12:44,389 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:12:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 16:12:45,776 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:12:45] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 16:12:46,740 web.user.routes DEBUG    None
+2021-05-11 16:12:46,756 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:12:46] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:13:11,451 web.user.routes DEBUG    userid:2 set status:0
+2021-05-11 16:13:11,474 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:13:11] "[32mPOST /user/2/status/0 HTTP/1.1[0m" 302 -
+2021-05-11 16:13:11,488 web.user.routes DEBUG    None
+2021-05-11 16:13:11,492 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:13:11] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 16:13:17,169 werkzeug     INFO     127.0.0.1 - - [11/May/2021 16:13:17] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 16:28:38,135 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 16:32:04,658 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 17:17:42,583 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 17:17:43,939 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 17:17:44,257 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-11 17:17:45,396 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:45] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 17:17:47,159 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:47] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 17:17:48,247 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:48] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-11 17:17:51,603 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:51] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-11 17:17:51,618 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:51] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-11 17:17:51,645 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:17:51] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-11 17:19:00,149 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:19:00] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-11 17:19:00,165 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:19:00] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%2C+%22choiceA%22%3A+%22A.+HTML+is+used+for+exchanging+data%2C+XML+is+not.%22%2C+%22choiceB%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%2C+%22choiceC%22%3A+%22C.+HTML+can+have+user+defined+tags%2C+XML+cannot.%22%2C+%22choiceD%22%3A+%22D.+XML+and+HTML+is+used+for+exchanging+data.%22%2C+%22question%22%3A+%22What+is+the+difference+between+XML+and+HTML%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%7D%2C+%7B%22answer%22%3A+%22B.+Starting+Tag+%22%2C+%22choiceA%22%3A+%22A.+Closed+Tag%22%2C+%22choiceB%22%3A+%22B.+Starting+Tag+%22%2C+%22choiceC%22%3A+%22C.+Forward+Tag%22%2C+%22choiceD%22%3A+%22D.+Enging+Tag%22%2C+%22question%22%3A+%22Opening+Tag+of+HTML+Tag+is+called+as+________.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22A.+Closed+Tag%22%7D%2C+%7B%22answer%22%3A+%22A.+Hyper+Text+Markup+Language%22%2C+%22choiceA%22%3A+%22A.+Hyper+Text+Markup+Language+%22%2C+%22choiceB%22%3A+%22B.+Hyper+Text+Makeup+Language%22%2C+%22choiceC%22%3A+%22C.+None+of+these%22%2C+%22choiceD%22%3A+%22D.+Hyper+Tech+Markup+Language%22%2C+%22question%22%3A+%22HTML+stands+for+________.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+Hyper+Text+Makeup+Language%22%7D%2C+%7B%22answer%22%3A+%22B.+.html%22%2C+%22choiceA%22%3A+%22A.+.htl%22%2C+%22choiceB%22%3A+%22B.+.html+%22%2C+%22choiceC%22%3A+%22C.+.hml%22%2C+%22choiceD%22%3A+%22D.+.htlm%22%2C+%22question%22%3A+%22HTML+program+is+saved+using+_________+extension.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+.html+%22%7D%2C+%7B%22answer%22%3A+%22D.+Tim+Berners-Lee%22%2C+%22choiceA%22%3A+%22A.+Brendan+Eich%22%2C+%22choiceB%22%3A+%22B.+Sabeer+Bhatiya%22%2C+%22choiceC%22%3A+%22C.+Google+Inc%22%2C+%22choiceD%22%3A+%22D.+Tim+Berners-Lee+%22%2C+%22question%22%3A+%22Who+was+the+primary+author+of+HTML%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+Sabeer+Bhatiya%22%7D%2C+%7B%22answer%22%3A+%22B.+Colgroup+%22%2C+%22choiceA%22%3A+%22A.+Col%22%2C+%22choiceB%22%3A+%22B.+Colgroup%22%2C+%22choiceC%22%3A+%22C.+Rowspan%22%2C+%22choiceD%22%3A+%22D.+Row%22%2C+%22question%22%3A+%22Which+of+the+following+attributes+comes+in+handy+when+borders+have+to+be+put+between+groups+of+columns+instead+of+every+column%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Rowspan%22%7D%2C+%7B%22answer%22%3A+%22A.+%23000000%3B%22%2C+%22choiceA%22%3A+%22A.+%23000000%3B%22%2C+%22choiceB%22%3A+%22B.+%230000000%3B%22%2C+%22choiceC%22%3A+%22C.+%2300000000%3B%22%2C+%22choiceD%22%3A+%22D.+%23000000000%3B%22%2C+%22question%22%3A+%22Which+of+the+following+is+valid+colour+code+%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22A.+%23000000%3B%22%7D%2C+%7B%22answer%22%3A+%22C.+Both%22%2C+%22choiceA%22%3A+%22A.+Is+used+to+display+the+Title+for+table+at+the+top%22%2C+%22choiceB%22%3A+%22B.+Is+used+to+display+the+Title+for+table+at+the+bottom%22%2C+%22choiceC%22%3A+%22C.+Both%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22Caption+Tag+in+HTML+%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+Both%22%7D%2C+%7B%22answer%22%3A+%22C.+Row+span%22%2C+%22choiceA%22%3A+%22A.+Cellspacing%22%2C+%22choiceB%22%3A+%22B.+Cellpadding%22%2C+%22choiceC%22%3A+%22C.+Row+span%22%2C+%22choiceD%22%3A+%22D.+Col+span%22%2C+%22question%22%3A+%22Which+of+the+following+is+used+increase+the+row+height%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D.+Col+span%22%7D%2C+%7B%22answer%22%3A+%22D.+Col+span%22%2C+%22choiceA%22%3A+%22A.+Cellspacing%22%2C+%22choiceB%22%3A+%22B.+Cellpadding%22%2C+%22choiceC%22%3A+%22C.+Row+span%22%2C+%22choiceD%22%3A+%22D.+Col+span+%22%2C+%22question%22%3A+%22Which+of+the+following+is+used+increase+the+col+width%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+Cellpadding%22%7D%5D&mark=30 HTTP/1.1[0m" 200 -
+2021-05-11 17:19:00,208 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:19:00] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
+2021-05-11 17:19:27,040 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:19:27] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-11 17:20:44,482 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:20:44] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-11 17:20:44,498 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:20:44] "[37mGET /quiz/html%2Cnormal HTTP/1.1[0m" 200 -
+2021-05-11 17:21:31,824 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:21:31] "[32mPOST /quiz/html%2Cnormal HTTP/1.1[0m" 302 -
+2021-05-11 17:21:31,830 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:21:31] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22C.+Document+Oriented+model%22%2C+%22choiceA%22%3A+%22A.+Document+object+model%22%2C+%22choiceB%22%3A+%22B.+Data+object+model%22%2C+%22choiceC%22%3A+%22C.+Document+Oriented+model%22%2C+%22choiceD%22%3A+%22D.+Data+oriented+model%22%2C+%22question%22%3A+%22DOM+stands+for%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22A.+Document+object+model%22%7D%2C+%7B%22answer%22%3A+%22C.+Document+type+definition%22%2C+%22choiceA%22%3A+%22A.+Document+type+data%22%2C+%22choiceB%22%3A+%22B.+Data+type+definition%22%2C+%22choiceC%22%3A+%22C.+Document+type+definition%22%2C+%22choiceD%22%3A+%22D.+Definition+type+document%22%2C+%22question%22%3A+%22What+is+mean+by+DTD+%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D.+Definition+type+document%22%7D%2C+%7B%22answer%22%3A+%22C.+Content+type%2FMIME+type%22%2C+%22choiceA%22%3A+%22A.+Content+type%22%2C+%22choiceB%22%3A+%22B.+MIME+type%22%2C+%22choiceC%22%3A+%22C.+Content+type%2FMIME+type+%22%2C+%22choiceD%22%3A+%22D.+None+of+these%22%2C+%22question%22%3A+%22Text%2FHtml+is+called+the+__________+of+the+page%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Content+type%2FMIME+type+%22%7D%2C+%7B%22answer%22%3A+%22A.+Destination+of+a+link.%22%2C+%22choiceA%22%3A+%22A.+Destination+of+a+link.%22%2C+%22choiceB%22%3A+%22B.+Link%22%2C+%22choiceC%22%3A+%22C.+Hypertext%22%2C+%22choiceD%22%3A+%22D.+None+of+the+above%22%2C+%22question%22%3A+%22The+href+attribute+in+the+link+tag+specifies+the%3A%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Hypertext%22%7D%2C+%7B%22answer%22%3A+%22C.+To+logically+divide+the+document%22%2C+%22choiceA%22%3A+%22A.+To+replace+paragraphs.+i.e.+p+tags%22%2C+%22choiceB%22%3A+%22B.+To+logically+divide+the+paragraphs%22%2C+%22choiceC%22%3A+%22C.+To+logically+divide+the+document%22%2C+%22choiceD%22%3A+%22D.+To+provide+space+between+tables%22%2C+%22question%22%3A+%22What+are+%3Cdiv%3E+tags+used+for%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+To+logically+divide+the+paragraphs%22%7D%2C+%7B%22answer%22%3A+%22B.+Using+height+and+width%22%2C+%22choiceA%22%3A+%22A.+Using+resize+attribute%22%2C+%22choiceB%22%3A+%22B.+Using+height+and+width%22%2C+%22choiceC%22%3A+%22C.+Using+size+attribute%22%2C+%22choiceD%22%3A+%22D.+Using+rs+attribute%22%2C+%22question%22%3A+%22How+can+we+resize+the+image%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Using+size+attribute%22%7D%2C+%7B%22answer%22%3A+%22A.+Pixels%22%2C+%22choiceA%22%3A+%22A.+Pixels+%22%2C+%22choiceB%22%3A+%22B.+Centimeters%22%2C+%22choiceC%22%3A+%22C.+Dots+per+inch%22%2C+%22choiceD%22%3A+%22D.+Inches%22%2C+%22question%22%3A+%22When+creating+a+Web+document%2C+what+format+is+used+to+express+an+image%27s+height+and+width%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22A.+Pixels+%22%7D%2C+%7B%22answer%22%3A+%22A.+To+store+information+usually+relevant+to+browsers+and+search+engines%22%2C+%22choiceA%22%3A+%22A.+To+store+information+usually+relevant+to+browsers+and+search+engines%22%2C+%22choiceB%22%3A+%22B.+To+only+store+information+usually+relevant+to+browsers%22%2C+%22choiceC%22%3A+%22C.+To+only+store+information+about+search+engines%22%2C+%22choiceD%22%3A+%22D.+To+store+information+about+external+links%22%2C+%22question%22%3A+%22What+are+meta+tags+used+for%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+To+only+store+information+usually+relevant+to+browsers%22%7D%2C+%7B%22answer%22%3A+%22C.+Using+%2A%22%2C+%22choiceA%22%3A+%22A.+Using+%26%22%2C+%22choiceB%22%3A+%22B.+Using+%24%22%2C+%22choiceC%22%3A+%22C.+Using+%2A%22%2C+%22choiceD%22%3A+%22D.+Using+%23%22%2C+%22question%22%3A+%22For+frames+in+HTML%2C+how+do+you+specify+the+rest+of+the+screen%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+Using+%2A%22%7D%2C+%7B%22answer%22%3A+%22C.+American+Standard+Code+for+Information+Interchange+%22%2C+%22choiceA%22%3A+%22A.+American+Standard+Code+for+Informal+Interchange%22%2C+%22choiceB%22%3A+%22B.+American+Standard+Code+for+Interchanging+Information%22%2C+%22choiceC%22%3A+%22C.+American+Standard+Code+for+Information+Interchange+%22%2C+%22choiceD%22%3A+%22D.+American+Standard+Code+for+Information+Interval%22%2C+%22question%22%3A+%22ASCII+stands+for______%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+American+Standard+Code+for+Interchanging+Information%22%7D%5D&mark=10 HTTP/1.1[0m" 200 -
+2021-05-11 17:21:31,865 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:21:31] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
+2021-05-11 17:21:36,343 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:21:36] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-11 17:30:57,074 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 17:31:05,859 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:05] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-11 17:31:09,312 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-11 17:31:09,315 web.auth.routes DEBUG    login
+2021-05-11 17:31:09,319 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:09] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 17:31:13,595 web.auth.routes DEBUG    login
+2021-05-11 17:31:13,595 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w'), ('remember', 'on')])
+2021-05-11 17:31:13,830 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-11 17:31:13,835 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:13] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 17:31:15,306 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:15] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 17:31:27,390 web.user.routes DEBUG    ww
+2021-05-11 17:31:27,401 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:27] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-11 17:31:27,409 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:27] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-11 17:31:31,549 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:31:31] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 17:35:32,849 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 17:35:33,830 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:35:33] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 17:35:35,512 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:35:35] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 17:35:36,734 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:35:36] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 17:36:58,648 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 17:37:00,633 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 17:37:02,024 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 17:37:03,715 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-11 17:37:03,718 web.auth.routes DEBUG    login
+2021-05-11 17:37:03,721 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:03] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 17:37:07,532 web.auth.routes DEBUG    login
+2021-05-11 17:37:07,542 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'ww'), ('remember', 'on')])
+2021-05-11 17:37:07,766 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-11 17:37:07,770 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:07] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 17:37:09,330 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:09] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-11 17:37:24,715 web.user.routes DEBUG    ww
+2021-05-11 17:37:24,725 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:24] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-11 17:37:24,731 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-11 17:37:24,743 web.auth.routes DEBUG    login
+2021-05-11 17:37:24,745 werkzeug     INFO     127.0.0.1 - - [11/May/2021 17:37:24] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:09:30,445 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:09:32,090 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:09:32] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:09:33,932 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:09:33] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:09:43,318 web.auth.routes DEBUG    login
+2021-05-11 18:09:43,322 web          ERROR    Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 69, in login
+    return render_template('auth/login.html')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\auth\login.html", line 2, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 41, in top-level template code
+    {% block content %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\auth\login.html", line 30, in block "content"
+    <span class="psw">Forgot <a href="{{url_for('auth.forget_password')}}">password?</a></span>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'auth.forget_password'. Did you mean 'auth.reset_password' instead?
+2021-05-11 18:09:43,328 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:09:43] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-05-11 18:10:15,078 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:10:25,121 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:10:27,775 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:10:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:10:29,101 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:10:29] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:10:31,496 web.auth.routes DEBUG    login
+2021-05-11 18:10:31,500 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:10:31] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:10:33,484 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:10:33] "[32mGET /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 18:10:33,487 web.auth.routes DEBUG    login
+2021-05-11 18:10:33,489 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:10:33] "[37mGET /login?next=%2Fforget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:10:47,286 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:10:48,767 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:10:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:11:56,812 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:11:56] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:11:58,223 web.auth.routes DEBUG    login
+2021-05-11 18:11:58,228 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:11:58] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:12:02,879 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:12:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:12:04,254 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:12:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:12:09,421 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:12:09] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:12:10,475 web.auth.routes DEBUG    login
+2021-05-11 18:12:10,477 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:12:10] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:12:13,280 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:12:13] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:13:08,750 web.auth.routes DEBUG    a12345678
+2021-05-11 18:13:08,752 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:13:08] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 18:13:08,755 web.auth.routes DEBUG    login
+2021-05-11 18:13:08,756 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:13:08] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:15:36,172 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:15:40,143 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:15:40] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:15:47,240 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:15:47] "[37mPOST /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:15:53,660 web.auth.routes DEBUG    a12345678
+2021-05-11 18:15:53,662 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:15:53] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 18:15:53,664 web.auth.routes DEBUG    login
+2021-05-11 18:15:53,668 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:15:53] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:25:41,931 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:25:43,520 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:25:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:25:44,840 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:25:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:25:46,574 web.auth.routes DEBUG    login
+2021-05-11 18:25:46,578 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:25:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:25:47,897 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:25:47] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:25:53,726 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 91, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:25:53,727 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:25:53] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:28:16,155 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:28:17,932 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:28:19,246 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:19] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:28:20,763 web.auth.routes DEBUG    login
+2021-05-11 18:28:20,767 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:20] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:28:21,877 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:21] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:28:26,288 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 91, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:28:26,290 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:26] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:28:52,519 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:28:53,848 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:53] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:28:55,073 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:55] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:28:56,258 web.auth.routes DEBUG    login
+2021-05-11 18:28:56,262 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:56] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:28:57,550 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:28:57] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:29:02,150 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 91, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:29:02,152 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:29:02] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:32:36,644 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:32:37,921 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:32:37] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:32:39,246 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:32:39] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:32:40,727 web.auth.routes DEBUG    login
+2021-05-11 18:32:40,731 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:32:40] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:32:42,137 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:32:42] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:32:47,143 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 92, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:32:47,144 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:32:47] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:37:31,737 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:37:32,543 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:37:32] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:37:33,675 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:37:33] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:37:34,849 web.auth.routes DEBUG    login
+2021-05-11 18:37:34,853 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:37:34] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:37:36,689 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:37:36] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:37:44,274 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 92, in forget_password
+    mail.send(msg)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 21sm9853409pfh.103 - gsmtp')
+2021-05-11 18:37:44,284 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:37:44] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:39:54,569 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:39:55,879 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:39:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:39:57,031 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:39:57] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:39:58,724 web.auth.routes DEBUG    login
+2021-05-11 18:39:58,728 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:39:58] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:39:59,899 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:39:59] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:40:04,224 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 91, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:40:04,226 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:40:04] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:42:31,636 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:43:00,444 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:43:01,487 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:43:01] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:43:02,740 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:43:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:43:04,436 web.auth.routes DEBUG    login
+2021-05-11 18:43:04,440 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:43:04] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:43:05,950 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:43:05] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:43:10,708 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 92, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:43:10,710 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:43:10] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:46:58,467 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:46:59,723 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:46:59] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:47:01,031 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:01] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:47:02,301 web.auth.routes DEBUG    login
+2021-05-11 18:47:02,307 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:02] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:47:07,831 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:07] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:47:13,414 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 92, in forget_password
+    Mail.send(msg)
+TypeError: send() missing 1 required positional argument: 'message'
+2021-05-11 18:47:13,416 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:13] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:47:41,721 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:47:43,078 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:47:44,386 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:47:45,714 web.auth.routes DEBUG    login
+2021-05-11 18:47:45,718 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:45] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:47:46,775 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:46] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:47:51,283 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 92, in forget_password
+    Mail.send(message=msg)
+TypeError: send() missing 1 required positional argument: 'self'
+2021-05-11 18:47:51,284 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:47:51] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 18:49:35,429 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:49:36,548 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:36] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:49:37,771 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:37] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:49:38,746 web.auth.routes DEBUG    login
+2021-05-11 18:49:38,750 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:38] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:49:39,956 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:39] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:49:47,856 web.auth.routes DEBUG    a12345678
+2021-05-11 18:49:47,858 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:47] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 18:49:51,022 web.auth.routes DEBUG    a12345678
+2021-05-11 18:49:51,027 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:51] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 18:49:51,042 web.auth.routes DEBUG    login
+2021-05-11 18:49:51,044 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:49:51] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:58:47,037 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 18:58:48,342 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:58:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 18:58:49,922 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:58:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 18:58:50,994 web.auth.routes DEBUG    login
+2021-05-11 18:58:50,998 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:58:50] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 18:58:52,249 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:58:52] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 18:59:10,597 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 93, in forget_password
+    mail.send(message=msg)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask_mail.py", line 156, in configure_host
+    host = smtplib.SMTP_SSL(self.mail.server, self.mail.port)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 1034, in __init__
+    SMTP.__init__(self, host, port, local_hostname, timeout,
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 1042, in _get_socket
+    new_socket = self.context.wrap_socket(new_socket,
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1123)
+2021-05-11 18:59:10,609 werkzeug     INFO     127.0.0.1 - - [11/May/2021 18:59:10] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-11 19:00:26,436 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 19:00:27,465 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 19:00:28,785 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:28] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 19:00:30,078 web.auth.routes DEBUG    login
+2021-05-11 19:00:30,082 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:30] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:00:31,302 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:31] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 19:00:49,083 web.auth.routes DEBUG    a12345678
+2021-05-11 19:00:49,086 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:49] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 19:00:50,664 web.auth.routes DEBUG    a12345678
+2021-05-11 19:00:50,669 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:50] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 19:00:50,682 web.auth.routes DEBUG    login
+2021-05-11 19:00:50,684 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:00:50] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:07:28,481 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 19:07:29,538 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:07:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 19:07:30,814 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:07:30] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 19:07:32,324 web.auth.routes DEBUG    login
+2021-05-11 19:07:32,328 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:07:32] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:07:33,762 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:07:33] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 19:07:43,592 web.auth.routes DEBUG    a12345678
+2021-05-11 19:07:43,594 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:07:43] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 19:07:43,598 web.auth.routes DEBUG    login
+2021-05-11 19:07:43,599 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:07:43] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:09:05,122 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 19:09:06,449 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:09:06] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 19:09:07,745 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:09:07] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 19:09:09,009 web.auth.routes DEBUG    login
+2021-05-11 19:09:09,014 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:09:09] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:09:10,585 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:09:10] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 19:09:19,537 web.auth.routes DEBUG    a12345678
+2021-05-11 19:09:19,539 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:09:19] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 19:09:19,543 web.auth.routes DEBUG    login
+2021-05-11 19:09:19,545 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:09:19] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:44:58,673 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-11 19:45:00,473 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-11 19:45:00,954 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-11 19:45:01,850 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:01] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-11 19:45:03,296 web.auth.routes DEBUG    login
+2021-05-11 19:45:03,302 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:03] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-11 19:45:04,849 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:04] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-11 19:45:13,853 web.auth.routes DEBUG    a12345678
+2021-05-11 19:45:13,858 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:13] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-11 19:45:13,868 web.auth.routes DEBUG    login
+2021-05-11 19:45:13,869 werkzeug     INFO     127.0.0.1 - - [11/May/2021 19:45:13] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:26:08,800 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:26:10,836 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:10] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:26:10,869 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:10] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-12 13:26:10,890 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:10] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2021-05-12 13:26:11,372 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-12 13:26:13,689 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:13] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:26:13,710 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:13] "[36mGET /static/test.js HTTP/1.1[0m" 304 -
+2021-05-12 13:26:13,713 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:13] "[36mGET /static/login.js HTTP/1.1[0m" 304 -
+2021-05-12 13:26:15,525 web.auth.routes DEBUG    login
+2021-05-12 13:26:15,530 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:15] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:26:25,556 web.auth.routes DEBUG    login
+2021-05-12 13:26:25,557 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'ww'), ('remember', 'on')])
+2021-05-12 13:26:26,212 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 13:26:26,228 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:26] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:26:28,312 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 13:26:28,315 web.auth.routes DEBUG    login
+2021-05-12 13:26:28,317 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:28] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:26:30,164 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:26:30] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-12 13:27:01,421 web          ERROR    Exception on /forget_password [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 108, in forget_password
+    newpassword=send_mail(user.eamil)
+AttributeError: 'User' object has no attribute 'eamil'
+2021-05-12 13:27:01,423 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:27:01] "[35m[1mPOST /forget_password HTTP/1.1[0m" 500 -
+2021-05-12 13:27:24,771 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:27:27,548 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:27:27] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-12 13:27:33,244 web.auth.routes DEBUG    $2b$12$jmD1/XVgxp81SRtyc3smjuWxubDlm1nV5SoffAv2XPw0E9/Wf4I.a
+2021-05-12 13:27:33,904 web.auth.routes DEBUG    $2b$12$fknypRjYoswJ7FBnXPwXueiYU/Hv08VfK5W/G9FRKN0J.Xep3vrhi
+2021-05-12 13:27:33,923 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:27:33] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-12 13:27:33,929 web.auth.routes DEBUG    login
+2021-05-12 13:27:33,939 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:27:33] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:29:43,272 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:29:47,371 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:29:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:29:49,235 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:29:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:29:51,724 web.auth.routes DEBUG    login
+2021-05-12 13:29:51,729 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:29:51] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:29:53,173 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:29:53] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-12 13:30:11,710 web.auth.routes DEBUG    ngvcwxyr
+2021-05-12 13:30:12,330 web.auth.routes DEBUG    $2b$12$Qd7h/3Rzs7AdwT7xsXuCM.aWNLc0q0Kq5YJQzaJp4yE9vNr1tXT4u
+2021-05-12 13:30:12,348 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:30:12] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-12 13:30:12,354 web.auth.routes DEBUG    login
+2021-05-12 13:30:12,354 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:30:12] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:30:32,769 web.auth.routes DEBUG    login
+2021-05-12 13:30:32,770 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'ngvcwxyr'), ('remember', 'on')])
+2021-05-12 13:30:33,104 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:30:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 13:30:33,109 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:30:33] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:38:12,584 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:38:16,638 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:38:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:38:18,738 web          ERROR    Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\main\routes.py", line 15, in home
+    return render_template("home.html")
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 21, in top-level template code
+    <li><a href="{{url_for('main.statistic', userid=current_user.id)}}">Statistic</a></li>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'main.statistic' with values ['userid']. Did you mean 'main.statistics' instead?
+2021-05-12 13:38:18,747 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:38:18] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2021-05-12 13:38:55,803 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:39:00,749 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:39:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:39:02,361 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:39:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:39:05,179 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:39:05] "[37mGET /main/2/statistic HTTP/1.1[0m" 200 -
+2021-05-12 13:39:12,171 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:39:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 13:39:12,175 web.auth.routes DEBUG    login
+2021-05-12 13:39:12,180 web          ERROR    Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 91, in login
+    return render_template('auth/login.html')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\auth\login.html", line 2, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 21, in top-level template code
+    <li><a href="{{url_for('main.statistic', userid=current_user.id)}}">Statistic</a></li>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2177, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2054, in _partial_build
+    rv = self._partial_build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2067, in _partial_build
+    rv = rule.build(values, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1038, in build
+    return self._build_unknown(**values)
+  File "<werkzeug routing>", line 1, in <builder:'/main/<int:userid>/statistic'>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1257, in to_url
+    value = self.num_convert(value)
+jinja2.exceptions.UndefinedError: 'flask_login.mixins.AnonymousUserMixin object' has no attribute 'id'
+2021-05-12 13:39:12,185 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:39:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-05-12 13:40:53,128 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:40:54,822 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:40:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:40:56,445 web          ERROR    Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\main\routes.py", line 15, in home
+    return render_template("home.html")
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 21, in top-level template code
+    <li><a href="{{url_for('main.statistic', userid=current_user.id)}}">Statistic</a></li>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2177, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2054, in _partial_build
+    rv = self._partial_build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2067, in _partial_build
+    rv = rule.build(values, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1038, in build
+    return self._build_unknown(**values)
+  File "<werkzeug routing>", line 1, in <builder:'/main/<int:userid>/statistic'>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1257, in to_url
+    value = self.num_convert(value)
+jinja2.exceptions.UndefinedError: 'flask_login.mixins.AnonymousUserMixin object' has no attribute 'id'
+2021-05-12 13:40:56,451 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:40:56] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2021-05-12 13:42:56,945 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:42:58,567 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:42:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:43:00,504 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:43:00] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:43:04,153 web.auth.routes DEBUG    login
+2021-05-12 13:43:04,158 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:43:04] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:43:20,789 web.auth.routes DEBUG    login
+2021-05-12 13:43:20,789 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'wkfzgzbu'), ('remember', 'on')])
+2021-05-12 13:43:21,483 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:43:21] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-12 13:43:27,961 web.auth.routes DEBUG    login
+2021-05-12 13:43:27,962 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'wkfzgzbu'), ('remember', 'on')])
+2021-05-12 13:43:28,579 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:43:28] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-12 13:43:30,180 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:43:30] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-12 13:44:32,764 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 13:44:40,992 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:44:40] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:44:42,583 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:44:42] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:44:45,457 web.auth.routes DEBUG    login
+2021-05-12 13:44:45,463 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:44:45] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:44:53,103 web.auth.routes DEBUG    login
+2021-05-12 13:44:53,104 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789'), ('remember', 'on')])
+2021-05-12 13:44:53,770 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:44:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 13:44:53,782 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:44:53] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:44:55,067 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:44:55] "[37mGET /statistic HTTP/1.1[0m" 200 -
+2021-05-12 13:47:49,544 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:47:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 13:47:49,548 web.auth.routes DEBUG    login
+2021-05-12 13:47:49,549 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:47:49] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:48:44,058 web.auth.routes DEBUG    login
+2021-05-12 13:48:44,059 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'wkfzgzbu'), ('remember', 'on')])
+2021-05-12 13:48:44,380 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:48:44] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-12 13:48:51,808 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:48:51] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-12 13:49:00,991 web.auth.routes DEBUG    dvmjeihg
+2021-05-12 13:49:01,668 web.auth.routes DEBUG    $2b$12$D4j7yIOfioE2YdT3U5FC9uG/w75IKTBViWbcVBeub8yxAxbbdmiPa
+2021-05-12 13:49:01,686 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:49:01] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-12 13:49:01,692 web.auth.routes DEBUG    login
+2021-05-12 13:49:01,692 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:49:01] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 13:49:24,091 web.auth.routes DEBUG    login
+2021-05-12 13:49:24,092 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'dvmjeihg'), ('remember', 'on')])
+2021-05-12 13:49:24,446 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:49:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 13:49:24,452 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:49:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 13:49:26,614 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:49:26] "[37mGET /statistic HTTP/1.1[0m" 200 -
+2021-05-12 13:49:36,214 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:49:36] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 13:53:29,244 werkzeug     INFO     127.0.0.1 - - [12/May/2021 13:53:29] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:40:09,802 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:41:09,002 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:41:09,504 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-12 15:41:10,691 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:10] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:41:14,752 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 15:41:14,755 web.auth.routes DEBUG    login
+2021-05-12 15:41:14,761 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:14] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 15:41:21,475 web.auth.routes DEBUG    login
+2021-05-12 15:41:21,475 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 15:41:22,076 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 15:41:22,087 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:41:22] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:43:57,645 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:43:58,896 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:43:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:44:00,780 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:44:00] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:44:03,165 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:44:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 15:44:03,169 web.auth.routes DEBUG    login
+2021-05-12 15:44:03,179 web          ERROR    Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 90, in login
+    return render_template('auth/login.html')
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\auth\login.html", line 2, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 22, in top-level template code
+    <li><a href="{{url_for('main.statistic',userid=current_user.id)}}">Statistic</a></li>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2177, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2054, in _partial_build
+    rv = self._partial_build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2067, in _partial_build
+    rv = rule.build(values, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1038, in build
+    return self._build_unknown(**values)
+  File "<werkzeug routing>", line 1, in <builder:'/statistic/<int:userid>'>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1257, in to_url
+    value = self.num_convert(value)
+jinja2.exceptions.UndefinedError: 'flask_login.mixins.AnonymousUserMixin object' has no attribute 'id'
+2021-05-12 15:44:03,191 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:44:03] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2021-05-12 15:44:23,349 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:44:24,866 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:44:24] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:44:26,560 web          ERROR    Exception on /home [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\main\routes.py", line 15, in home
+    return render_template("home.html")
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 22, in top-level template code
+    <li><a href="{{url_for('main.statistic',userid=current_user.id)}}">Statistic</a></li>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2177, in build
+    rv = self._partial_build(endpoint, values, method, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2054, in _partial_build
+    rv = self._partial_build(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 2067, in _partial_build
+    rv = rule.build(values, append_unknown)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1038, in build
+    return self._build_unknown(**values)
+  File "<werkzeug routing>", line 1, in <builder:'/statistic/<int:userid>'>
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\werkzeug\routing.py", line 1257, in to_url
+    value = self.num_convert(value)
+jinja2.exceptions.UndefinedError: 'flask_login.mixins.AnonymousUserMixin object' has no attribute 'id'
+2021-05-12 15:44:26,563 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:44:26] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2021-05-12 15:45:22,510 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:45:23,998 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:45:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:45:25,901 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:45:25] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:46:11,371 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:11] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:46:11,573 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:11] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-12 15:46:11,979 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:11] "[37mGET /static/background.jpg HTTP/1.1[0m" 200 -
+2021-05-12 15:46:13,188 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:13] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:46:13,206 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:13] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-12 15:46:13,207 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:13] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-12 15:46:44,455 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:46:45,876 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:45] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:46:47,437 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:47] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:46:51,410 web.auth.routes DEBUG    login
+2021-05-12 15:46:51,415 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:51] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 15:46:58,314 web.auth.routes DEBUG    login
+2021-05-12 15:46:58,314 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 15:46:59,005 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 15:46:59,021 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:46:59] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:47:02,135 web          ERROR    Exception on /statistic [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\main\routes.py", line 106, in statistic
+    user_list.append({"score": users.score,
+AttributeError: 'list' object has no attribute 'score'
+2021-05-12 15:47:02,138 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:47:02] "[35m[1mGET /statistic?userid=1 HTTP/1.1[0m" 500 -
+2021-05-12 15:47:30,822 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:47:32,208 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:47:32] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:47:33,793 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:47:33] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:47:35,950 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:47:35] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-12 15:48:06,769 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:48:08,239 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:48:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:48:09,713 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:48:09] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:48:10,926 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:48:10] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-12 15:48:58,018 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 15:48:59,471 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:48:59] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 15:49:01,135 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:49:01] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 15:49:03,446 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:49:03] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-12 15:49:41,254 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:49:41] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-12 15:49:42,669 werkzeug     INFO     127.0.0.1 - - [12/May/2021 15:49:42] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-12 16:02:56,794 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:03:01,662 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:03:01] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-12 16:14:13,961 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:14:16,795 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:14:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:14:18,778 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:14:18] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:16:28,084 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:16:29,608 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:16:32,595 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:32] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:16:38,055 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:16:38,899 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:16:46,967 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:16:46,970 web.auth.routes DEBUG    login
+2021-05-12 16:16:46,976 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:16:54,936 web.auth.routes DEBUG    login
+2021-05-12 16:16:54,937 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 16:16:55,608 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:16:55,616 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:16:55] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:17:11,951 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:17:17,641 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:17:17] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:17:23,565 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:17:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:17:23,569 web.auth.routes DEBUG    login
+2021-05-12 16:17:23,577 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:17:23] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:17:50,551 web.auth.routes DEBUG    login
+2021-05-12 16:17:50,552 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'dvmjeihg')])
+2021-05-12 16:17:51,162 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:17:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:17:51,173 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:17:51] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:17:53,431 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:17:53] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-12 16:18:07,606 web.user.routes DEBUG    w123456789
+2021-05-12 16:18:07,629 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:07] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-12 16:18:07,641 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:18:07,649 web.auth.routes DEBUG    login
+2021-05-12 16:18:07,652 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:07] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:18:17,490 web.auth.routes DEBUG    login
+2021-05-12 16:18:17,490 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789')])
+2021-05-12 16:18:18,128 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:18:18,141 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:18] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:18:21,374 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:21] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-12 16:18:50,978 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:18:50,982 web.auth.routes DEBUG    login
+2021-05-12 16:18:50,983 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:18:50] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:19:01,865 web.auth.routes DEBUG    login
+2021-05-12 16:19:01,866 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 16:19:02,465 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:19:02,478 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:19:05,613 web.user.routes DEBUG    None
+2021-05-12 16:19:05,637 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:05] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:19:09,740 web.user.routes DEBUG    userid:2 set status:0
+2021-05-12 16:19:09,752 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:09] "[32mPOST /user/2/status/0 HTTP/1.1[0m" 302 -
+2021-05-12 16:19:09,758 web.user.routes DEBUG    None
+2021-05-12 16:19:09,764 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:09] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:19:11,720 web.user.routes DEBUG    userid:2 set status:1
+2021-05-12 16:19:11,729 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:11] "[32mPOST /user/2/status/1 HTTP/1.1[0m" 302 -
+2021-05-12 16:19:11,735 web.user.routes DEBUG    None
+2021-05-12 16:19:11,740 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:11] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:19:16,023 web.user.routes DEBUG    userid:2 set status:0
+2021-05-12 16:19:16,033 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:16] "[32mPOST /user/2/status/0 HTTP/1.1[0m" 302 -
+2021-05-12 16:19:16,038 web.user.routes DEBUG    None
+2021-05-12 16:19:16,043 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:16] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:19:26,580 web.user.routes DEBUG    userid:2 set status:1
+2021-05-12 16:19:26,591 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:26] "[32mPOST /user/2/status/1 HTTP/1.1[0m" 302 -
+2021-05-12 16:19:26,597 web.user.routes DEBUG    None
+2021-05-12 16:19:26,601 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:19:26] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:20:50,216 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:20:52,159 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:20:52] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:20:53,685 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:20:53] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:20:55,930 web.user.routes DEBUG    None
+2021-05-12 16:20:55,956 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:20:55] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:20:59,041 web.user.routes DEBUG    userid:2 set status:0
+2021-05-12 16:20:59,053 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:20:59] "[32mPOST /user/2/status/0 HTTP/1.1[0m" 302 -
+2021-05-12 16:20:59,060 web.user.routes DEBUG    None
+2021-05-12 16:20:59,064 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:20:59] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:21:00,465 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:21:00,469 web.auth.routes DEBUG    login
+2021-05-12 16:21:00,475 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:00] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:21:10,083 web.auth.routes DEBUG    login
+2021-05-12 16:21:10,083 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789')])
+2021-05-12 16:21:10,704 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:21:10,714 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:10] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:21:41,674 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:21:42,881 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:42] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:21:44,401 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:21:46,154 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:21:46,158 web.auth.routes DEBUG    login
+2021-05-12 16:21:46,163 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:21:54,825 web.auth.routes DEBUG    login
+2021-05-12 16:21:54,825 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789')])
+2021-05-12 16:21:55,446 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:21:55,459 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:21:55] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:23:01,133 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:23:04,355 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:23:04,362 web.auth.routes DEBUG    login
+2021-05-12 16:23:04,427 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:04] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:23:12,171 web.auth.routes DEBUG    login
+2021-05-12 16:23:12,172 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789')])
+2021-05-12 16:23:12,179 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:12] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-12 16:23:21,487 web.auth.routes DEBUG    login
+2021-05-12 16:23:21,488 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 16:23:22,092 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:23:22,100 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:22] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:23:23,393 web.user.routes DEBUG    None
+2021-05-12 16:23:23,417 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:23] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:23:24,778 web.user.routes DEBUG    userid:2 set status:1
+2021-05-12 16:23:24,788 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:24] "[32mPOST /user/2/status/1 HTTP/1.1[0m" 302 -
+2021-05-12 16:23:24,797 web.user.routes DEBUG    None
+2021-05-12 16:23:24,797 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:24] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:23:26,904 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:26] "[37mGET /statistic HTTP/1.1[0m" 200 -
+2021-05-12 16:23:37,292 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:23:37] "[37mGET /statistic HTTP/1.1[0m" 200 -
+2021-05-12 16:28:01,140 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:28:02,556 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:28:02] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:28:04,138 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:28:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:28:05,912 web.user.routes DEBUG    None
+2021-05-12 16:28:05,936 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:28:05] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:28:07,865 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:28:07] "[37mGET /user/1/statistic HTTP/1.1[0m" 200 -
+2021-05-12 16:28:11,900 web          ERROR    Exception on /user/2/statistic [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\user\routes.py", line 101, in statistic
+    average_score = int(score/total)
+ZeroDivisionError: division by zero
+2021-05-12 16:28:11,904 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:28:11] "[35m[1mGET /user/2/statistic HTTP/1.1[0m" 500 -
+2021-05-12 16:29:01,687 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:29:03,206 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:29:04,916 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:29:08,414 web.user.routes DEBUG    None
+2021-05-12 16:29:08,436 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:08] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:29:09,512 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:09] "[37mGET /user/1/statistic HTTP/1.1[0m" 200 -
+2021-05-12 16:29:12,451 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:12] "[37mGET /user/2/statistic HTTP/1.1[0m" 200 -
+2021-05-12 16:29:25,244 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:29:25,249 web.auth.routes DEBUG    login
+2021-05-12 16:29:25,257 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:25] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:29:35,911 web.auth.routes DEBUG    login
+2021-05-12 16:29:35,912 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 16:29:36,568 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:29:36,582 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:36] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:29:38,059 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:29:38,063 web.auth.routes DEBUG    login
+2021-05-12 16:29:38,063 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:38] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:29:46,444 web.auth.routes DEBUG    login
+2021-05-12 16:29:46,444 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789')])
+2021-05-12 16:29:47,041 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:29:47,052 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:47] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:29:51,191 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:51] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-12 16:29:54,667 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:54] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-12 16:29:54,691 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:54] "[37mGET /quiz/css%2Chard HTTP/1.1[0m" 200 -
+2021-05-12 16:29:54,720 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:29:54] "[36mGET /static/quiz.js HTTP/1.1[0m" 304 -
+2021-05-12 16:30:40,337 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:30:40] "[32mPOST /quiz/css%2Chard HTTP/1.1[0m" 302 -
+2021-05-12 16:30:40,415 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:30:40] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A.+yes%22%2C+%22choiceA%22%3A+%22A.+yes%22%2C+%22choiceB%22%3A+%22B.+no%22%2C+%22choiceC%22%3A+null%2C+%22choiceD%22%3A+null%2C+%22question%22%3A+%22Can+you+have+multiple+box-shadows%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22A.+yes%22%7D%2C+%7B%22answer%22%3A+%22C.+top-left%2C+top-right%2C+bottom-right%2C+bottom-left%22%2C+%22choiceA%22%3A+%22A.+top%2C+bottom%2C+left%2C+right%22%2C+%22choiceB%22%3A+%22B.+up%2C+down%2C+front%2C+behind%22%2C+%22choiceC%22%3A+%22C.+top-left%2C+top-right%2C+bottom-right%2C+bottom-left%22%2C+%22choiceD%22%3A+%22D.+bottom-left%2C+bottom-right%2C+top-right%2C+top-left%22%2C+%22question%22%3A+%22How+do+four+values+work+on+border-radius%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+up%2C+down%2C+front%2C+behind%22%7D%2C+%7B%22answer%22%3A+%22C.+border-radius%3A+30px%3B%22%2C+%22choiceA%22%3A+%22A.+border%5Bround%5D%3A+30px%3B%22%2C+%22choiceB%22%3A+%22B.+corner-effect%3A+round%3B%22%2C+%22choiceC%22%3A+%22C.+border-radius%3A+30px%3B%22%2C+%22choiceD%22%3A+%22D.+alpha-effect%3A+round-corner%3B%22%2C+%22question%22%3A+%22How+can+you+created+rounded+corners+using+CSS3%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+border-radius%3A+30px%3B%22%7D%2C+%7B%22answer%22%3A+%22B.+No%22%2C+%22choiceA%22%3A+%22+A.+Yes%22%2C+%22choiceB%22%3A+%22B.+No%22%2C+%22choiceC%22%3A+null%2C+%22choiceD%22%3A+null%2C+%22question%22%3A+%22Has+CSS3+been+fully+supported+by+all+browsers%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22+A.+Yes%22%7D%2C+%7B%22answer%22%3A+%22C.+text-shadow%3A+5px+5px+5px+grey%3B%22%2C+%22choiceA%22%3A+%22A.+font%3A+shadowed+5px+5px+5px+grey%3B%22%2C+%22choiceB%22%3A+%22B.+font-shadow%3A+5px+5px+5px+grey%3B%22%2C+%22choiceC%22%3A+%22C.+text-shadow%3A+5px+5px+5px+grey%3B%22%2C+%22choiceD%22%3A+%22D.+shadow%3A+text+5px+5px+5px+grey%3B%22%2C+%22question%22%3A+%22How+to+add+text+shadow+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+font-shadow%3A+5px+5px+5px+grey%3B%22%7D%2C+%7B%22answer%22%3A+%22B.+transform%3A+rotate%2830deg%29%3B%22%2C+%22choiceA%22%3A+%22A.+object-rotation%3A+30deg%3B%22%2C+%22choiceB%22%3A+%22B.+transform%3A+rotate%2830deg%29%3B%22%2C+%22choiceC%22%3A+%22C.+rotate-object%3A+30deg%3B%22%2C+%22choiceD%22%3A+%22D.+transform%3A+rotate-30deg-clockwise%3B%22%2C+%22question%22%3A+%22How+to+rotate+objects+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+rotate-object%3A+30deg%3B%22%7D%2C+%7B%22answer%22%3A+%22A.+transition%3A+width+2s%3B%22%2C+%22choiceA%22%3A+%22A.+transition%3A+width+2s%3B%22%2C+%22choiceB%22%3A+%22B.+transition-duration%3A+2s%3B+transition-effect%3A+width%3B%22%2C+%22choiceC%22%3A+%22C.+alpha-effect%3A+transition+%28width%2C2s%29%3B%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22How+to+create+transition+effects+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+alpha-effect%3A+transition+%28width%2C2s%29%3B%22%7D%2C+%7B%22answer%22%3A+%22A.+word-wrap%3A+break-word%3B%22%2C+%22choiceA%22%3A+%22A.+word-wrap%3A+break-word%3B%22%2C+%22choiceB%22%3A+%22B.+words-wrap%3A+break-word%3B%22%2C+%22choiceC%22%3A+%22C.+text-wrap%3A+break-word%3B%22%2C+%22choiceD%22%3A+%22D.+text-width%3A+word-wrap%3B%22%2C+%22question%22%3A+%22How+to+force+a+word+wrap+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+text-wrap%3A+break-word%3B%22%7D%2C+%7B%22answer%22%3A+%22C.+border-image%3A+url%28border.png%29+30+30+round%3B+%22%2C+%22choiceA%22%3A+%22A.+border%3A+url%28image.png%29%3B%22%2C+%22choiceB%22%3A+%22B.+border%3A+image+url%28image.png%29%3B%22%2C+%22choiceC%22%3A+%22C.+border-image%3A+url%28border.png%29+30+30+round%3B+%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22How+to+you+modify+a+border+image+using+CSS3%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+border-image%3A+url%28border.png%29+30+30+round%3B+%22%7D%2C+%7B%22answer%22%3A+%22A.+background-size%3A+80px+60px%3B%22%2C+%22choiceA%22%3A+%22A.+background-size%3A+80px+60px%3B%22%2C+%22choiceB%22%3A+%22B.+background-proportion%3A+80px+60px%3B%22%2C+%22choiceC%22%3A+%22C.+alpha-effect%3A+bg-resize+80px+60px%3B%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22How+to+resize+a+background+image+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D.+None%22%7D%5D&mark=30 HTTP/1.1[0m" 200 -
+2021-05-12 16:30:40,521 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:30:40] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
+2021-05-12 16:33:15,415 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:33:15] "[37mGET /test HTTP/1.1[0m" 200 -

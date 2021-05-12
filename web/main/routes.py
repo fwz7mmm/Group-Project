@@ -92,8 +92,21 @@ def quiz(topic, level):
     return render_template("quiz.html", quizs=quizs)
 
 
-@main.route('/main/<int:userid>/statistic', methods=['GET', 'POST'])
+@main.route('/statistic', methods=['GET', 'POST'])
 #@login_required
-def statistics(userid):
-    user = Quizdata.query.filter_by(id=userid).all()
-    return render_template("statistics.html",user=user)
+def statistic():
+    users = Quizdata.query.filter_by(user_id=current_user.id).all()
+    user_list = []
+    score =0
+    total =0
+    for item in users:
+        score+=item.score
+        total+=1
+        quiztype = Quiztype.query.filter_by(id=item.quiztype_id).first()
+        user_list.append({"score": item.score,
+                            "date": item.date,
+                            "level": quiztype.level,
+                            "topic": quiztype.topic,})
+
+    average_score = int(score/total)
+    return render_template("statistic.html", users=user_list,average_score=average_score,total=total)

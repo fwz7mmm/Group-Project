@@ -68,11 +68,8 @@
                 </td>
 
                  <td>
-                        {% if row.user_type == 2 %}
-                            <form action="{{ url_for('main.statistic', userid=row.id) }}" method="Get">
+                            <form action="{{ url_for('user.statistic', userid=row.id) }}" method="Get">
                                 <input class="" type="submit" value="statistic ">
-                        {% else %}
-                        {% endif %}
                 </form>
                 </td>
 
