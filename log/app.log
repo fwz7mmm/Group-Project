@@ -5802,3 +5802,60 @@ ZeroDivisionError: division by zero
 2021-05-12 16:30:40,415 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:30:40] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22A.+yes%22%2C+%22choiceA%22%3A+%22A.+yes%22%2C+%22choiceB%22%3A+%22B.+no%22%2C+%22choiceC%22%3A+null%2C+%22choiceD%22%3A+null%2C+%22question%22%3A+%22Can+you+have+multiple+box-shadows%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22A.+yes%22%7D%2C+%7B%22answer%22%3A+%22C.+top-left%2C+top-right%2C+bottom-right%2C+bottom-left%22%2C+%22choiceA%22%3A+%22A.+top%2C+bottom%2C+left%2C+right%22%2C+%22choiceB%22%3A+%22B.+up%2C+down%2C+front%2C+behind%22%2C+%22choiceC%22%3A+%22C.+top-left%2C+top-right%2C+bottom-right%2C+bottom-left%22%2C+%22choiceD%22%3A+%22D.+bottom-left%2C+bottom-right%2C+top-right%2C+top-left%22%2C+%22question%22%3A+%22How+do+four+values+work+on+border-radius%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+up%2C+down%2C+front%2C+behind%22%7D%2C+%7B%22answer%22%3A+%22C.+border-radius%3A+30px%3B%22%2C+%22choiceA%22%3A+%22A.+border%5Bround%5D%3A+30px%3B%22%2C+%22choiceB%22%3A+%22B.+corner-effect%3A+round%3B%22%2C+%22choiceC%22%3A+%22C.+border-radius%3A+30px%3B%22%2C+%22choiceD%22%3A+%22D.+alpha-effect%3A+round-corner%3B%22%2C+%22question%22%3A+%22How+can+you+created+rounded+corners+using+CSS3%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+border-radius%3A+30px%3B%22%7D%2C+%7B%22answer%22%3A+%22B.+No%22%2C+%22choiceA%22%3A+%22+A.+Yes%22%2C+%22choiceB%22%3A+%22B.+No%22%2C+%22choiceC%22%3A+null%2C+%22choiceD%22%3A+null%2C+%22question%22%3A+%22Has+CSS3+been+fully+supported+by+all+browsers%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22+A.+Yes%22%7D%2C+%7B%22answer%22%3A+%22C.+text-shadow%3A+5px+5px+5px+grey%3B%22%2C+%22choiceA%22%3A+%22A.+font%3A+shadowed+5px+5px+5px+grey%3B%22%2C+%22choiceB%22%3A+%22B.+font-shadow%3A+5px+5px+5px+grey%3B%22%2C+%22choiceC%22%3A+%22C.+text-shadow%3A+5px+5px+5px+grey%3B%22%2C+%22choiceD%22%3A+%22D.+shadow%3A+text+5px+5px+5px+grey%3B%22%2C+%22question%22%3A+%22How+to+add+text+shadow+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+font-shadow%3A+5px+5px+5px+grey%3B%22%7D%2C+%7B%22answer%22%3A+%22B.+transform%3A+rotate%2830deg%29%3B%22%2C+%22choiceA%22%3A+%22A.+object-rotation%3A+30deg%3B%22%2C+%22choiceB%22%3A+%22B.+transform%3A+rotate%2830deg%29%3B%22%2C+%22choiceC%22%3A+%22C.+rotate-object%3A+30deg%3B%22%2C+%22choiceD%22%3A+%22D.+transform%3A+rotate-30deg-clockwise%3B%22%2C+%22question%22%3A+%22How+to+rotate+objects+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+rotate-object%3A+30deg%3B%22%7D%2C+%7B%22answer%22%3A+%22A.+transition%3A+width+2s%3B%22%2C+%22choiceA%22%3A+%22A.+transition%3A+width+2s%3B%22%2C+%22choiceB%22%3A+%22B.+transition-duration%3A+2s%3B+transition-effect%3A+width%3B%22%2C+%22choiceC%22%3A+%22C.+alpha-effect%3A+transition+%28width%2C2s%29%3B%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22How+to+create+transition+effects+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+alpha-effect%3A+transition+%28width%2C2s%29%3B%22%7D%2C+%7B%22answer%22%3A+%22A.+word-wrap%3A+break-word%3B%22%2C+%22choiceA%22%3A+%22A.+word-wrap%3A+break-word%3B%22%2C+%22choiceB%22%3A+%22B.+words-wrap%3A+break-word%3B%22%2C+%22choiceC%22%3A+%22C.+text-wrap%3A+break-word%3B%22%2C+%22choiceD%22%3A+%22D.+text-width%3A+word-wrap%3B%22%2C+%22question%22%3A+%22How+to+force+a+word+wrap+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+text-wrap%3A+break-word%3B%22%7D%2C+%7B%22answer%22%3A+%22C.+border-image%3A+url%28border.png%29+30+30+round%3B+%22%2C+%22choiceA%22%3A+%22A.+border%3A+url%28image.png%29%3B%22%2C+%22choiceB%22%3A+%22B.+border%3A+image+url%28image.png%29%3B%22%2C+%22choiceC%22%3A+%22C.+border-image%3A+url%28border.png%29+30+30+round%3B+%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22How+to+you+modify+a+border+image+using+CSS3%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+border-image%3A+url%28border.png%29+30+30+round%3B+%22%7D%2C+%7B%22answer%22%3A+%22A.+background-size%3A+80px+60px%3B%22%2C+%22choiceA%22%3A+%22A.+background-size%3A+80px+60px%3B%22%2C+%22choiceB%22%3A+%22B.+background-proportion%3A+80px+60px%3B%22%2C+%22choiceC%22%3A+%22C.+alpha-effect%3A+bg-resize+80px+60px%3B%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22How+to+resize+a+background+image+using+CSS3%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22D.+None%22%7D%5D&mark=30 HTTP/1.1[0m" 200 -
 2021-05-12 16:30:40,521 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:30:40] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
 2021-05-12 16:33:15,415 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:33:15] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-12 16:44:05,084 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:44:06,736 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:06] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:44:08,219 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:08] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:44:09,831 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:44:09,838 web.auth.routes DEBUG    login
+2021-05-12 16:44:09,845 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:09] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:44:14,903 web.auth.routes DEBUG    login
+2021-05-12 16:44:14,904 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w')])
+2021-05-12 16:44:15,559 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:15] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-12 16:44:34,587 web.auth.routes DEBUG    login
+2021-05-12 16:44:34,589 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w121wenwu')])
+2021-05-12 16:44:35,273 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:35] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-12 16:44:44,125 web.auth.routes DEBUG    login
+2021-05-12 16:44:44,126 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 16:44:44,736 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:44:44,746 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:44:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:45:07,273 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:45:14,435 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:45:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:45:14,441 web.auth.routes DEBUG    login
+2021-05-12 16:45:14,494 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:45:14] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:45:24,525 web.auth.routes DEBUG    login
+2021-05-12 16:45:24,527 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-12 16:45:25,134 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:45:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:45:25,147 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:45:25] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:45:27,124 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:45:27] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-12 16:49:27,924 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:49:29,278 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:49:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:49:31,104 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:49:31] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:49:33,335 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:49:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-12 16:49:33,339 web.auth.routes DEBUG    login
+2021-05-12 16:49:33,347 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:49:33] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-12 16:49:41,832 web.auth.routes DEBUG    login
+2021-05-12 16:49:41,833 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'w123456789')])
+2021-05-12 16:49:42,455 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:49:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-12 16:49:42,464 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:49:42] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:50:00,691 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:50:00] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-12 16:52:21,125 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:52:22,512 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:52:22] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:52:24,665 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:52:24] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:52:40,030 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:52:40] "[32mGET /managment HTTP/1.1[0m" 302 -
+2021-05-12 16:52:40,036 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:52:40] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:53:36,764 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:53:41,989 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:41] "[32mGET /managment HTTP/1.1[0m" 302 -
+2021-05-12 16:53:42,031 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:42] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:53:51,154 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:51] "[32mGET /managment HTTP/1.1[0m" 302 -
+2021-05-12 16:53:51,181 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:51] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:53:52,272 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:52] "[32mGET /managment HTTP/1.1[0m" 302 -
+2021-05-12 16:53:52,281 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:52] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:53:58,529 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:58] "[32mGET /managment HTTP/1.1[0m" 302 -
+2021-05-12 16:53:58,539 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:53:58] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:54:04,574 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:54:04] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-12 16:56:41,210 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:56:42,498 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:56:42] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:56:44,069 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:56:44] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-05-12 16:57:22,972 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-12 16:57:24,545 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:57:24] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-12 16:57:26,094 werkzeug     INFO     127.0.0.1 - - [12/May/2021 16:57:26] "[37mGET /content HTTP/1.1[0m" 200 -

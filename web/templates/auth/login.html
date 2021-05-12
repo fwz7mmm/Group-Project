@@ -2,16 +2,20 @@
 {% extends "home.html" %}
 
 {% block content %}
+    {% with messages = get_flashed_messages() %}
+       {% if messages %}
+        <script>
+         var messages = {{ messages | safe }};
+         for (var i=0; i<messages.length; i++) {
+          alert(messages[i]);
+        }
+       </script>
+     {% endif %}
+    {% endwith %}
 <div id="log-page" class="log-page">
     <span onclick="closelog()" class="close" title="Close-page">&times;</span>
     <form name="login-form" class="log-content animate" action="/login" method="POST">
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        <div class="notification is-danger">
-           {{ messages[0] }} </a>.
-         </div>
-        {% endif %}
-        {% endwith %}
+
 
         <div class="container">
            

@@ -84,7 +84,7 @@ def login():
             flash('user not able use')
         elif user and bcrypt.check_password_hash(user.password.encode('utf-8'), password.encode('utf-8')):
             login_user(user, True)
-            return redirect(url_for('main.home'))
+            return redirect(url_for('main.content'))
         else:
             flash('username or password error')
     return render_template('auth/login.html')

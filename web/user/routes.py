@@ -39,10 +39,11 @@ def managment():
 
     elif current_user.is_authenticated and current_user.user_type == 2:
         flash("You are not Admin user")
+        return redirect(url_for('main.content'))
     else:
         return redirect(url_for('auth.login'))
 
-    return render_template('user/reject.html')
+    return
 
 
 @user.route("/user/<int:userid>/status/<int:status>",methods=['POST'])

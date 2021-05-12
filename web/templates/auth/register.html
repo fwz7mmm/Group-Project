@@ -1,17 +1,21 @@
 {% extends "home.html" %}
 
 {% block content %}
+    {% with messages = get_flashed_messages() %}
+       {% if messages %}
+        <script>
+         var messages = {{ messages | safe }};
+         for (var i=0; i<messages.length; i++) {
+          alert(messages[i]);
+        }
+       </script>
+     {% endif %}
+    {% endwith %}
 <div id="register-page" class="register-page">
     <span onclick="closeRegister()" class="close" title="Close-page">&times;</span>
 
     <form name="register-form" class="logon-content animate" action="/register" method="POST">
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        <div class="notification is-danger">
-           {{ messages[0] }}. Go to <a href="{{ url_for('auth.login') }}">login page</a>.
-         </div>
-        {% endif %}
-        {% endwith %}
+
 
         <div class="container">
             <lable for="username"><b>Username</b></lable>
