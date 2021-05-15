@@ -29,7 +29,7 @@
                                 <input type="radio" id="{{ loop.index }}A" name="radiobtn" value="{{question.choiceA}}" checked>
                                 <label for="A">{{question.choiceA}}</label><br>
                             {% else %}
-                                <input type="radio" id="{{ loop.index }}A" name="radiobtn" value="{{question.choiceA}}">
+                                <input type="radio" id="{{ loop.index }}A" name="radiobtn" value="{{question.choiceA}}" disabled>
                                 <label for="A">{{question.choiceA}}</label><br>
                             {% endif %}
 
@@ -37,7 +37,7 @@
                                 <input type="radio" id="{{ loop.index }}B" name="radiobtn" value="{{question.choiceB}}" checked>
                                 <label for="B">{{question.choiceB}}</label><br>
                             {% else %} 
-                                <input type="radio" id="{{ loop.index }}B" name="radiobtn" value="{{question.choiceB}}">
+                                <input type="radio" id="{{ loop.index }}B" name="radiobtn" value="{{question.choiceB}}" disabled>
                                 <label for="B">{{question.choiceB}}</label><br>
                             {% endif %}
 
@@ -45,7 +45,7 @@
                                 <input type="radio" id="{{ loop.index }}C" name="radiobtn" value="{{question.choiceC}}" checked>
                                 <label for="C">{{question.choiceC}}</label><br>
                             {% else %} 
-                                <input type="radio" id="{{ loop.index }}C" name="radiobtn" value="{{question.choiceC}}">
+                                <input type="radio" id="{{ loop.index }}C" name="radiobtn" value="{{question.choiceC}}" disabled>
                                 <label for="C">{{question.choiceC}}</label><br>
                             {% endif %}
 
@@ -53,7 +53,7 @@
                                 <input type="radio" id="{{ loop.index }}D" name="radiobtn" value="{{question.choiceD}}" checked>
                                 <label for="D">{{question.choiceD}}</label><br>
                             {% else %}
-                                <input type="radio" id="{{ loop.index }}D" name="radiobtn" value="{{question.choiceD}}">
+                                <input type="radio" id="{{ loop.index }}D" name="radiobtn" value="{{question.choiceD}}" disabled>
                                 <label for="D">{{question.choiceD}}</label><br>
                             {% endif %}
 

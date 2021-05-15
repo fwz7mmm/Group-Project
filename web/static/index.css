@@ -209,6 +209,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   text-align:center;
   margin-left:-20px;
   margin-right:-20px;
+  top: 40%;
 }
 
 .form-container {
@@ -220,7 +221,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   text-align:center;
 }
 
-.test-easy {
+.test-link {
   display: block;
   margin-bottom: 10px;
   margin-right: auto;
@@ -228,30 +229,9 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   font:bold 14px Arial;
   width:60%;
   height:40px;
-  background-color:rgb(0, 255, 106);
+  border: none;
 }
 
-.test-normal {
-  display: block;
-  margin-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  font:bold 14px Arial;
-  width:60%;
-  height:40px;
-  background-color:rgb(217, 255, 0);
-}
-
-.test-hard {
-  display: block;
-  margin-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  font:bold 14px Arial;
-  width:60%;
-  height:40px;
-  background-color:rgb(255, 0, 0);
-}
 
 .test-page {
   text-align: center;
@@ -268,6 +248,12 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 }
 
 /**quize page css styles*/
+.quiz-submit{
+  text-align:center;
+  margin-left:-20px;
+  margin-right:-20px;
+}
+
 .choice input[type=radio]{
   padding-left:5px;
   width:15px;
@@ -327,19 +313,6 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   background-color:rgb(95, 247, 7);
 }
 
-.quiz-page #submit-input{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  margin-bottom: 10px;
-  margin-right: 0px;
-  float:right;
-  font:bold 14px Arial;
-  width:160px;
-  height:40px;
-  background-color:rgb(0, 0, 0);
-}
-
 /** result page */
 .result-page #back{
   position: fixed;
@@ -352,4 +325,66 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   width:160px;
   height:40px;
   background-color:rgb(43, 7, 247);
+}
+
+/** profile page */
+.emp-profile{
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background: #fff;
+}
+.profile-img{
+  text-align: center;
+}
+.profile-img img{
+  width: 70%;
+  height: 100%;
+}
+
+.profile-head h5{
+  color: #333;
+}
+.profile-head h6{
+  color: #0062cc;
+}
+
+.proile-rating span{
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+.profile-head .nav-tabs{
+  margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+  font-weight:600;
+  border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+  border: none;
+  border-bottom:2px solid #0062cc;
+}
+
+.profile-work p{
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.profile-work a{
+  text-decoration: none;
+  color: #495057;
+  font-weight: 600;
+  font-size: 14px;
+}
+.profile-work ul{
+  list-style: none;
+}
+.profile-tab label{
+  font-weight: 600;
+}
+.profile-tab p{
+  font-weight: 600;
+  color: #0062cc;
 }
