@@ -6264,3 +6264,13 @@ ZeroDivisionError: division by zero
 2021-05-16 15:27:53,986 werkzeug     WARNING   * Debugger is active!
 2021-05-16 15:27:54,035 werkzeug     INFO      * Debugger PIN: 335-474-568
 2021-05-16 15:27:54,050 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:30:11,894 werkzeug     INFO      * Detected change in 'D:\\UWA Master\\CITS5505\\Group Project\\web\\__init__.py', reloading
+2021-05-16 15:30:12,066 werkzeug     INFO      * Restarting with stat
+2021-05-16 15:30:14,186 werkzeug     WARNING   * Debugger is active!
+2021-05-16 15:30:14,246 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-16 15:30:14,263 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:30:20,791 werkzeug     INFO      * Detected change in 'D:\\UWA Master\\CITS5505\\Group Project\\web\\__init__.py', reloading
+2021-05-16 15:30:20,872 werkzeug     INFO      * Restarting with stat
+2021-05-16 15:30:22,552 werkzeug     WARNING   * Debugger is active!
+2021-05-16 15:30:22,599 werkzeug     INFO      * Debugger PIN: 335-474-568
+2021-05-16 15:30:22,615 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

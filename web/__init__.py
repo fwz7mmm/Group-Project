@@ -16,7 +16,7 @@ db = SQLAlchemy()
 migrate = Migrate()
 mail = Mail()
 fileConfig('conf/log-app.conf')
-
+app = Flask(__name__)
 
 @login_manager.user_loader
 def load_user(user_id):
