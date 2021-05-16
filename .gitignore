@@ -15,3 +15,5 @@ web/auth/__pycache__/routes.cpython-38.pyc
 web/main/__pycache__/__init__.cpython-38.pyc
 web/main/__pycache__/routes.cpython-38.pyc
 *.pyc
+log/app.log
+*.log

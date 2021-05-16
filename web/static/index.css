@@ -76,12 +76,12 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 }
 
 .logon-content{
-    width: 75%;
+    width: 100%;
     border: 2px solid rgb(15, 2, 61);
     margin: 10% auto 15% auto;
 }
 .log-content {
-    width: 75%;
+    width: 100%;
     border: 2px solid rgb(15, 2, 61);
     margin: 10% auto 15% auto;
 }
