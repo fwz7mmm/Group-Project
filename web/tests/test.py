@@ -1,9 +1,14 @@
 import unittest, os
 from web import app, db,create_app
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 from web.models import User, Quiztype, Questions, Quizdata
 TEST_DB = 'test.db'
 
-app=create_app()
+db = SQLAlchemy()
+app = Flask(__name__)
+migrate = Migrate()
 #https://www.patricksoftwareblog.com/unit-testing-a-flask-application/
 class WebModelCase(unittest.TestCase):
 
