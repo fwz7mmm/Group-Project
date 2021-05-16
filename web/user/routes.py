@@ -8,7 +8,7 @@ from web.user.forms import UserSearchForm,ResetPasswordForm
 logger = get_logger(__name__)
 user = Blueprint('user', __name__)
 
-
+# user profile page
 @user.route("/profile",methods=['POST','Get'])
 @login_required
 def profile():
@@ -19,18 +19,18 @@ def profile():
     return render_template('user/profile.html',user=user)
 
 
-
+# admin managment and dispaly all user,
 @user.route("/managment",methods=['POST','Get'])
-#@login_required
 def managment():
     form = UserSearchForm(request.form)
     user_type = None
+
+    # only admin user can access manangment user
     if current_user.is_authenticated and current_user.user_type == 1:
 
         if request.method == "POST":
            user_type = request.form.get('usertype_select')
 
-        logger.debug(user_type)
         if user_type == None or user_type == str(0):
            user_items = User.query.all()
         else:
@@ -46,6 +46,7 @@ def managment():
     return
 
 
+# amdin user change user status
 @user.route("/user/<int:userid>/status/<int:status>",methods=['POST'])
 @login_required
 def user_status(userid,status):
@@ -56,22 +57,20 @@ def user_status(userid,status):
     flash('user status set success','success')
     return redirect(url_for('user.managment'))
 
-
+# change user password
 @user.route("/user/<int:userid>/reset_password",methods=['POST','GET'])
 @login_required
 def reset_password(userid):
     form = ResetPasswordForm()
     user = User.query.filter_by(id=userid).first()
     if  request.method == 'POST' :
-        logger.debug(user)
+
         if user and request.form.get('password')==request.form.get('confirm_password'):
             password = request.form.get('password')
             user.password = bcrypt.generate_password_hash(password).decode('utf-8')
-            logger.debug(password)
             db.session.commit()
             flash('change password success','success')
-
-            if user.user_type == 1:
+            if current_user.user_type == 1:
                return redirect(url_for('user.managment'))
             else:
                return redirect(url_for('auth.logout'))
@@ -82,9 +81,9 @@ def reset_password(userid):
 
     return render_template('user/resetpassword.html',form=form)
 
-
+# amdin user access user statistic of all quiz
 @user.route('/user/<int:userid>/statistic', methods=['GET', 'POST'])
-#@login_required
+@login_required
 def statistic(userid):
     users = Quizdata.query.filter_by(user_id=userid).all()
     user_list = []

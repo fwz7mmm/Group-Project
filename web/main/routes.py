@@ -6,6 +6,7 @@ from datetime import datetime
 logger = get_logger(__name__)
 main = Blueprint('main', __name__)
 from flask_login import login_required
+
 @main.route('/')
 def index():
     return render_template('index.html')
@@ -18,8 +19,9 @@ def home():
 def content():
     return render_template("content.html")  
 
+# user test page
 @main.route('/test', methods=['GET', 'POST'])
-#@login_required
+@login_required
 def test():
     if request.method == "POST":
         topic = request.form.get('topic')
@@ -28,9 +30,9 @@ def test():
 
     return render_template("test.html")
 
-
+# return result of quiz
 @main.route('/result', methods=['GET', 'POST'])
-#@login_required
+@login_required
 def result():
     result = request.args['result']
     mark = request.args['mark']
@@ -38,20 +40,24 @@ def result():
     test_result = session['test_result']
     return render_template("result.html",result=json.loads(result),mark=mark)
 
+
+#calculate the user quiz mark, return current answer and mark
 @main.route('/quiz/<topic>,<level>', methods=['GET', 'POST'])
-#@login_required
+@login_required
 def quiz(topic, level):
+
     quiztype = Quiztype.query.filter_by(topic=topic,level=level).first()
     quizs  =Questions.query.filter_by(quiztype_id=quiztype.id).all()
+
     if request.method == "POST":
+        answers = json.loads(request.form.get('answers'))
 
         correct=0
         total=0
         result_list=[]
-        # logger.debug(request.form)
-        answers = json.loads(request.form.get('answers'))
-        #answers =json.loads(str('[{"questionId":"1","answer":"B: yes"},{"questionId":"2","answer":"D: oijo"},{"questionId":"3","answer":"A: mark"}]'))
+
         if answers:
+            #calculate the user mark
             for item in answers:
                 total+=1
                 questionId=item["questionId"]
@@ -70,12 +76,13 @@ def quiz(topic, level):
                                     "useranswer": item["answer"],
                                     "status": status})
                 
-            #logger.debug(result_list)
-            #logger.debug(int(correct/total*100))
+
             mark=int(correct/total*100)
             result = json.dumps(result_list)
+
             # cookies
             session['test_result'] = result
+
             # add new quiz data
             quizdata = Quizdata(
                 user_id= current_user.id,
@@ -91,9 +98,9 @@ def quiz(topic, level):
 
     return render_template("quiz.html", quizs=quizs)
 
-
+# user statistic of all quiz
 @main.route('/statistic', methods=['GET', 'POST'])
-#@login_required
+@login_required
 def statistic():
     users = Quizdata.query.filter_by(user_id=current_user.id).all()
     user_list = []
@@ -107,6 +114,5 @@ def statistic():
                             "date": item.date,
                             "level": quiztype.level,
                             "topic": quiztype.topic,})
-
     average_score = int(score/total)
     return render_template("statistic.html", users=user_list,average_score=average_score,total=total)

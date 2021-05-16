@@ -5893,3 +5893,495 @@ ZeroDivisionError: division by zero
 2021-05-15 14:20:25,328 werkzeug     INFO     127.0.0.1 - - [15/May/2021 14:20:25] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%2C+%22choiceA%22%3A+%22A.+HTML+is+used+for+exchanging+data%2C+XML+is+not.%22%2C+%22choiceB%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%2C+%22choiceC%22%3A+%22C.+HTML+can+have+user+defined+tags%2C+XML+cannot.%22%2C+%22choiceD%22%3A+%22D.+XML+and+HTML+is+used+for+exchanging+data.%22%2C+%22question%22%3A+%22What+is+the+difference+between+XML+and+HTML%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+HTML+can+have+user+defined+tags%2C+XML+cannot.%22%7D%2C+%7B%22answer%22%3A+%22B.+Starting+Tag+%22%2C+%22choiceA%22%3A+%22A.+Closed+Tag%22%2C+%22choiceB%22%3A+%22B.+Starting+Tag+%22%2C+%22choiceC%22%3A+%22C.+Forward+Tag%22%2C+%22choiceD%22%3A+%22D.+Enging+Tag%22%2C+%22question%22%3A+%22Opening+Tag+of+HTML+Tag+is+called+as+________.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Forward+Tag%22%7D%2C+%7B%22answer%22%3A+%22A.+Hyper+Text+Markup+Language%22%2C+%22choiceA%22%3A+%22A.+Hyper+Text+Markup+Language+%22%2C+%22choiceB%22%3A+%22B.+Hyper+Text+Makeup+Language%22%2C+%22choiceC%22%3A+%22C.+None+of+these%22%2C+%22choiceD%22%3A+%22D.+Hyper+Tech+Markup+Language%22%2C+%22question%22%3A+%22HTML+stands+for+________.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+Hyper+Text+Makeup+Language%22%7D%2C+%7B%22answer%22%3A+%22B.+.html%22%2C+%22choiceA%22%3A+%22A.+.htl%22%2C+%22choiceB%22%3A+%22B.+.html+%22%2C+%22choiceC%22%3A+%22C.+.hml%22%2C+%22choiceD%22%3A+%22D.+.htlm%22%2C+%22question%22%3A+%22HTML+program+is+saved+using+_________+extension.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+.html+%22%7D%2C+%7B%22answer%22%3A+%22D.+Tim+Berners-Lee%22%2C+%22choiceA%22%3A+%22A.+Brendan+Eich%22%2C+%22choiceB%22%3A+%22B.+Sabeer+Bhatiya%22%2C+%22choiceC%22%3A+%22C.+Google+Inc%22%2C+%22choiceD%22%3A+%22D.+Tim+Berners-Lee+%22%2C+%22question%22%3A+%22Who+was+the+primary+author+of+HTML%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Google+Inc%22%7D%2C+%7B%22answer%22%3A+%22B.+Colgroup+%22%2C+%22choiceA%22%3A+%22A.+Col%22%2C+%22choiceB%22%3A+%22B.+Colgroup%22%2C+%22choiceC%22%3A+%22C.+Rowspan%22%2C+%22choiceD%22%3A+%22D.+Row%22%2C+%22question%22%3A+%22Which+of+the+following+attributes+comes+in+handy+when+borders+have+to+be+put+between+groups+of+columns+instead+of+every+column%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+Colgroup%22%7D%2C+%7B%22answer%22%3A+%22A.+%23000000%3B%22%2C+%22choiceA%22%3A+%22A.+%23000000%3B%22%2C+%22choiceB%22%3A+%22B.+%230000000%3B%22%2C+%22choiceC%22%3A+%22C.+%2300000000%3B%22%2C+%22choiceD%22%3A+%22D.+%23000000000%3B%22%2C+%22question%22%3A+%22Which+of+the+following+is+valid+colour+code+%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+%2300000000%3B%22%7D%2C+%7B%22answer%22%3A+%22C.+Both%22%2C+%22choiceA%22%3A+%22A.+Is+used+to+display+the+Title+for+table+at+the+top%22%2C+%22choiceB%22%3A+%22B.+Is+used+to+display+the+Title+for+table+at+the+bottom%22%2C+%22choiceC%22%3A+%22C.+Both%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22Caption+Tag+in+HTML+%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+Both%22%7D%2C+%7B%22answer%22%3A+%22C.+Row+span%22%2C+%22choiceA%22%3A+%22A.+Cellspacing%22%2C+%22choiceB%22%3A+%22B.+Cellpadding%22%2C+%22choiceC%22%3A+%22C.+Row+span%22%2C+%22choiceD%22%3A+%22D.+Col+span%22%2C+%22question%22%3A+%22Which+of+the+following+is+used+increase+the+row+height%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+Row+span%22%7D%2C+%7B%22answer%22%3A+%22D.+Col+span%22%2C+%22choiceA%22%3A+%22A.+Cellspacing%22%2C+%22choiceB%22%3A+%22B.+Cellpadding%22%2C+%22choiceC%22%3A+%22C.+Row+span%22%2C+%22choiceD%22%3A+%22D.+Col+span+%22%2C+%22question%22%3A+%22Which+of+the+following+is+used+increase+the+col+width%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Row+span%22%7D%5D&mark=20 HTTP/1.1[0m" 200 -
 2021-05-15 14:20:25,384 werkzeug     INFO     127.0.0.1 - - [15/May/2021 14:20:25] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
 2021-05-15 14:20:32,510 werkzeug     INFO     127.0.0.1 - - [15/May/2021 14:20:32] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-15 17:28:31,572 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-15 17:28:34,620 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:34] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-15 17:28:34,648 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:34] "[37mGET /static/index.css HTTP/1.1[0m" 200 -
+2021-05-15 17:28:34,679 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:34] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2021-05-15 17:28:35,063 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-15 17:28:36,722 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:36] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-15 17:28:36,753 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:36] "[37mGET /static/login.js HTTP/1.1[0m" 200 -
+2021-05-15 17:28:36,754 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:36] "[37mGET /static/test.js HTTP/1.1[0m" 200 -
+2021-05-15 17:28:40,517 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-15 17:28:40,520 web.auth.routes DEBUG    login
+2021-05-15 17:28:40,524 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:40] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-15 17:28:49,489 web.auth.routes DEBUG    login
+2021-05-15 17:28:49,489 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-15 17:28:49,722 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-15 17:28:49,727 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:49] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-15 17:28:52,503 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:52] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-15 17:28:53,618 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:53] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-15 17:28:57,297 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:28:57] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-15 17:29:00,270 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:00] "[37mGET /statistic?userid=1 HTTP/1.1[0m" 200 -
+2021-05-15 17:29:01,356 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:01] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-15 17:29:02,762 web.user.routes DEBUG    None
+2021-05-15 17:29:02,777 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:02] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-15 17:29:06,231 web.user.routes DEBUG    userid:2 set status:0
+2021-05-15 17:29:06,243 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:06] "[32mPOST /user/2/status/0 HTTP/1.1[0m" 302 -
+2021-05-15 17:29:06,247 web.user.routes DEBUG    None
+2021-05-15 17:29:06,248 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:06] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-15 17:29:07,241 web.user.routes DEBUG    userid:2 set status:1
+2021-05-15 17:29:07,250 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:07] "[32mPOST /user/2/status/1 HTTP/1.1[0m" 302 -
+2021-05-15 17:29:07,254 web.user.routes DEBUG    None
+2021-05-15 17:29:07,255 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:07] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-15 17:29:09,889 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:09] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-15 17:29:27,427 web.user.routes DEBUG    ww
+2021-05-15 17:29:27,436 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:27] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-15 17:29:27,441 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-15 17:29:27,454 web.auth.routes DEBUG    login
+2021-05-15 17:29:27,455 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:27] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-15 17:29:36,210 web.auth.routes DEBUG    login
+2021-05-15 17:29:36,211 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'ww')])
+2021-05-15 17:29:36,443 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-15 17:29:36,448 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:36] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-15 17:29:40,750 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:40] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-15 17:29:45,916 web.user.routes DEBUG    ww
+2021-05-15 17:29:45,925 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:45] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-15 17:29:45,930 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-15 17:29:45,942 web.auth.routes DEBUG    login
+2021-05-15 17:29:45,943 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:45] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-15 17:29:51,664 web.auth.routes DEBUG    login
+2021-05-15 17:29:51,664 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'ww'), ('password', 'ww')])
+2021-05-15 17:29:51,886 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-15 17:29:51,891 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:51] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-15 17:29:53,569 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:53] "[37mGET /statistic?userid=2 HTTP/1.1[0m" 200 -
+2021-05-15 17:29:57,835 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:29:57] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-15 17:30:02,884 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:02] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-15 17:30:13,899 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:13] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-15 17:30:16,721 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-15 17:30:18,252 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:18] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-15 17:30:19,544 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:19] "[37mGET /statistic?userid=2 HTTP/1.1[0m" 200 -
+2021-05-15 17:30:20,818 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:20] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-15 17:30:22,438 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-15 17:30:22,441 web.auth.routes DEBUG    login
+2021-05-15 17:30:22,442 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:22] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-15 17:30:30,186 web.auth.routes DEBUG    login
+2021-05-15 17:30:30,196 web.auth.routes DEBUG    ImmutableMultiDict([('username', 'w'), ('password', 'w123456789')])
+2021-05-15 17:30:30,420 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-15 17:30:30,425 werkzeug     INFO     127.0.0.1 - - [15/May/2021 17:30:30] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:08:06,751 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:08:08,604 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 14:08:08,637 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:08] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2021-05-16 14:08:08,671 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:08] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2021-05-16 14:08:09,417 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-16 14:08:13,351 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:13] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:08:13,425 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:13] "[36mGET /static/login.js HTTP/1.1[0m" 304 -
+2021-05-16 14:08:13,428 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:13] "[36mGET /static/test.js HTTP/1.1[0m" 304 -
+2021-05-16 14:08:16,455 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:08:16,461 web.auth.routes DEBUG    login
+2021-05-16 14:08:16,474 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:16] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:08:23,981 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:08:25,725 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 14:08:27,336 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:27] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:08:31,614 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:08:31] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-05-16 14:09:33,452 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:09:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-05-16 14:09:33,457 web.auth.routes DEBUG    login
+2021-05-16 14:09:33,465 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:09:33] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:09:41,465 web.auth.routes DEBUG    login
+2021-05-16 14:09:42,149 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:09:42] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:09:53,425 web.auth.routes DEBUG    login
+2021-05-16 14:09:54,085 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:09:54] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:10:02,877 web.auth.routes DEBUG    login
+2021-05-16 14:10:03,581 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:10:03] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:11:37,422 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:11:41,373 web.auth.routes DEBUG    login
+2021-05-16 14:11:42,133 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:11:42] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:11:51,665 web.auth.routes DEBUG    login
+2021-05-16 14:11:52,307 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:11:52] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:13:46,476 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:13:50,025 web.auth.routes DEBUG    login
+2021-05-16 14:13:50,077 web.auth.routes DEBUG    b'$2b$12$/RN7fikIxBoJk13zODempePFfYEpGx6Atf4eS4.Trf8GcOOrsZgom'
+2021-05-16 14:13:50,077 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:13:50,718 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:13:50] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:14:00,204 web.auth.routes DEBUG    login
+2021-05-16 14:14:00,204 web.auth.routes DEBUG    b'$2b$12$/RN7fikIxBoJk13zODempePFfYEpGx6Atf4eS4.Trf8GcOOrsZgom'
+2021-05-16 14:14:00,204 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:14:00,836 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:14:00] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:16:58,377 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:16:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 14:17:00,260 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:17:00] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:17:05,739 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:17:05] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-05-16 14:17:58,519 web          ERROR    Exception on /register [POST]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1706, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\auth\routes.py", line 71, in register
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\session.py", line 826, in commit
+    self._prepare_impl()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\session.py", line 805, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3260, in flush
+    self._flush(objects)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3400, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\util\compat.py", line 211, in raise_
+    raise exception
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3360, in _flush
+    flush_context.execute()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 453, in execute
+    rec.execute(self)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 627, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1521, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 313, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1390, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1749, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1930, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\util\compat.py", line 211, in raise_
+    raise exception
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1706, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO user (username, email, password, phone, birth, status, user_type) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('wwww', 'wenx7330@myler.ca', '$2b$12$aAnAw75cxteks3S9kS2Qhet0qv0NxSfiWMartVqdB9WmQbY7avDmS', '0466227485', '2001-01-16', 1, 2)]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-05-16 14:17:58,572 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:17:58] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-05-16 14:18:47,688 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:18:49,007 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:18:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 14:18:50,604 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:18:50] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:18:51,915 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:18:51] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-05-16 14:19:22,158 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:22] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-05-16 14:19:22,166 web.auth.routes DEBUG    login
+2021-05-16 14:19:22,172 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:22] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:19:30,475 web.auth.routes DEBUG    login
+2021-05-16 14:19:30,496 web.auth.routes DEBUG    b'$2b$12$bbH6zCZUhMkALbD2DmAyPeyIrOZzAwsFCPb33nHTLssA./Z248UwW'
+2021-05-16 14:19:30,496 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:19:31,123 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:19:31,138 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:31] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:19:39,741 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:39] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 14:19:46,881 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:46] "[37mGET /user/4/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:19:50,091 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:19:50,095 web.auth.routes DEBUG    login
+2021-05-16 14:19:50,099 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:19:50] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:20:02,117 web.auth.routes DEBUG    login
+2021-05-16 14:20:02,139 web.auth.routes DEBUG    b'$2b$12$/RN7fikIxBoJk13zODempePFfYEpGx6Atf4eS4.Trf8GcOOrsZgom'
+2021-05-16 14:20:02,139 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:20:02,770 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:20:02] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:20:11,340 web.auth.routes DEBUG    login
+2021-05-16 14:20:11,344 web.auth.routes DEBUG    b'$2b$12$/RN7fikIxBoJk13zODempePFfYEpGx6Atf4eS4.Trf8GcOOrsZgom'
+2021-05-16 14:20:11,344 web.auth.routes DEBUG    b'123456789'
+2021-05-16 14:20:12,023 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:20:12] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:21:06,489 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:21:08,311 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 14:21:10,295 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:10] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:21:11,596 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:11] "[37mGET /register HTTP/1.1[0m" 200 -
+2021-05-16 14:21:45,312 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:45] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-05-16 14:21:45,319 web.auth.routes DEBUG    login
+2021-05-16 14:21:45,326 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:45] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:21:52,436 web.auth.routes DEBUG    login
+2021-05-16 14:21:52,463 web.auth.routes DEBUG    b'$2b$12$pxo7gANNETaXz3g7XrNHPuOFD92PcvFaEaFhPwSny0EXe2UCYm3yO'
+2021-05-16 14:21:52,463 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:21:53,095 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:21:53,110 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:21:53] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:22:07,126 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:22:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:22:07,132 web.auth.routes DEBUG    login
+2021-05-16 14:22:07,135 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:22:07] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:22:15,833 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:22:15] "[37mGET /forget_password HTTP/1.1[0m" 200 -
+2021-05-16 14:22:29,175 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:22:29] "[32mPOST /forget_password HTTP/1.1[0m" 302 -
+2021-05-16 14:22:29,180 web.auth.routes DEBUG    login
+2021-05-16 14:22:29,180 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:22:29] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:23:26,076 web.auth.routes DEBUG    login
+2021-05-16 14:23:26,110 web.auth.routes DEBUG    b'$2b$12$LfEImaCgbPqbpAr9oN/Jke6tXJe2wsleSo2pac0coprIrh8DwygIu'
+2021-05-16 14:23:26,110 web.auth.routes DEBUG    b'beqznlth'
+2021-05-16 14:23:26,788 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:23:26,802 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:26] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:23:35,032 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:35] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 14:23:36,492 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:36] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 14:23:39,715 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:39] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-16 14:23:41,296 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:41] "[37mGET /statistic?userid=2 HTTP/1.1[0m" 200 -
+2021-05-16 14:23:43,009 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:43] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-16 14:23:47,342 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:47] "[32mPOST /test HTTP/1.1[0m" 302 -
+2021-05-16 14:23:47,411 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:47] "[37mGET /quiz/html%2Ceasy HTTP/1.1[0m" 200 -
+2021-05-16 14:23:47,508 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:23:47] "[37mGET /static/quiz.js HTTP/1.1[0m" 200 -
+2021-05-16 14:24:14,390 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:24:14] "[32mPOST /quiz/html%2Ceasy HTTP/1.1[0m" 302 -
+2021-05-16 14:24:14,478 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:24:14] "[37mGET /result?result=%5B%7B%22answer%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%2C+%22choiceA%22%3A+%22A.+HTML+is+used+for+exchanging+data%2C+XML+is+not.%22%2C+%22choiceB%22%3A+%22B.+XML+is+used+for+exchanging+data%2C+HTML+is+not.%22%2C+%22choiceC%22%3A+%22C.+HTML+can+have+user+defined+tags%2C+XML+cannot.%22%2C+%22choiceD%22%3A+%22D.+XML+and+HTML+is+used+for+exchanging+data.%22%2C+%22question%22%3A+%22What+is+the+difference+between+XML+and+HTML%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22A.+HTML+is+used+for+exchanging+data%2C+XML+is+not.%22%7D%2C+%7B%22answer%22%3A+%22B.+Starting+Tag+%22%2C+%22choiceA%22%3A+%22A.+Closed+Tag%22%2C+%22choiceB%22%3A+%22B.+Starting+Tag+%22%2C+%22choiceC%22%3A+%22C.+Forward+Tag%22%2C+%22choiceD%22%3A+%22D.+Enging+Tag%22%2C+%22question%22%3A+%22Opening+Tag+of+HTML+Tag+is+called+as+________.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22A.+Closed+Tag%22%7D%2C+%7B%22answer%22%3A+%22A.+Hyper+Text+Markup+Language%22%2C+%22choiceA%22%3A+%22A.+Hyper+Text+Markup+Language+%22%2C+%22choiceB%22%3A+%22B.+Hyper+Text+Makeup+Language%22%2C+%22choiceC%22%3A+%22C.+None+of+these%22%2C+%22choiceD%22%3A+%22D.+Hyper+Tech+Markup+Language%22%2C+%22question%22%3A+%22HTML+stands+for+________.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22A.+Hyper+Text+Markup+Language+%22%7D%2C+%7B%22answer%22%3A+%22B.+.html%22%2C+%22choiceA%22%3A+%22A.+.htl%22%2C+%22choiceB%22%3A+%22B.+.html+%22%2C+%22choiceC%22%3A+%22C.+.hml%22%2C+%22choiceD%22%3A+%22D.+.htlm%22%2C+%22question%22%3A+%22HTML+program+is+saved+using+_________+extension.%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22B.+.html+%22%7D%2C+%7B%22answer%22%3A+%22D.+Tim+Berners-Lee%22%2C+%22choiceA%22%3A+%22A.+Brendan+Eich%22%2C+%22choiceB%22%3A+%22B.+Sabeer+Bhatiya%22%2C+%22choiceC%22%3A+%22C.+Google+Inc%22%2C+%22choiceD%22%3A+%22D.+Tim+Berners-Lee+%22%2C+%22question%22%3A+%22Who+was+the+primary+author+of+HTML%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Google+Inc%22%7D%2C+%7B%22answer%22%3A+%22B.+Colgroup+%22%2C+%22choiceA%22%3A+%22A.+Col%22%2C+%22choiceB%22%3A+%22B.+Colgroup%22%2C+%22choiceC%22%3A+%22C.+Rowspan%22%2C+%22choiceD%22%3A+%22D.+Row%22%2C+%22question%22%3A+%22Which+of+the+following+attributes+comes+in+handy+when+borders+have+to+be+put+between+groups+of+columns+instead+of+every+column%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Rowspan%22%7D%2C+%7B%22answer%22%3A+%22A.+%23000000%3B%22%2C+%22choiceA%22%3A+%22A.+%23000000%3B%22%2C+%22choiceB%22%3A+%22B.+%230000000%3B%22%2C+%22choiceC%22%3A+%22C.+%2300000000%3B%22%2C+%22choiceD%22%3A+%22D.+%23000000000%3B%22%2C+%22question%22%3A+%22Which+of+the+following+is+valid+colour+code+%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+%2300000000%3B%22%7D%2C+%7B%22answer%22%3A+%22C.+Both%22%2C+%22choiceA%22%3A+%22A.+Is+used+to+display+the+Title+for+table+at+the+top%22%2C+%22choiceB%22%3A+%22B.+Is+used+to+display+the+Title+for+table+at+the+bottom%22%2C+%22choiceC%22%3A+%22C.+Both%22%2C+%22choiceD%22%3A+%22D.+None%22%2C+%22question%22%3A+%22Caption+Tag+in+HTML+%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+Both%22%7D%2C+%7B%22answer%22%3A+%22C.+Row+span%22%2C+%22choiceA%22%3A+%22A.+Cellspacing%22%2C+%22choiceB%22%3A+%22B.+Cellpadding%22%2C+%22choiceC%22%3A+%22C.+Row+span%22%2C+%22choiceD%22%3A+%22D.+Col+span%22%2C+%22question%22%3A+%22Which+of+the+following+is+used+increase+the+row+height%3F%22%2C+%22status%22%3A+1%2C+%22useranswer%22%3A+%22C.+Row+span%22%7D%2C+%7B%22answer%22%3A+%22D.+Col+span%22%2C+%22choiceA%22%3A+%22A.+Cellspacing%22%2C+%22choiceB%22%3A+%22B.+Cellpadding%22%2C+%22choiceC%22%3A+%22C.+Row+span%22%2C+%22choiceD%22%3A+%22D.+Col+span+%22%2C+%22question%22%3A+%22Which+of+the+following+is+used+increase+the+col+width%3F%22%2C+%22status%22%3A+0%2C+%22useranswer%22%3A+%22C.+Row+span%22%7D%5D&mark=20 HTTP/1.1[0m" 200 -
+2021-05-16 14:24:14,612 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:24:14] "[33mGET /static/result.js HTTP/1.1[0m" 404 -
+2021-05-16 14:24:20,386 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:24:20] "[37mGET /test HTTP/1.1[0m" 200 -
+2021-05-16 14:24:22,481 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:24:22] "[37mGET /statistic?userid=2 HTTP/1.1[0m" 200 -
+2021-05-16 14:28:01,742 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:28:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:28:01,747 web.auth.routes DEBUG    login
+2021-05-16 14:28:01,750 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:28:01] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:28:09,688 web.auth.routes DEBUG    login
+2021-05-16 14:28:09,712 web.auth.routes DEBUG    b'$2b$12$bis3EmXjIjmxPJsdf8HeOOWN1RFKjhW9Z9Cye8YPphwvuzJWvLysm'
+2021-05-16 14:28:09,712 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:28:10,337 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:28:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:28:10,344 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:28:10] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:28:12,174 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:28:12] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:31:55,503 web.user.routes DEBUG    userid:5 set status:0
+2021-05-16 14:31:55,526 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:31:55] "[32mPOST /user/5/status/0 HTTP/1.1[0m" 302 -
+2021-05-16 14:31:55,550 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:31:55] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:31:57,791 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:31:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:31:57,797 web.auth.routes DEBUG    login
+2021-05-16 14:31:57,802 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:31:57] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:32:12,116 web.auth.routes DEBUG    login
+2021-05-16 14:32:12,143 web.auth.routes DEBUG    b'$2b$12$pxo7gANNETaXz3g7XrNHPuOFD92PcvFaEaFhPwSny0EXe2UCYm3yO'
+2021-05-16 14:32:12,143 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:32:12,149 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:12] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:32:20,265 web.auth.routes DEBUG    login
+2021-05-16 14:32:20,270 web.auth.routes DEBUG    b'$2b$12$bis3EmXjIjmxPJsdf8HeOOWN1RFKjhW9Z9Cye8YPphwvuzJWvLysm'
+2021-05-16 14:32:20,270 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:32:20,912 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:32:20,924 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:20] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:32:23,337 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:23] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:32:25,269 web.user.routes DEBUG    userid:5 set status:1
+2021-05-16 14:32:25,279 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:25] "[32mPOST /user/5/status/1 HTTP/1.1[0m" 302 -
+2021-05-16 14:32:25,297 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:25] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:32:27,150 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:32:27,159 web.auth.routes DEBUG    login
+2021-05-16 14:32:27,160 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:27] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:32:41,929 web.auth.routes DEBUG    login
+2021-05-16 14:32:41,968 web.auth.routes DEBUG    b'$2b$12$pxo7gANNETaXz3g7XrNHPuOFD92PcvFaEaFhPwSny0EXe2UCYm3yO'
+2021-05-16 14:32:41,968 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:32:42,655 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:32:42,669 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:42] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:32:46,701 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:32:46,715 web.auth.routes DEBUG    login
+2021-05-16 14:32:46,720 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:32:54,136 web.auth.routes DEBUG    login
+2021-05-16 14:32:54,167 web.auth.routes DEBUG    b'$2b$12$bis3EmXjIjmxPJsdf8HeOOWN1RFKjhW9Z9Cye8YPphwvuzJWvLysm'
+2021-05-16 14:32:54,167 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:32:54,793 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:32:54,804 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:54] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:32:56,575 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:32:56] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:33:01,388 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:01] "[37mGET /user/4/statistic HTTP/1.1[0m" 200 -
+2021-05-16 14:33:05,770 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:05] "[37mGET /user/5/statistic HTTP/1.1[0m" 200 -
+2021-05-16 14:33:08,070 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:08] "[37mGET /user/2/statistic HTTP/1.1[0m" 200 -
+2021-05-16 14:33:11,070 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:11] "[37mGET /user/1/statistic HTTP/1.1[0m" 200 -
+2021-05-16 14:33:20,833 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:20] "[37mGET /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:33:27,023 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:27] "[32mPOST /user/5/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:33:27,037 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:33:27,085 web.auth.routes DEBUG    login
+2021-05-16 14:33:27,093 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:33:27] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:34:00,902 web.auth.routes DEBUG    login
+2021-05-16 14:34:00,933 web.auth.routes DEBUG    b'$2b$12$5DXLHKYjryV77BRNru8BN..w.d0ONIgvquUjI0bchA0tJUjoIqtoW'
+2021-05-16 14:34:00,934 web.auth.routes DEBUG    b'www'
+2021-05-16 14:34:01,591 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:34:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:34:01,603 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:34:01] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:34:47,496 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:34:47] "[37mGET /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:34:54,629 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:34:54] "[32mPOST /user/5/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:34:54,645 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:34:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:34:54,685 web.auth.routes DEBUG    login
+2021-05-16 14:34:54,692 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:34:54] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:35:02,229 web.auth.routes DEBUG    login
+2021-05-16 14:35:02,251 web.auth.routes DEBUG    b'$2b$12$iISSXsOq/t6DWzRJxXtSnectwNMC9qf2ztWSXpp/VW2l92cv5.x9a'
+2021-05-16 14:35:02,251 web.auth.routes DEBUG    b'wwww'
+2021-05-16 14:35:02,899 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:35:02,917 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:02] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:35:06,799 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:35:06,805 web.auth.routes DEBUG    login
+2021-05-16 14:35:06,809 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:06] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:35:14,084 web.auth.routes DEBUG    login
+2021-05-16 14:35:14,113 web.auth.routes DEBUG    b'$2b$12$bis3EmXjIjmxPJsdf8HeOOWN1RFKjhW9Z9Cye8YPphwvuzJWvLysm'
+2021-05-16 14:35:14,113 web.auth.routes DEBUG    b'w123456789'
+2021-05-16 14:35:14,728 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:35:14,738 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:14] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:35:16,297 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:35:16] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:39:09,355 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:39:11,895 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:11] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:39:15,437 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:15] "[37mGET /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:39:22,211 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:22] "[32mPOST /user/5/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:39:22,237 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:22] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:39:27,624 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:39:27,633 web.auth.routes DEBUG    login
+2021-05-16 14:39:27,643 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:27] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:39:50,166 web.auth.routes DEBUG    login
+2021-05-16 14:39:50,807 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:39:50,823 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:50] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:39:52,223 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:39:52] "[37mGET /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:40:01,735 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:01] "[37mPOST /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:40:10,655 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:10] "[32mPOST /user/5/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:40:10,670 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:40:10,705 web.auth.routes DEBUG    login
+2021-05-16 14:40:10,707 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:10] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:40:50,502 web.auth.routes DEBUG    login
+2021-05-16 14:40:51,163 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:40:51,179 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:51] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:40:52,592 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:40:52] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:41:45,067 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:41:48,699 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:41:48] "[37mGET /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:42:00,179 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:00] "[32mPOST /user/5/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:42:00,237 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:00] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:42:16,085 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:42:16,092 web.auth.routes DEBUG    login
+2021-05-16 14:42:16,104 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:16] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:42:24,787 web.auth.routes DEBUG    login
+2021-05-16 14:42:25,431 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:42:25,447 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:25] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:42:27,795 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:27] "[37mGET /user/5/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:42:39,951 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:39] "[32mPOST /user/5/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:42:39,964 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:42:39,995 web.auth.routes DEBUG    login
+2021-05-16 14:42:40,002 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:40] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:42:49,295 web.auth.routes DEBUG    login
+2021-05-16 14:42:49,962 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:42:49,974 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:42:49] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:49:00,663 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:49:03,242 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:03] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:49:10,793 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:10] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:49:11,795 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:11] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:49:17,132 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:49:17,136 web.auth.routes DEBUG    login
+2021-05-16 14:49:17,144 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:17] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:49:25,095 web.auth.routes DEBUG    login
+2021-05-16 14:49:25,795 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:49:25,811 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:25] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:49:49,483 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:49:51,534 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:49:51] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:50:18,302 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:50:20,470 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:50:20,477 web.auth.routes DEBUG    login
+2021-05-16 14:50:20,511 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:20] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:50:29,878 web.auth.routes DEBUG    login
+2021-05-16 14:50:30,576 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:30] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:50:39,667 web.auth.routes DEBUG    login
+2021-05-16 14:50:40,342 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:40] "[37mPOST /login HTTP/1.1[0m" 200 -
+2021-05-16 14:50:53,361 web.auth.routes DEBUG    login
+2021-05-16 14:50:53,990 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:50:54,003 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:54] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:50:55,626 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:55] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:50:58,014 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:50:58] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 14:51:10,675 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:51:10] "[32mPOST /user/2/reset_password HTTP/1.1[0m" 302 -
+2021-05-16 14:51:10,690 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:51:10] "[37mGET /managment HTTP/1.1[0m" 200 -
+2021-05-16 14:51:15,846 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:51:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 14:51:15,856 web.auth.routes DEBUG    login
+2021-05-16 14:51:15,864 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:51:15] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 14:51:23,608 web.auth.routes DEBUG    login
+2021-05-16 14:51:24,263 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:51:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 14:51:24,278 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:51:24] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:52:21,329 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:52:23,783 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:52:23] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 14:52:57,667 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:52:59,762 web          ERROR    Exception on /content [GET]
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\main\routes.py", line 20, in content
+    return render_template("content.html")
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\content.html", line 1, in top-level template code
+    {% extends "home.html" %}
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\user\PycharmProjects\QuizWeb\venv\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\user\Documents\GitHub\Group-Project\web\templates\home.html", line 41, in template
+    <li><a>{%  current_user.username %}</a></li>
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'current_user'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2021-05-16 14:52:59,776 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:52:59] "[35m[1mGET /content HTTP/1.1[0m" 500 -
+2021-05-16 14:53:41,325 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 14:53:41,605 werkzeug     INFO     127.0.0.1 - - [16/May/2021 14:53:41] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:04:15,197 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:04:18,736 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:18] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:04:21,823 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:21] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:04:23,554 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 15:04:24,821 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:24] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:04:31,844 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 15:04:31,846 web.auth.routes DEBUG    login
+2021-05-16 15:04:31,850 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:31] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 15:04:42,752 web.auth.routes DEBUG    login
+2021-05-16 15:04:42,986 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 15:04:42,991 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:04:42] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:06:00,650 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:06:03,353 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:06:03] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:06:07,243 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:06:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-16 15:06:07,246 web.auth.routes DEBUG    login
+2021-05-16 15:06:07,250 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:06:07] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-16 15:06:15,829 web.auth.routes DEBUG    login
+2021-05-16 15:06:16,062 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:06:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-16 15:06:16,067 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:06:16] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:06:20,224 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:06:20] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:07:53,827 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:07:55,721 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:07:55] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:07:57,446 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:07:57] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:07:58,144 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:07:58] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:08:14,350 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:08:14] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:08:16,562 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:08:16] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:08:22,017 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:08:23,714 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:08:23] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:10:21,581 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:10:21] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 15:10:28,880 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:10:28] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:10:56,896 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:10:58,614 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:10:58] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:11:21,521 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:11:23,267 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:11:23] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:12:57,593 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:12:57] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:13:02,008 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:13:03,765 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:13:03] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:15:07,450 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:15:09,696 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:15:09] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:15:31,649 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:15:35,642 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:15:35] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:16:12,868 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:16:14,550 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:16:14] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:16:27,687 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:16:28,132 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:16:28] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:16:34,233 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:16:34] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:16:37,880 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:16:37] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:17:08,530 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:17:08] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:17:10,370 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:17:10] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:17:15,296 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:17:17,708 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:17:17] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:17:40,858 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-16 15:17:42,677 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:17:42] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:17:45,035 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:17:45] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 15:17:45,811 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:17:45] "[37mGET /profile HTTP/1.1[0m" 200 -
+2021-05-16 15:21:55,391 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:21:55] "[37mGET /user/2/reset_password HTTP/1.1[0m" 200 -
+2021-05-16 15:21:56,550 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:21:56] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:21:57,432 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:21:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 15:21:59,061 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:21:59] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:22:00,115 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:22:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-05-16 15:22:01,560 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:22:01] "[37mGET /content HTTP/1.1[0m" 200 -
+2021-05-16 15:22:02,673 werkzeug     INFO     127.0.0.1 - - [16/May/2021 15:22:02] "[37mGET /statistic?userid=2 HTTP/1.1[0m" 200 -
