@@ -28,6 +28,25 @@ def get_basedir():
 def get_logger(name):
     return logging.getLogger(name)
 
+
+def test_app():
+    app = Flask(__name__)
+    app.config.from_object('test_config')
+    login_manager.init_app(app)
+    db.init_app(app)
+    bcrypt.init_app(app)
+    mail.init_app(app)
+    migrate.init_app(app, db)
+    from web.auth.routes import auth
+    from web.main.routes import main
+    from web.user.routes import user
+    app.register_blueprint(auth)
+    app.register_blueprint(main)
+    app.register_blueprint(user)
+    with app.app_context():
+        db.create_all()
+        return app,db
+
 def create_app():
     app = Flask(__name__)
     app.config.from_object('config')

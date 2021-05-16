@@ -64,7 +64,7 @@ def register():
             password=hashed_password,
             phone = phone,
             birth = birthday,
-            status = True,
+            status = 1,
             user_type = 2,
             )
             db.session.add(user)
