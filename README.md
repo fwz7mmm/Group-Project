@@ -3,8 +3,9 @@
 ## How to start application
 
 1. Go to the project directory in the Command Window.
-2. Type "python app.py" to start the server.
-3. Copy the url that display on the command prompt into the web browser to access the application.
+2. install all the packages using "pip install -r ./requirements.txt".
+3. Type "python app.py" to start the server.
+4. Copy the url that display on the command prompt into the web browser to access the application.
 
 ## Design & Development of application
 
@@ -35,6 +36,12 @@
 2. Click "sign up" or "login" button ont the right side of navigating panel to get authentication.
 3. You can access admin account which was set up by developer. Username: "w: Password "w123456789".
 4. Admin user are allow to manage all the users. You can click "Manage users" button on the navigating panel to veiw all the allowable behaviors. Behaviors including inactive user, view user's static, search users and reset user password.
-5. 
+5. Login users are allowed to view their profile page, start test and view their test result's statistic.
+6. login users are allowed to select quiz to start test.
+
+## Existing users
+Username: "ww" Password: "w123456789"
+Admin user: Username: "w" password: "w123456789"
+
 		
 		

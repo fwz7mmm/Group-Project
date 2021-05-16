@@ -33,12 +33,10 @@
             {% else %}
                 <ul class="nav navbar-nav navbar-right">
                 {% if current_user.user_type == 1  %}
-                    <li><a>Admin</a></li>
                 <li><a href="{{url_for('user.managment')}}"><span class="glyphicon glyphicon-pencil"></span> Managment User</a></li>
                 {% endif %}
 
                 {% if current_user.user_type == 2  %}
-                    <li><a>{{  current_user.username }}</a></li>
                     <li><a href="{{url_for('user.reset_password', userid=current_user.id)}}"><span class="glyphicon glyphicon-pencil"></span> Reset Password </a></li>
                 {% endif %}
                 <li><a href="{{url_for('user.profile')}}"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
